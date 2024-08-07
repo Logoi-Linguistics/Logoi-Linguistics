@@ -6,6 +6,7 @@
     font-family: 'Fira Mono', monospace;
 }
 
+a,
 h1,
 h2,
 h3,
@@ -18,5 +19,5 @@ h1 {
 }
 
 .accent {
-    color: #E6E6FA;
+    color: #E6E6FA!important;
 }
