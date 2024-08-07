@@ -1,2 +1,3 @@
-# Logoi-Linguistics
-The Logoi programming language + web editor.
+# Logoi
+Logoi Linguistics is the official developer of the Logoi artificial language & web editor.
+

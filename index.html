@@ -1,24 +1,52 @@
 <html>
     <head>
         <title>λόγοι</title>
-        <style>
-            * {
-                background-color: #1a1a1a;
-                color: #888888;
-            }
-    
-            h1 {
-                color: white;
-            }
-    
-            .accent {
-                color: purple;
-            }
-        </style>
+        <link rel="stylesheet" href="common.css">
     </head>
     <body>
-        <h1>λόγοι</h1>
+        <h1>Logoi = λόγοι</h1>
+        <h1>λόγοι is the Greek word for "words".</h1>
+        <h1>Logoi is Prolog and Lisp.</h1>
         <br>
-        <a href="/about">Take me to the editor.</a>
+        <a href="/editor">Just take me to the editor, please and thank you.</a>
+        <br>
+        <p>Press the [Alt] key at any time on this page to switch Macro Mode either on or off, but not both.</p>
+        <br>
+        <a href="https://learnxinyminutes.com/docs/logoi/">Learn X in Y minutes, where X = λόγοι</a>
+        <br>
+        <h1>"Logoi is the linguist's language for artificial linguistics."</h1>
+        <br>
+        <p>What is a language?</p>
+        <br>
+        <p>What is a natural language?</p>
+        <br>
+        <p>What is an artificial language?</p>
+        <br>
+        <p>As it happens, if you contemplate the preceding questions sufficiently: you might also end up with Logoi after an uncomfortable conversion expeience.</p>
+        <br>
+        <a href="/tweedle.html">This document is an ever-expanding Q&A between the Tweedle brother of Carrolinian fame.</p>
+        <br>
+        <p>But a lanuage doesn't necessarily solve a problem unless it has one or more special features not otherwise found in the surrounding linguistic macrocosm.</p>
+        <br>
+        
     </body>
+    <script type="text/javascript">
+        
+        let macro_mode_endabled = () => false;
+
+        let global_keydown_handler = (e) => {
+            if (event.key === 'Alt') {
+                if (macro_mode_enabled) {
+                    macro_mode_enabled = false;
+                    alert("Macro Mode Disabled");
+                } else {
+                    macro_mode_enabled = true;
+                    alert("Macro Mode Enabled");
+                }
+            }
+        }
+
+        document.addEventListener("keydown", global_keydown_handler);
+    
+    </script>
 </html>
