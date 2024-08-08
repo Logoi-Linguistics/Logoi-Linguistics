@@ -16,7 +16,7 @@
         <br>
         <p>Just take me to <a href="/editor">the editor</a>, please and thank you.</p>
         <br>
-        <p>Press the [Escape] key at any time on this website to toggle "Macro Mode" either on xor off.</p>
+        <p>Press the [<a onclick="toggle_macro_mode()">Escape</a>] key at any time on this website to toggle "Macro Mode" either on xor off.</p>
         <br>
         <h1>Logoi = Prolog + Lisp</h1>
         <br>
@@ -24,9 +24,9 @@
         <br>
         <p><a target="_blank" href="https://github.com/Logoi-Linguistics/Logoi-Linguistics">Logoi Linguistics</a> is a founding contributor toward Logoi's initial language design philosophy & prototypical web editor source repository.</p>
         <br>
-        <h1>Logoi can be described as "an amateur logician's artificial programming language dialect",</h1>
+        <h1>Logoi self-identifies as "a logician's language for logicians",</h1>
         <br>
-        <p>...though it was originally designed for painless adoption (i.e., syntactic minimalism), with an egregious emphasis on cognitive simplicity (i.e., aesthetic purity).</p>
+        <p>...though it was originally designed for global adoption (i.e., syntactic minimalism), with an egregious emphasis on cognitive simplicity (i.e., aesthetic purity).</p>
         <br>
         <p>Logoi is indebted to the ever thought-provoking works of:<br><br>
             <a target="_blank" href="https://en.wikipedia.org/wiki/Alonzo_Church">Alonzo Church</a>,<br>
@@ -40,7 +40,7 @@
         <br>
         <hr>
         <br>
-        <h1>Eleven Laconic Laws of Logoi</h1>
+        <h1>+/- Eleven Laconic Laws of Logoi</h1>
         <br>
         <p>0</p>
         <br>
@@ -94,19 +94,23 @@
         
         let macro_mode_enabled = false;
 
+        let toggle_macro_mode = () => {
+            if (macro_mode_enabled) {
+                macro_mode_enabled = false;
+                alert("Macro Mode Disabled");
+            } else {
+                macro_mode_enabled = true;
+                alert("Macro Mode Enabled");
+            }
+        }
+
         let global_keydown_handler = (e) => {
             if (event.key === 'Escape') {
-                if (macro_mode_enabled) {
-                    macro_mode_enabled = false;
-                    alert("Macro Mode Disabled");
-                } else {
-                    macro_mode_enabled = true;
-                    alert("Macro Mode Enabled");
-                }
+                toggle_macro_mode();       
             }
         }
 
         document.addEventListener("keydown", global_keydown_handler);
     
     </script>
-</html>
+</html>     
