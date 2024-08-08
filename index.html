@@ -3,25 +3,26 @@
         <title>λόγοι</title>
         <link rel="stylesheet" href="common.css">
         <style>
-            #william {
-                background: url("https://en.wikipedia.org/wiki/William_of_Ockham#/media/File:William_of_Ockham.png");
-                background-repeat: no-repeat;
-                background-size: contain;
-                margin-top: 50vh;
-                width: 100vw;
-                text-align: center;
-                z-index: -9999;
-                display: none;
+
+            @media (orientation: landscape) {
+                #william {
+                    z-index: -9999;
+                    display: none;
+                }
             }
 
-            @media only screen and (max-width: 600px) {
+            @media (orientation: portrait) {
                 #william {
+                    background: url("https://en.wikipedia.org/wiki/William_of_Ockham#/media/File:William_of_Ockham.png");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin-top: 50vh;
+                    width: 100vw;
+                    text-align: center;
                     display: block;
                     position: absolute;
                     top: 0;
                     left: 0;
-                    width: 100vw;
-                    height: 100vh;
                     z-index: 9999;
                 }
             }
