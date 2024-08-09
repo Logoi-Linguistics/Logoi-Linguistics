@@ -4,6 +4,7 @@
     background-color: #1a1a1a;
     color: #888888;
     font-family: 'Fira Mono', monospace;
+    z-index: 10;
 }
 
 a,
