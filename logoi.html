@@ -176,7 +176,7 @@
         <div class="tab1 variable">yes</div>
         <div class="tab1 constant">true</div>
         <p></p>
-        <p>; Oh, the referent doesn't always need to be a double-quoted string of characters?</p>
+        <p>; Oh, the referent doesn't always need to be a "double-quoted string of characters"?</p>
         <p></p>
         <div class="tab0 function">symbol</div>
         <div class="tab1 variable">no</div>
@@ -202,8 +202,8 @@
         <p></p>
         <p>
             ;<br>
-            ; Nice! But can Logoi do more than rename numbers and words?<br>
-            ; It's a nice feature, but there's other work to be done.<br>
+            ; Nice! Can Logoi do more than rename things?<br>
+            ; It's a cool feature, but there's real work to be done.<br>
             ;
         </p>
         <p></p>
@@ -223,7 +223,7 @@
         <div class="tab1 variable">function/3</div>
         <div class="tab1 function">lambda</div>
         <p></p>
-        <p>; What's that?</p>
+        <p>; ... what are those?</p>
         <p></p>
         <div class="tab0 function">symbol</div>
         <div class="tab1 variable">celsius->fahrenheit</div>
@@ -260,7 +260,12 @@
         <p></p>
         <div class="tab0 function"><a target="_blank" href="https://lips.js.org/">javascript-or-scheme?</a></div>
         <p></p>
-        <p>; Interesting. Can I print my name?</p>
+        <p>
+            ;<br>
+            ; Interesting, but I'll ponder that puzzle later.<br>
+            ; How do I print my name?<br>
+            ;<br>
+        </p>
         <p></p>
         <div class="tab0 function">symbol</div>
         <div class="tab1 variable">popup-box</div>
@@ -271,11 +276,18 @@
         <p></p>
         <p>; No, not "my name". My name!</p>
         <p></p>
-        <div class="tab0 function"><a href="" onclick="alert(prompt('Type your name:'))">let</a></div>
-        <div class="tab1 variable">name</div>
-        <div class="tab2 function">prompt</div>
-        <div class="tab3 constant">"My name is:"</div>
-        <div class="tab1 function">popup-box</div>
-        <div class="tab2 variable">name</div>
+        <div class="tab0 function">symbol</div>
+        <div class="tab1 variable">print-my-name</div>
+        <div class="tab1 function">function</div>
+        <div class="tab2 variable">my-name</div>
+        <div class="tab2 function">popup-box</div>
+        <div class="tab3 variable">my-name</div>
+        <p></p>
+        <div class="tab0 function"><a href="" onclick="alert(prompt('Type your name:'))">print-my-name</a></div>
+        <div class="tab1 function">prompt</div>
+        <div class="tab2 constant">"Type your name:"</div>
+        <p></p>
+        <p>; Radical! What else can we do with functions?</p>
+        <p></p>
     </body>
 </html>
