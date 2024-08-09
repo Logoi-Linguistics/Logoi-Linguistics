@@ -143,6 +143,10 @@
             ; &nbsp;&nbsp;&nbsp;&nbsp;A<br>
             ; &nbsp;&nbsp;&nbsp;&nbsp;B<br>
             ;<br>
+            ; which means "whenever A is encountered, replace it with B".
+            ;<br>
+            ; Thus: symbol/2 takes two arguments (A, B) and renames the second (B) using the first (A)
+            ;<br> 
             ; Like this:<br>
             ;
         </p>
@@ -210,7 +214,7 @@
         <div class="tab1 variable">yes</div>
         <div class="tab1 constant">true</div>
         <p></p>
-        <p>; Oh, the referent doesn't always need to be a "double-quoted string of characters"?</p>
+        <p>; Oh, the referent doesn't always need to be a number or a "double-quoted string of characters"?</p>
         <p></p>
         <div class="tab0 function">symbol</div>
         <div class="tab1 variable">no</div>
@@ -236,8 +240,8 @@
         <p></p>
         <p>
             ;<br>
-            ; Nice! Can Logoi do more than rename things?<br>
-            ; It's a cool feature, but there's real work to be done.<br>
+            ; Artistic, but can Logoi do more than rename pre-existing values?<br>
+            ; It's a cool feature, no doubt, but there's real work to be done.<br>
             ;
         </p>
         <p></p>
@@ -405,7 +409,7 @@
         <div class="tab1 constant">`'Ĉiuj {1} estas {2}.'('viroj', 'mortemaj').`</div>
         <p></p>
         <div class="tab1 constant">`'Ĉiuj {1} estas {2}.'(Y, 'mortema'),</div>
-        <div class="tab2 constant">'append(X, "j", Y),</div>
+        <div class="tab2 constant">append(X, "j", Y),</div>
         <div class="tab2 constant">'{1} estas {2}.'('Socrates', X).`</div>
         <p></p>
         <p>
