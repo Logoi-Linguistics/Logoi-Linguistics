@@ -12,7 +12,22 @@
             ;<br>
             ; Part I: Human Commentary<br>
             ;<br>
-            ; Everything to the right of a semicolon (;) is considered human commentary, so Logoi ignores it.<br>
+            ; There are two kinds of human commentary in Logoi:<br>
+            ;<br>
+            ; 1. Editorial (<span class="constant">;</span>)<br>
+            ; 2. Logical (<span class="function">%</span>)<br>
+            ;<br>
+            ; Everything to the right of a semicolon (<span class="constant">;</span>) is considered editorial commentary, which Logoi ignores.<br>
+            ;<br>
+            ; Everything to the right of a percentile (<span class="function">%</span>) is considered logical commentary, which Logoi interprets.<br>
+            ;<br>
+            <br>
+            % Socrates is a man.<br>
+            % All men are mortal.<br>
+            % The plural of man is men.<br>
+            <br>
+            % Is Socrates mortal?<br>
+            <br>
             ;<br>
             ; Comments are often used by humans to explain complex code or to add visual space to a crowded file.<br>
             ;
