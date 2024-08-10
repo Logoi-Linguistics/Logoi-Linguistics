@@ -1,0 +1,74 @@
+* {
+    background-color: #1a1a1a;
+    color: #888888;
+    font-family: 'Fira Mono', monospace;
+    font-size: 1.2rem;
+}
+
+body {
+    margin-left: 2em;
+}
+
+a,
+h1,
+h2,
+h3,
+div {
+    width: 85%;
+    text-align: left;
+}
+
+h1 {
+    color: variable;
+}
+
+a {
+    text-decoration: none;
+    color: #B9A5E2;
+}
+
+.accent {
+    color: #B9A5E2; /* function */
+}
+
+.tab0 {
+    display: inline-block;
+    margin-left: 0em;
+}
+
+.tab1 {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 4em;
+}
+
+.tab3 {
+    display: inline-block;
+    margin-left: 6em;
+}
+
+.tab4 {
+    display: inline-block;
+    margin-left: 8em;
+}
+
+.tab5 {
+    display: inline-block;
+    margin-left: 10em;
+}
+
+.function {
+    color: #B9A5E2; /* Lavender */
+}
+
+.variable {
+    color: #FFF; /* White */
+}
+
+.constant {
+    color: #87CEEB; /* Sky Blue */
+}
