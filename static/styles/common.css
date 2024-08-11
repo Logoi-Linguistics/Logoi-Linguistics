@@ -7,6 +7,10 @@
     z-index: 10;
 }
 
+hr {
+    border-color: #87CEEB;
+}
+
 a,
 h1,
 h2,

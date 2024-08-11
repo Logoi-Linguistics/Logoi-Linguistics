@@ -9,6 +9,10 @@ body {
     margin-left: 2em;
 }
 
+hr {
+    border-color: #87CEEB;
+}
+
 a,
 h1,
 h2,
