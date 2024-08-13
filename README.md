@@ -10,7 +10,7 @@ Logoi uses:
 - Quinean Sentential Schemata (QSS) for logic programming.
 
 # Vertical Prefix/Polish Notation
-
+```
 name/value
     name
     value
@@ -52,6 +52,7 @@ names/value
             " degrees celsius is "
             Fahrenheit
             " degrees fahrenheit."
+```
 
 # Quinean Sentential Schemata
 
