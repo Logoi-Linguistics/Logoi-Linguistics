@@ -55,7 +55,7 @@ names/value
 ```
 
 # Quinean Sentential Schemata
-
+```
 % Socrates is a man.
 ; becomes:
 ; '{1} is a {2}.'('Socrates', 'man').
@@ -69,3 +69,4 @@ names/value
 ; 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
 % Is Socrates mortal?
+```
