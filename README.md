@@ -26,7 +26,7 @@ name/value
                 "!"
 
 hello
-    "World!"
+    "World"
 
 name/value
     celsius->fahrenheit
