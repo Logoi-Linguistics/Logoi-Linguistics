@@ -1,5 +1,5 @@
 # Logoi (λόγοι)
-This is the official repository of the Logoi natural programming language & hyperextensible text editor:
+This is the official repository of the Logoi natural programming language & hyperextensible text editor.
 
 [What is Logoi?](https://logoi.website/tweedle)
 
