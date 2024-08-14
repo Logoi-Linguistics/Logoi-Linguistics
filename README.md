@@ -41,6 +41,13 @@ name/value
                     5
 
 names/value
+    name1
+        value1
+    nameN
+        valueN
+    value
+
+names/value
     Celsius
         0
     Fahrenheit
@@ -57,16 +64,16 @@ names/value
 # Quinean Sentential Schemata
 ```
 % Socrates is a man.
-; '{1} is a {2}.'('Socrates', 'man').
+; -> '{1} is a {2}.'('Socrates', 'man').
 
 % All men are mortal.
 ; -> 'All {1} are {2}.'('men', 'mortal').
 
 % The plural of man is men.
-; 'The {1} of {2} is {3}.'('plural', 'man', 'men').
+; -> 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
 % Is Socrates mortal?
-; 'All {1} are {2}.'(X, 'mortal'),
-; '{1} is a {2}.'('Socrates', Y),
-; 'The {1} of {2} is {3}.'('plural', Y, X).
+; -> 'All {1} are {2}.'(X, 'mortal'),
+;    '{1} is a {2}.'('Socrates', Y),
+;    'The {1} of {2} is {3}.'('plural', Y, X).
 ```
