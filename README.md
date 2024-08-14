@@ -3,11 +3,11 @@ This is the official repository of the Logoi natural programming language & hype
 
 [What is Logoi?](https://logoi.website/tweedle)
 
-Logoi is a minimalist superdialect of Prolog & Lisp.
+Logoi is a minimalist superdialect of Prolog, Lisp, and JavaScript.
 
-Logoi uses:
-- Vertical Prefix/Polish Notation (VP/PN) notation for functional programming, and
-- Quinean Sentential Schemata (QSS) for logic programming.
+Logoi uses two syntax rules:
+- Math: Vertical Prefix/Polish Notation (VP/PN) notation, and
+- Logic: Quinean Sentential Schemata (QSS).
 
 # Vertical Prefix/Polish Notation
 ```
@@ -57,16 +57,16 @@ names/value
 # Quinean Sentential Schemata
 ```
 % Socrates is a man.
-; becomes:
 ; '{1} is a {2}.'('Socrates', 'man').
 
 % All men are mortal.
-; becomes:
 ; -> 'All {1} are {2}.'('men', 'mortal').
 
 % The plural of man is men.
-; becomes:
 ; 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
 % Is Socrates mortal?
+; 'All {1} are {2}.'(X, 'mortal'),
+; '{1} is a {2}.'('Socrates', Y),
+; 'The {1} of {2} is {3}.'('plural', Y, X).
 ```
