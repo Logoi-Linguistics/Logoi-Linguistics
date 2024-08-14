@@ -1,5 +1,5 @@
 # Logoi (λόγοι)
-This is the official repository of the Logoi natural programming language & hyperextensible text editor.
+This is the official source code repository of the Logoi natural programming language & hyperextensible text editor.
 
 [What is Logoi?](https://logoi.website/tweedle)
 
@@ -9,7 +9,7 @@ Logoi follows two syntax rules:
 - Math: Vertical Prefix/Polish Notation (VP/PN), and
 - Logic: Quinean Sentential Schemata (QSS)
 
-# Vertical Prefix/Polish Notation
+# Vertical Prefix/Polish Notation (VP/PN)
 ```
 name/value
     name
@@ -61,7 +61,7 @@ names/value
             " degrees fahrenheit."
 ```
 
-# Quinean Sentential Schemata
+# Quinean Sentential Schemata (QSS)
 ```
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
