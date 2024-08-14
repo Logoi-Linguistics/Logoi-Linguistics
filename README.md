@@ -5,9 +5,9 @@ This is the official repository of the Logoi natural programming language & hype
 
 Logoi is a minimalist superdialect of Prolog, Lisp, and JavaScript.
 
-Logoi uses two syntax rules:
-- Math: Vertical Prefix/Polish Notation (VP/PN) notation, and
-- Logic: Quinean Sentential Schemata (QSS).
+Logoi follows two syntax rules:
+- Math: Vertical Prefix/Polish Notation (VP/PN), and
+- Logic: Quinean Sentential Schemata (QSS)
 
 # Vertical Prefix/Polish Notation
 ```
