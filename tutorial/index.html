@@ -40,7 +40,7 @@
                 ; Editorial comments are gray.
             </p>
             <p>
-                <span class="function">%</span>&nbsp;<span class="variable">If a comment is logical</span><span class="constant">,</span>&nbsp;<span class="variable">then it is polychrome</span><span class="constant">.</span>
+                <span class="function" onclick="polychrome()">%</span>&nbsp;<span class="variable">If a comment is logical</span><span class="constant">,</span>&nbsp;<span class="variable">then it is polychrome</span><span class="constant">.</span>
             </p>
             <p class="constant">
                 &lt;constants-are-blue&gt;
@@ -49,7 +49,7 @@
                 &lt;variables-are-white&gt;
             </p>
             <p class="function">
-                &lt;functions-are-lavender&gt;
+                <a href="" onclick="alert(`background-color: #0a0612; (Midnight Plum)`);">&lt;functions-are-lavender&gt;</a>
             </p>
             <br>
             <hr>
@@ -97,7 +97,10 @@
     </body>
     <script type="text/javascript" src="/static/scripts/common.js"></script>
     <script type="text/javascript">
-        let because = String(`'\u{2235} {1} and {2} > {1} xor {2}.'('Prolog', 'Lisp').`)
+        let template = String(`'{1} is {2}.'(X, 'polychrome') :- '{1} is {2}.'(X, 'logical').`);
+        let polychrome = () => alert(template);
+
+        let because = String(`'\u{2235} {1} and {2} > {1} xor {2}.'('Prolog', 'Lisp').`);
         let why = () => alert(because);
     </script>
 </html>
