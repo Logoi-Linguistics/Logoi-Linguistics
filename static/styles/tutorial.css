@@ -11,6 +11,8 @@ body {
 hr {
     border: none;
     height: 2px;
+    color: #87CEEB; /* Sky Blue */
+    background-color: #87CEEB; /* Sky Blue */
 }
 
 a,
