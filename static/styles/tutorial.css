@@ -82,3 +82,7 @@ p {
 .constant {
     color: #87CEEB; /* Sky Blue */
 }
+
+.centered {
+    text-align: center;
+}
