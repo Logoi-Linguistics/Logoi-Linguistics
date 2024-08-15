@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+* {
+    background-color: #0a0612; /* Dark Sapphire: #00001c; Dark Plum: #0a0612; Dark Gray: #1a1a1a; */
+    color: #888888;
+    font-family: 'Fira Mono', monospace;
+    z-index: 10;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    color: #87CEEB; /* Sky Blue */
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+a,
+h1,
+h2,
+h3,
+p {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #B9A5E2;
+}
+
+.function {
+    color: #B9A5E2; /* Salmon: #ff8fab; Lavender: #B9A5E2 */
+}
+
+.variable {
+    color: #FFF; /* White */
+}
+
+.constant {
+    color: #87CEEB; /* Sky Blue */
+}
