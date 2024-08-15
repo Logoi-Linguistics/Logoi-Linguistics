@@ -11,7 +11,7 @@
         <br>
         <hr>
         <br>
-        <h1 class="variable">Logoi Tutorial: Introduction</h1>
+        <h1 class="centered variable">Logoi Tutorial: Introduction</h1>
         <p>
             ;<br>
             ; Welcome!<br>
@@ -63,8 +63,8 @@
             ;<br>
             ; Under the hood, Logoi is rewritten to the following dialects of Lisp and Prolog:<br>
             ;<br>
-            ; - <a target="_blank" href="https://github.com/LIPS-scheme/lips">LIPS Scheme</a> [JavaScript], as a preferred implementation of the lambda calculus; and<br>
-            ; - <a target="_blank" href="https://github.com/SWI-Prolog/npm-swipl-wasm">SWI-Prolog</a> [WASM], as a preferred implementation of the predicate calculus<br>
+            ; - <a target="_blank" href="https://github.com/LIPS-scheme/lips">LIPS Scheme</a> [JavaScript], a modern implementation of the Lambda Calculus; and<br>
+            ; - <a target="_blank" href="https://github.com/SWI-Prolog/npm-swipl-wasm">SWI-Prolog</a> [WASM], a modern implementation of the Predicate Calculus<br>
             ;<br>
             <br>
             <a href="" onclick=why()>%</a> <span class="variable">Why</span><span class="constant">?</span><br>
@@ -78,4 +78,8 @@
         <br>
     </body>
     <script type="text/javascript" src="/static/scripts/common.js"></script>
+    <script type="text/javascript">
+        let because = String(`'&#x2235; {1} and {2} > {1} xor {2}.'('Prolog', 'Lisp').`)
+        let why = () => alert(because);
+    </script>
 </html>
