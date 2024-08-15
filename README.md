@@ -19,8 +19,8 @@ name/value
     hello
     function/1
         whom
-        alert
-            string-append
+        alert/String
+            append/Strings
                 "Hello, "
                 whom
                 "!"
@@ -29,7 +29,7 @@ hello
     "World"
 
 name/value
-    celsius->fahrenheit
+    celsius->fahrenheit/Rational
     function/1
         C
         +
@@ -51,10 +51,10 @@ names/value
     Celsius
         0
     Fahrenheit
-        celsius->fahrenheit
+        celsius->fahrenheit/Rational
             Celsius
     alert
-        string-append
+        append/Strings
             Celsius
             " degrees celsius is "
             Fahrenheit
