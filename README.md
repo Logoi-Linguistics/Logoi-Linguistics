@@ -81,7 +81,7 @@ if/yes/no
         "Socrates is not mortal."
 
 ```
-[https://en.wikipedia.org/wiki/Denying_the_antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)
+[Denying_the_Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)
 
 # Quinean Sentential Schemata (QSS)
 ```
@@ -112,4 +112,4 @@ English is only one of many other spoken languages on the roadmap:
 ;    '{1} estas {2}.'('Socrates', Y),
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
 ```
-[https://en.wikipedia.org/wiki/Definite_clause_grammar](https://en.wikipedia.org/wiki/Definite_clause_grammar)
+[List of Languages by Total Number of Speakers](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)
