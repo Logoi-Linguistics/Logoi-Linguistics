@@ -5,7 +5,6 @@
     color: #888888;
     font-family: 'Fira Mono', monospace;
     z-index: 10;
-    font-size: 1rem;
 }
 
 hr {
@@ -23,6 +22,10 @@ p {
 
 h1 {
     color: white;
+}
+
+p {
+    font-size: 1rem;
 }
 
 a {
