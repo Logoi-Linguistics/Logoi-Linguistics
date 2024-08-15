@@ -64,12 +64,14 @@ Names/Value
 
 if/yes/no
     <conditional::Boolean>
-    <response::Value>
-    <alternative::Value>
+    <truth-case::Expression>
+    <false-case::Expression>
 
 Name/Value
     Socrates-is-a-man.
-    true
+    equal?/Natural/Natural
+        0
+        0
 
 if/yes/no
     Socrates-is-a-man.
