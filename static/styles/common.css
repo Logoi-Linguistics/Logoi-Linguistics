@@ -8,8 +8,8 @@
 }
 
 hr {
-    border-color: #87CEEB;
-    padding-top: 5px;
+    border: none;
+    height: 2px;
 }
 
 a,
