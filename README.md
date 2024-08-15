@@ -63,7 +63,7 @@ Names/Value
 if/yes/no
     <conditional::Boolean>
     <response::Value>
-    <alternative::Value
+    <alternative::Value>
 
 Name/Value
     Socrates-is-a-man.
