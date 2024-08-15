@@ -99,7 +99,7 @@ if/yes/no
 ;    '{1} is a {2}.'('Socrates', Y),
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
 ```
-English is only one of many other planned languages:
+English is only one of many other spoken languages on the roadmap:
 ```
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
