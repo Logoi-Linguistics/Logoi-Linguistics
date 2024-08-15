@@ -1,7 +1,7 @@
 # Logoi (λόγοι)
-This is currently the official source code repository for the Logoi natural programming language & hyperextensible text editor.
+This is the current [2024/08-14] official source code repository for the Logoi natural programming language & hyperextensible text editor.
 
-[What is Logoi?](https://logoi.website/tweedle)
+[What is Logoi?](https://logoi.website/)
 
 Logoi is a minimalist superdialect of Prolog, Lisp, and JavaScript.
 
