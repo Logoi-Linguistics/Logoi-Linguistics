@@ -22,7 +22,7 @@
         <br><br><br>
         <p>Press the [<a onclick="toggle_macro_mode()">Escape</a>] key at any time on this website to toggle "Macro Mode" either on xor off.</p>
         <br><br><br>
-        <h1>λόγοι is the Greek word for "words"<span class="function">.</span></h1>
+        <h1>λόγοι is the Greek word for "words"<a href="" onclick=logoi()>.</a></h1>
         <br><br>
         <hr>
         <br>
@@ -30,4 +30,7 @@
         <br>
     </body>
     <script type="text/javascript" src="./static/scripts/common.js"></script>
+    <script type="text/javascript">
+        let logoi = () => alert(`'{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').`);
+    </script>
 </html>     
