@@ -1,5 +1,5 @@
 # Logoi (λόγοι)
-This is the current [2024/08] official source code repository for the Logoi natural programming language & hyperextensible text editor.
+This is the current* official source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
 [What is Logoi?](https://logoi.website/)
 
@@ -104,7 +104,7 @@ if/yes/no
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
 
 ```
-English is only one of many other spoken languages on the roadmap:
+English is but one of many other spoken languages on the roadmap:
 ```
 
 % Sokrato estas viro.
