@@ -96,9 +96,9 @@ if/yes/no
 ; -> 'All {1} are {2}.'(X, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', Y),
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
-
+```
 ; English is only one of many other possible languages:
-
+```
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
 
