@@ -109,3 +109,5 @@ if/yes/no
 ;    '{1} estas {2}.'('Socrates', Y),
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
 ```
+
+[https://en.wikipedia.org/wiki/Denying_the_antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)
