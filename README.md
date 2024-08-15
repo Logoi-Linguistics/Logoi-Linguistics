@@ -8,10 +8,10 @@ This is the current [2024/08] official source code repository for the Logoi natu
 Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless web editor of itself.
 
 Logoi follows two syntax rules:
-- Math = Vertical Prefix/Polish Notation (VP/PN)
+- Math = Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 - Logic = Quinean Sentential Schemata (QSS)
 
-# Vertical Prefix/Polish Notation (VP/PN)
+# Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 ```
 Name/Value
     <identifier::Atom>
