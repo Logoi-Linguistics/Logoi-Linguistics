@@ -79,6 +79,7 @@ if/yes/no
         "Socrates is not mortal."
 
 ```
+[https://en.wikipedia.org/wiki/Denying_the_antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)
 
 # Quinean Sentential Schemata (QSS)
 ```
@@ -109,5 +110,4 @@ if/yes/no
 ;    '{1} estas {2}.'('Socrates', Y),
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
 ```
-
-[https://en.wikipedia.org/wiki/Denying_the_antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)
+[https://en.wikipedia.org/wiki/Definite_clause_grammar](https://en.wikipedia.org/wiki/Definite_clause_grammar)
