@@ -3,11 +3,13 @@ This is the current [2024/08] official source code repository for the Logoi natu
 
 [What is Logoi?](https://logoi.website/)
 
-Logoi is a minimalist superdialect of Prolog, Lisp, and JavaScript.
+λόγοι is the Greek word for "words".
+
+Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless web editor of itself.
 
 Logoi follows two syntax rules:
-- Math: Vertical Prefix/Polish Notation (VP/PN), and
-- Logic: Quinean Sentential Schemata (QSS)
+- Math = Vertical Prefix/Polish Notation (VP/PN)
+- Logic = Quinean Sentential Schemata (QSS)
 
 # Vertical Prefix/Polish Notation (VP/PN)
 ```
@@ -93,4 +95,17 @@ if/yes/no
 ; -> 'All {1} are {2}.'(X, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', Y),
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
+
+; English is only one of many other possible languages:
+
+% Sokrato estas viro.
+; -> '{1} estas {2}.'('Sokrato', 'viro').
+
+"Ĉiuj viroj estas mortemaj."
+; -> 'Ĉiuj {1} estas {2}.'('viroj', 'mortemaj').
+
+"Ĉu Sokrato estas mortema?"
+; -> 'Ĉiuj {1} estas {2}.'(X, 'mortemaj'),
+;    '{1} estas {2}.'('Socrates', Y),
+;    '{1} = {2} + {3}.'(X, Y, 'j').
 ```
