@@ -1,5 +1,5 @@
 # Logoi (λόγοι)
-This is the current [2024/08-14] official source code repository for the Logoi natural programming language & hyperextensible text editor.
+This is the current [2024/08] official source code repository for the Logoi natural programming language & hyperextensible text editor.
 
 [What is Logoi?](https://logoi.website/)
 
@@ -11,26 +11,26 @@ Logoi follows two syntax rules:
 
 # Vertical Prefix/Polish Notation (VP/PN)
 ```
-name/value
-    name
-    value
+Name/Value
+    <identifier::Atom>
+    <definition::Value>
 
-name/value
-    hello
-    function/1
+Name/Value
+    hello/String
+    Function/1
         whom
         alert/String
-            append/Strings
+            join/Strings
                 "Hello, "
                 whom
                 "!"
 
-hello
+hello/String
     "World"
 
-name/value
+Name/Value
     celsius->fahrenheit/Rational
-    function/1
+    Function/1
         C
         +
             32
@@ -40,25 +40,42 @@ name/value
                     9
                     5
 
-names/value
-    name1
-        value1
-    nameN
-        valueN
-    value
+Names/Value
+    <name1::Atom>
+        <value1::Value>
+    <nameN::Atom>
+        <valueN::Value>
+    <value::Value>
 
-names/value
-    Celsius
+Names/Value
+    C
         0
-    Fahrenheit
+    F
         celsius->fahrenheit/Rational
-            Celsius
-    alert
-        append/Strings
-            Celsius
+            C
+    alert/String
+        join/Alphanumerics
+            C
             " degrees celsius is "
-            Fahrenheit
+            F
             " degrees fahrenheit."
+
+if/yes/no
+    <conditional::Boolean>
+    <response::Value>
+    <alternative::Value
+
+Name/Value
+    Socrates-is-a-man.
+    true
+
+if/yes/no
+    Socrates-is-a-man.
+    alert/String
+        "Socrates is a featherless biped."
+    alert/String
+        "Socrates is not mortal."
+
 ```
 
 # Quinean Sentential Schemata (QSS)
