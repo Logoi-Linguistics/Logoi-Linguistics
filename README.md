@@ -101,10 +101,10 @@ if/yes/no
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
 
-"Ĉiuj viroj estas mortemaj."
+% Ĉiuj viroj estas mortemaj.
 ; -> 'Ĉiuj {1} estas {2}.'('viroj', 'mortemaj').
 
-"Ĉu Sokrato estas mortema?"
+% Ĉu Sokrato estas mortema?
 ; -> 'Ĉiuj {1} estas {2}.'(X, 'mortemaj'),
 ;    '{1} estas {2}.'('Socrates', Y),
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
