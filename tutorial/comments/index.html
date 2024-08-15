@@ -31,13 +31,14 @@
             ; <br>
             ; Logoi translates logical commentary into Prolog.<br>
             ;<br>
+            <br>
+            ; Click a <span class="function">%</span> below to see how Logoi translates the following sentences into Prolog:<br>
+            <br>
         </p>
         <br>
         <hr>
         <br>
         <p>
-            ; Click a <span class="function">%</span> below to see how Logoi translates the following sentence into Prolog:<br>
-            <br>
             <span class="function"><a href="" onclick="alert(`'{1} is a {2}.'('Socrates', 'man').`);">%</a></span>&nbsp;<span class="variable">Socrates is a man<span class="constant">.</span></span><br>
             <span class="function"><a href="" onclick="alert(`'All {1} are {2}.'('men', 'mortal').`);">%</a></span>&nbsp;<span class="variable">All men are mortal<span class="constant">.</span></span><br>
             <span class="function"><a href="" onclick="alert(`'The {1} of {2} is {3}.'('plural', 'man', 'men').`);">%</a></span>&nbsp;<span class="variable">The plural of man is men<span class="constant">.</span></span><br>
@@ -90,7 +91,7 @@
 
         let two = () => alert(`'{1} is {2}, {3}, and {4}.'('Logoi', 'a natural* programming** language', 'a hyperextensible text editor', 'an artificial ratiocinator').`);
 
-        let three = () => alert(`'{1} is a {2}.'(A, 'natural language') :-\n\t'{1} implements a subset of {2}.'(A, B),\n\t'{1} is a {2}.'(B, 'natural language').`);
+        let three = () => alert(`'{1} is a {2}.'(A, 'natural language') :-\n    '{1} implements a subset of {2}.'(A, B),\n    '{1} is a {2}.'(B, 'natural language').`);
         
         let four = () => alert();
         
