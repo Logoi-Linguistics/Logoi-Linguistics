@@ -85,6 +85,10 @@ if/yes/no
 
 # Quinean Sentential Schemata (QSS)
 ```
+
+% λόγοι is the Greek word for "words".
+; -> '{1} is the {2} word for \"{3}\".'('λόγοι', 'Greek', 'words').
+
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
 
@@ -98,9 +102,11 @@ if/yes/no
 ; -> 'All {1} are {2}.'(X, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', Y),
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
+
 ```
 English is only one of many other spoken languages on the roadmap:
 ```
+
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
 
@@ -111,5 +117,6 @@ English is only one of many other spoken languages on the roadmap:
 ; -> 'Ĉiuj {1} estas {2}.'(X, 'mortemaj'),
 ;    '{1} estas {2}.'('Socrates', Y),
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
+
 ```
 [[List of Languages by Total Number of Speakers](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)]
