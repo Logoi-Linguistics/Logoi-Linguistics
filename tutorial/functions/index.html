@@ -14,128 +14,71 @@
         <h1 class="centered variable">Logoi Tutorial (Part IV):<br>Functions</h1>
         <p>
             ;<br>
-            ; <em>"Plus ça change, plus c'est la même chose."</em><br>
+            ; <em>"δός μοι πᾷ στῶ καί τάν γᾶν κινήσω."</em><br>
             ;<br>
-            ; <em>"The more it changes, the more it's the same thing."</em><br>
+            ; <em>"Give me a place to stand, and I will move the Earth."</em><br>
             ;<br>
-            ; - French proverb<br>
+            ; - Ἀρχιμήδης / Archimedes<br>
             ;<br>
             <br>
             ;<br>
-            ; What is a <span class="variable">variable</span>?<br>
+            ; What is a <span class="function">function</span>?<br>
             ;<br>
             <br>
             ;<br>
             ; In the abstract:<br>
             ;<br>
-            ; A <span class="variable">variable</span> is a symbol which refers to another value.<br>
+            ; A <span class="variable">function</span> is a rule for mapping a domain of values to a range of results.<br>
             ;<br>
             <br>
             ;<br>
-            ; Examples of variables:<br>
+            ; Examples of functions:<br>
             ;<br>
         </p>
         <br>
         <hr>
         <br>
         <p>
-            ; Skewer-Casing = Variable Name<br>
+            ; Function Constructors<br>
             <br>
-            <span class="variable tab0">no-spaces-allowed!</span><br>
+            <span class="function tab0">Function/0</span><br>
+            <span class="function tab1">&lt;body::Expression&gt;</span><br>
             <br>
-            <span class="variable tab0">first-name</span><br>
+            <span class="function tab0">Function/1</span><br>
+            <span class="function tab1">&lt;parameter1::Atom&gt;</span><br>
+            <span class="function tab1">&lt;body::Expression&gt;</span><br>
             <br>
-            <span class="variable tab0">favorite-color</span><br>
+            <span class="function tab0">Function/2</span><br>
+            <span class="function tab1">&lt;parameter1::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter2::Atom&gt;</span><br>
+            <span class="function tab1">&lt;body::Expression&gt;</span><br>
             <br>
-            <span class="variable tab0">list-of-nuclear-codes</span><br>
-            <br><br><br>
-            ; Individual Letters = Big Maths<br>
+            <span class="function tab0">Function/3</span><br>
+            <span class="function tab1">&lt;parameter1::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter2::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter3::Atom&gt;</span><br>
+            <span class="function tab1">&lt;body::Expression&gt;</span><br>
             <br>
-            <span class="variable tab0">X</span><br>
+            <span class="variable tab0">Function/4</span><br>
+            <span class="function tab1">&lt;parameter1::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter2::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter3::Atom&gt;</span><br>
+            <span class="function tab1">&lt;parameter4::Atom&gt;</span><br>
+            <span class="function tab1">&lt;body::Expression&gt;</span><br>
+        </p>
+        <br>
+        <hr>
+        <br>
+        <p>
+            ; Function Composition<br>
             <br>
-            <span class="variable tab0">Y</span><br>
-            <br>
-            <span class="variable tab0">Z</span><br>
-            <br>
-            <span class="variable tab0">α</span><br>
-            <br>
-            <span class="variable tab0">β</span><br>
-            <br>
-            <span class="variable tab0">λ</span><br>
-            <br><br><br>
-            ; CapitalizedWord = Type</span><br>
-            <br>
-            <span class="variable tab0">Text</span><br>
-            <br>
-            <span class="variable tab0">String</span><br>
-            <br>
-            <span class="variable tab0">Character</span><br>
-            <br>
-            <span class="variable tab0">Number</span><br>
-            <br>
-            <span class="variable tab0">Rational</span><br>
-            <br>
-            <span class="variable tab0">Natural</span><br>
-            <br>
-            <span class="variable tab0">Alphanumeric</span><br>
-            <br>
-            <span class="variable tab0">IPv4Address</span><br>
-            <br>
-            <span class="variable tab0">IPv6Address</span><br>
-            <br><br><br>
-            ; CapitalizedPlural = Type List</span><br>
-            <br>
-            <span class="variable tab0">Strings</span><br>
-            <br>
-            <span class="variable tab0">Alphanumerics</span><br>
-            <br>
-            <span class="variable tab0">Booleans</span><br>
-            <br>
-            <span class="variable tab0">XYTuples</span><br>
-            <br>
-            <span class="variable tab0">IPv6Addresses</span><br>
-            <br><br><br>
-            ; Paired/Types = Syntactic Sugar</span><br>
-            <br>
-            <span class="variable tab0">Name/Value</span><br>
-            <br>
-            <span class="variable tab0">Names/Value</span><br>
-            <br>
-            <span class="variable tab0">if/yes/no</span><br>
-            <br>
-            <span class="variable tab0">try/catch/else/finally</span><br>
-            <br>
-            <span class="variable tab0">Function/1</span><br>
-            <br>
-            <span class="variable tab0">Function/2</span><br>
-            <br>
-            <span class="variable tab0">Function/3</span><br>
-            <br><br><br>
-            ; &lt;Angle/Brackets&gt; = HTML Elements</span><br>
-            <br>
-            <span class="variable tab0">&lt;div&gt;</span><br>
-            <br>
-            <span class="variable tab0">&lt;li&gt;</span><br>
-            <br>
-            <span class="variable tab0">&lt;script&gt;</span><br>
-            <br>
-            <span class="variable tab0">&lt;style&gt;</span><br>
-            <br><br><br>
-            ; Question-Marks? = Truth-Value Predicates</span><br>
-            <br>
-            <span class="variable tab0">macro-mode-enabled?</span><br>
-            <br>
-            <span class="variable tab0">equal?/Rational/Rational</span><br>
-            <br>
-            <span class="variable tab0">all?/Booleans</span><br>
-            <br><br><br>
-            ; Double::Colons = Optional Type Indicator<br>
-            <br>
-            <span class="variable tab0">age::Natural</span><br>
-            <br>
-            <span class="variable tab0">bank-balance::Rational</span><br>
-            <br>
-            <span class="variable tab0">X::Complex</span><br>
+            <span class="function tab0">Name/Value</span><br>
+            <span class="variable tab1">double/Rational</span><br>
+            <span class="function tab1">Function/1</span><br>
+            <span class="variable tab2">X</span><br>
+            <span class="function tab2">*</span><br>
+            <span class="variable tab3">X</span><br>
+            <span class="constant tab3">2</span><br>
         </p>
         <br>
         <hr>
