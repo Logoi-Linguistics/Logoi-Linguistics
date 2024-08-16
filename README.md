@@ -15,7 +15,9 @@ Logoi follows two syntax rules:
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 ```
 
+;
 ; Abstraction Operators:
+;
 
 Name/Value
     <name::Atom>
@@ -37,7 +39,9 @@ Function/2
     <parameter2::Atom>
     <body::Expression>
 
+;
 ; 'celsius->fahrenheit/Rational' is the name of a Function/1
+;
 
 Name/Value
     celsius->fahrenheit/Rational
@@ -58,7 +62,9 @@ alert/String
             0
         " degrees Fahrenheit."
 
+;
 ; 'hello/String' is the name of a Function/1
+;
 
 Name/Value
     hello/String
@@ -73,7 +79,9 @@ Name/Value
 hello/String
     "World"
 
+;
 ; HTML Element Constructors:
+;
 
 Name/Value
     <element/tag>
@@ -112,7 +120,9 @@ document.append/Element
         <div/content>
             42
 
+;
 ; "Let-Scope" Bindings
+;
 
 Names/Value
     C
@@ -129,7 +139,9 @@ Names/Value
                 F
             " degrees fahrenheit."
 
+;
 ; Conditional Branching
+;
 
 if/yes/no
     <conditional::Boolean>
