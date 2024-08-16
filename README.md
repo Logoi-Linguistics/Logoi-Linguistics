@@ -18,6 +18,8 @@ Name/Value
     <identifier::Atom>
     <definition::Value>
 
+
+
 Name/Value
     hello/String
     Function/1
@@ -42,6 +44,57 @@ Name/Value
                 /
                     9
                     5
+
+Name/Value
+    <Element/Tag>
+    Function/1
+        tag
+        document.createElement
+            tag
+
+Name/Value
+    <Element/Content>
+    Function/2
+        tag
+        content
+        Names/Value
+            .innerHTML
+                <Element/Tag>
+                    tag
+                content
+
+
+Name/Value
+    <div/Content>
+    Function/1
+        content
+        <Element/Content>
+            "div"
+            string/Number
+                content
+
+Name/Value
+    <div/id/classes/content>
+    Function/3
+        id
+        classes
+        content
+        <Element/Id/Classes/Content>
+            "div"
+            id
+            classes
+            content
+
+document.append/Element
+    <div/id/classes/content>
+        "active-cell"
+        List
+            "cell"
+            "visible"
+            "highlighted"
+            "bold"
+        <div/Content>
+            42
 
 Names/Value
     <name1::Atom>
