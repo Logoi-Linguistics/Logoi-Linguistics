@@ -40,7 +40,7 @@ Function/2
     <body::Expression>
 
 ;
-; 'celsius->fahrenheit/Rational' is the name of a Function/1
+; celsius->fahrenheit/Rational is the name of a Function/1
 ;
 
 Name/Value
@@ -63,7 +63,7 @@ alert/String
         " degrees Fahrenheit."
 
 ;
-; 'hello/String' is the name of a Function/1
+; hello/String is the name of a Function/1
 ;
 
 Name/Value
@@ -79,6 +79,46 @@ Name/Value
 hello/String
     "World"
 
+;
+; Conditional Branching
+;
+
+if/yes/no
+    <conditional::Boolean>
+    <truth-case::Expression>
+    <false-case::Expression>
+
+Name/Value
+    Socrates-is-a-man.
+    equal?/Natural/Natural
+        0
+        0
+
+if/yes/no
+    Socrates-is-a-man.
+    alert/String
+        "Socrates is a featherless biped."
+    alert/String
+        "Socrates is not mortal."
+
+;
+; "Let-Scope" Bindings
+;
+
+Names/Value
+    C
+        0
+    F
+        celsius->fahrenheit/Rational
+            C
+    alert/String
+        join/Strings
+            string/Rational
+                C
+            " degrees celsius is "
+            string/Rational
+                F
+            " degrees fahrenheit."
 ;
 ; HTML Element Constructors:
 ;
@@ -119,47 +159,6 @@ document.append/Element
         "selected"
         <div/content>
             42
-
-;
-; "Let-Scope" Bindings
-;
-
-Names/Value
-    C
-        0
-    F
-        celsius->fahrenheit/Rational
-            C
-    alert/String
-        join/Strings
-            string/Rational
-                C
-            " degrees celsius is "
-            string/Rational
-                F
-            " degrees fahrenheit."
-
-;
-; Conditional Branching
-;
-
-if/yes/no
-    <conditional::Boolean>
-    <truth-case::Expression>
-    <false-case::Expression>
-
-Name/Value
-    Socrates-is-a-man.
-    equal?/Natural/Natural
-        0
-        0
-
-if/yes/no
-    Socrates-is-a-man.
-    alert/String
-        "Socrates is a featherless biped."
-    alert/String
-        "Socrates is not mortal."
 
 ```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
