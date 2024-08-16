@@ -93,7 +93,7 @@
     </body>
     <script type="text/javascript" src="/static/scripts/common.js"></script>
     <script type="text/javascript">
-        let template = String(`'{1} is {2}.'(X, 'polychrome') :- '{1} is {2}.'(X, 'logical').`);
+        let template = String(`'{1} is {2}.'(X, 'polychrome') :- '{1} is a {2}'(X, 'comment'), '{1} is {2}.'(X, 'logical').`);
         let polychrome = () => alert(template);
 
         let because = String(`'\u{2235} {1} and {2} > {1} xor {2}.'('Prolog', 'Lisp').`);
