@@ -16,7 +16,7 @@ Logoi follows two syntax rules:
 ```
 
 ;
-; Abstraction Operators Abstracted
+; Abstraction Operators, Abstracted
 ;
 
 Name/Value
@@ -87,6 +87,17 @@ if/yes/no
     <conditional::Boolean>
     <truth-case::Expression>
     <false-case::Expression>
+
+Name/Value
+    equal?/Natural/Natural
+    Function/2
+        X
+        Y
+        =
+            0
+            -
+                X
+                Y
 
 Name/Value
     Socrates-is-a-man.
