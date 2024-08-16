@@ -16,7 +16,7 @@ Logoi follows two syntax rules:
 ```
 
 ;
-; Abstraction Operators:
+; Abstraction Operators Abstracted
 ;
 
 Name/Value
@@ -100,9 +100,11 @@ if/yes/no
         "Socrates is a featherless biped."
     alert/String
         "Socrates is not mortal."
+
 ```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
 ```
+
 ;
 ; "Let-Scope" Bindings
 ;
@@ -121,8 +123,9 @@ Names/Value
             string/Rational
                 F
             " degrees fahrenheit."
+
 ;
-; HTML Element Constructors:
+; HTML Element Constructors
 ;
 
 Name/Value
