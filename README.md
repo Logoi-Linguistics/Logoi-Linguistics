@@ -40,6 +40,23 @@ Function/2
     <body::Expression>
 
 ;
+; hello/String is the name of a Function/1
+;
+
+Name/Value
+    hello/String
+    Function/1
+        whom
+        alert/String
+            join/Strings
+                "Hello, "
+                whom
+                "!"
+
+hello/String
+    "World"
+
+;
 ; celsius->fahrenheit/Rational is the name of a Function/1
 ;
 
@@ -63,23 +80,6 @@ alert/String
         " degrees Fahrenheit."
 
 ;
-; hello/String is the name of a Function/1
-;
-
-Name/Value
-    hello/String
-    Function/1
-        whom
-        alert/String
-            join/Strings
-                "Hello, "
-                whom
-                "!"
-
-hello/String
-    "World"
-
-;
 ; Conditional Branching
 ;
 
@@ -100,7 +100,9 @@ if/yes/no
         "Socrates is a featherless biped."
     alert/String
         "Socrates is not mortal."
-
+```
+[[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
+```
 ;
 ; "Let-Scope" Bindings
 ;
@@ -161,8 +163,6 @@ document.append/Element
             42
 
 ```
-[[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
-
 # Quinean Sentential Schemata (QSS)
 ```
 
