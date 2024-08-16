@@ -76,47 +76,43 @@ hello/String
 ; HTML Element Constructors:
 
 Name/Value
-    <Element/Tag>
+    <element/tag>
     Function/1
         tag
         document.createElement
             tag
 
 Name/Value
-    <Element/Content>
-    Function/2
-        tag
-        content
-        Names/Value
-            .innerHTML
-                <Element/Tag>
-                    tag
-                content
+    <div>
+    <element/tag>
+        "div"
 
 Name/Value
-    <div/id/classes/content>
-    Function/3
-        id
-        classes
+    <div/content>
+    Function/1
         content
-        <Element/Id/Classes/Content>
-            "div"
-            id
-            classes
+        .innerHTML
+            <div>
             content
 
+Name/Value
+    <div/id/content>
+    Function/2
+        id
+        content
+        .setAttribute
+            <div/content>
+                content
+            "id"
+            id
+
 document.append/Element
-    <div/id/classes/content>
-        "active-cell"
-        List
-            "cell"
-            "visible"
-            "highlighted"
-            "bold"
-        <div/Content>
+    <div/id/content>
+        "selected"
+        <div/content>
             42
 
-; Let-Scope Bindings
+; "Let-Scope" Bindings
 
 Names/Value
     C
