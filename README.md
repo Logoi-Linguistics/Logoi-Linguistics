@@ -9,6 +9,7 @@ This is the current* official source code repository for the Logoi natural progr
 Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless web editor of itself.
 
 Logoi follows two syntax rules:
+
 - Math = Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 - Logic = Quinean Sentential Schemata (QSS)
 
