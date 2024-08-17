@@ -5,7 +5,7 @@
 ```
 
 ;
-; "Hello, World", Abstracted
+; "Hello, World!", Abstracted:
 ;
 
 Name/Value
@@ -37,11 +37,43 @@ Logoi follows two syntax rules:
 
 ```
 
+; Logoi; or, "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
+
 ;
-; "Hello, World", Implemented
+; "In a given line of Logoi, the semicolon (;) marks a possible discontinuity between its logical and extralogical semantics."
+; Translation: Editorial commentary begins with a semicolon (;).
 ;
-; hello/String is the name of a Function/1
+
+%
+% "In a given line of Logoi, the percentile (%) marks a possible discontinuity between the lambda and the predicate calculi."
+% Translation: Logical commentary begins with a percentile (%).
+%
+
 ;
+; Logoi Semiotic Precedence
+;
+
+; This is ignored.
+
+This is an experimental short-form macro syntax; approach with caution.
+
+This-is-translated-to-lisp.
+
+This-is-translated-to-lisp. ; This is ignored.
+
+this-is-evaluated. ; This is ignored. % This is ignored.
+this-is-evaluated. % This is translated. ; This is ignored.
+
+;
+; "Hello, World!", Implemented:
+;
+; hello/String is a Function that takes a String.
+;
+
+hello/String
+    "World"
+
+; Abridged
 
 Name/Value
     hello/String
@@ -53,8 +85,20 @@ Name/Value
                 whom
                 "!"
 
-hello/String
-    "World"
+; Unabridged
+
+Name/Value ; `"Name/Value" is a MetaMetaFunction that takes a Name and a Value.`
+    hello/String ; `"hello" is a Function that takes a String.`
+    Function/1 ; `"Function/1" is a MetaFunction that takes one Parameter.`
+        whom ; `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.`
+        alert/String ; `"alert" is a Function that takes a String.`
+            join/Strings ; `"join" is a Function that takes a List of Strings.`
+                "Hello, " ; `"Hello, " is a Constant::String.`
+                whom ; `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.`
+                "!" ; `"!" is a Constant::String.`
+
+hello/String    ; `"hello" is a Function that takes a String.`
+    "World"     ; `"!"` is a constant of type String.`
 
 ;
 ; Abstraction Operators, Abstracted
@@ -93,6 +137,14 @@ try/catch/else/finally
         <handlerN::Expression>
     <if-no-error::Expression>
     <all-cases::Expression>
+
+;
+; Typographical Note
+;
+; When using English words:
+;  - Types are Capitalized
+;  - instances of types are not capitalized
+;
 
 ;
 ; celsius->fahrenheit/Rational is the name of a Function/1
@@ -167,6 +219,8 @@ Names/Value
 ;
 ; HTML Element Constructors
 ;
+; Note: For concision, <html/functions> assume <parameter::String|s> unless typed/Explicitly/Otherwise.
+;
 
 Name/Value
     <element/tag>
@@ -198,6 +252,17 @@ Name/Value
                 content
             "id"
             id
+
+Name/Value
+    document.append/<Element>
+    Function/1
+        <Element>
+        document.append
+            <Element>
+
+;
+; Error Handling
+;
 
 try/catch/else/finally
     document.append/<Element>
