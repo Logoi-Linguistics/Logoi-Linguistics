@@ -5,11 +5,11 @@
 ```
 
 ;
-; "Hello, World" in the Abstract
+; "Hello, World", Abstracted
 ;
 
-Function
-    parameter
+Name/Value
+    hello/String
     Function
         parameter
         Function
@@ -61,6 +61,8 @@ Function/2
     <parameter2::Atom>
     <body::Expression>
 
+;
+; "Hello, World"
 ;
 ; hello/String is the name of a Function/1
 ;
