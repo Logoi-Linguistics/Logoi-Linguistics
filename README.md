@@ -18,6 +18,18 @@ Name/Value
                 parameter
                 parameter
 
+%
+% '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
+%
+
+% λόγοι is the Greek word for "words".
+
+% Socrates is a man.
+% All men are mortal.
+% The plural of man is men.
+
+% Is Socrates mortal?
+
 ```
 
 # Lexicographical Preliminaries
