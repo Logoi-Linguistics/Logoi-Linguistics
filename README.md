@@ -20,6 +20,8 @@ Name/Value
 
 ```
 
+# Lexicographical Preliminaries
+
 This is the current* official source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
 [What is Logoi?](https://logoi.website/tweedle)
