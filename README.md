@@ -22,20 +22,20 @@ Name/Value
 
 # Lexicographical Preliminaries
 
-This is the current* official source code repository for the Logoi v0.0.0 natural programming language & hyperextensible text editor. *[2024/08]
+This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
 [What is Logoi?](https://logoi.website/tweedle)
 
 λόγοι is the Greek word for "words".
 
-Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless web editor of itself.
+Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless browser editor of itself.
 
 Logoi file design follows two distinct aesthetic dicta:
 
 - Math = Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 - Logic = Quinean Sentential Schemata (QSS)
 
-Humor is extralogical, and is therefore precluded a priori.
+% Humor, being extralogical, is precluded *a priori*.
 
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 
