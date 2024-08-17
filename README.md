@@ -70,34 +70,34 @@ this-is-evaluated. % This is translated. ; This is ignored.
 ; hello/String is a Function that takes a String.
 ;
 
-hello/String
-    "World"
-
-; Abridged
+; Abridged Definition
 
 Name/Value
     hello/String
     Function/1
         whom
-        alert/String
+        alert!/String
             join/Strings
                 "Hello, "
                 whom
                 "!"
 
-; Unabridged
+hello/String
+    "World"
 
-Name/Value ; `"Name/Value" is a MetaMetaFunction that takes a Name and a Value.`
-    hello/String ; `"hello" is a Function that takes a String.`
-    Function/1 ; `"Function/1" is a MetaFunction that takes one Parameter.`
-        whom ; `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.`
-        alert/String ; `"alert" is a Function that takes a String.`
-            join/Strings ; `"join" is a Function that takes a List of Strings.`
-                "Hello, " ; `"Hello, " is a Constant::String.`
-                whom ; `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.`
-                "!" ; `"!" is a Constant::String.`
+; Unabridged Definition
 
-hello/String    ; `"hello" is a Function that takes a String.`
+Name/Value                  % `"Name/Value" is a MetaMetaFunction for naming values.
+    hello/String            % `"hello" is a Function of domain "String".
+    Function/1              % `"Function/1" is a MetaFunction of arity "1".
+        whom                % `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.
+        alert!/String       % `"alert!" is an impure Function of domain "String".
+            join/Strings    % `"join" is a Function of domain List of "Strings".
+                "Hello, "   % `"Hello, " is a Constant::String.
+                whom        % "whom" is a Parameter::X, where X = #TypeSignatureIndex#.
+                "!"         % "!" is a Constant::String.
+
+hello/String    ; `"hello" is a Function of domain String.`
     "World"     ; `"!"` is a constant of type String.`
 
 ;
