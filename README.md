@@ -2,6 +2,24 @@
 
 [Logoi Logo]
 
+```
+
+;
+; "Hello, World" in the Abstract
+;
+
+Function
+    parameter
+    Function
+        parameter
+        Function
+            Function
+                parameter
+                parameter
+                parameter
+
+```
+
 This is the current* official source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
 [What is Logoi?](https://logoi.website/tweedle.html)
@@ -16,6 +34,7 @@ Logoi follows two syntax rules:
 - Logic = Quinean Sentential Schemata (QSS)
 
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
+
 ```
 
 ;
@@ -180,7 +199,9 @@ document.append/Element
             42
 
 ```
+
 # Quinean Sentential Schemata (QSS)
+
 ```
 
 % λόγοι is the Greek word for "words".
@@ -216,4 +237,5 @@ English is but one of many other spoken languages on the roadmap:
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
 
 ```
+
 [[List of Languages by Total Number of Speakers](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)]
