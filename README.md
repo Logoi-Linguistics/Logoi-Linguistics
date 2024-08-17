@@ -22,7 +22,7 @@ Name/Value
 
 This is the current* official source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
-[What is Logoi?](https://logoi.website/tweedle.html)
+[What is Logoi?](https://logoi.website/tweedle)
 
 λόγοι is the Greek word for "words".
 
@@ -36,6 +36,25 @@ Logoi follows two syntax rules:
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 
 ```
+
+;
+; "Hello, World", Implemented
+;
+; hello/String is the name of a Function/1
+;
+
+Name/Value
+    hello/String
+    Function/1
+        whom
+        alert/String
+            join/Strings
+                "Hello, "
+                whom
+                "!"
+
+hello/String
+    "World"
 
 ;
 ; Abstraction Operators, Abstracted
@@ -60,25 +79,20 @@ Function/2
     <parameter1::Atom>
     <parameter2::Atom>
     <body::Expression>
-
-;
-; "Hello, World"
-;
-; hello/String is the name of a Function/1
-;
-
-Name/Value
-    hello/String
-    Function/1
-        whom
-        alert/String
-            join/Strings
-                "Hello, "
-                whom
-                "!"
-
-hello/String
-    "World"
+    
+if/yes/no
+    <conditional::BooleanExpression>
+    <truth-case::Expression>
+    <false-case::Expression>
+    
+try/catch/else/finally
+    <attempt::Expression>
+    <error1::ErrorType>
+        <handler1::Expression>
+    <errorN::ErrorType>
+        <handlerN::Expression>
+    <if-no-error::Expression>
+    <all-cases::Expression>
 
 ;
 ; celsius->fahrenheit/Rational is the name of a Function/1
@@ -102,15 +116,6 @@ alert/String
         celsius->fahrenheit/Rational
             0
         " degrees Fahrenheit."
-
-;
-; Conditional Branching
-;
-
-if/yes/no
-    <conditional::Boolean>
-    <truth-case::Expression>
-    <false-case::Expression>
 
 Name/Value
     equal?/Natural/Natural
@@ -194,11 +199,23 @@ Name/Value
             "id"
             id
 
-document.append/Element
-    <div/id/content>
-        "selected"
-        <div/content>
-            42
+try/catch/else/finally
+    document.append/<Element>
+        <div/id/content>
+            "selected"
+            <div/content>
+                42
+    TypeError
+        console.log
+            "Null <Element> encountered?"
+    Error
+        console.log
+            "Something, somewhere, is broken."
+    console.log
+        "<Element> successfully added to document."
+    alert
+        "document.append/<Element> has completed another iteration."
+
 
 ```
 
