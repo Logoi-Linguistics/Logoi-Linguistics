@@ -348,7 +348,7 @@ try/catch/else/finally
     console.log!/String
         "<Element> successfully added to document."
     alert!
-        "document.append/<Element> has completed another iteration."
+        "document.append/<Element> completed another iteration."
 
 ```
 
