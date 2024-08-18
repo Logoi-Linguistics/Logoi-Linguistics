@@ -322,7 +322,9 @@ try/catch/else/finally
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
 
 ```
-English is but one of many other spoken languages on the roadmap:
+[[Existential Quantification](https://en.wikipedia.org/wiki/Existential_quantification)]
+
+English is but one of [[many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)]:
 ```
 
 % Sokrato estas viro.
@@ -337,5 +339,3 @@ English is but one of many other spoken languages on the roadmap:
 ;    '{1} = {2} + {3}.'(X, Y, 'j').
 
 ```
-
-[[List of Languages by Total Number of Speakers](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)]
