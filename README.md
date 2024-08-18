@@ -22,6 +22,7 @@ MetaMetaFunction/2
 
 hello/String
     String
+; -> BrowserEvent
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
@@ -65,8 +66,8 @@ Logoi file design follows two distinct aesthetic dicta:
 ;
 
 ;
-; Within any given line of Logoi,
-;   the semicolon (;) symbol marks
+; Within a given line of Logoi,
+;   the semicolon (;) marks
 ;   a potential discontinuity between
 ;   its logical and extralogical neighbors.
 ;
@@ -74,8 +75,8 @@ Logoi file design follows two distinct aesthetic dicta:
 ;
 
 %
-% Within any given line of Logoi,
-%   the percentile (%) symbol marks
+% Within a given line of Logoi,
+%   the percentile (%) marks
 %   a potential discontinuity between
 %   the lambda and predicate calculi.
 %
@@ -125,6 +126,7 @@ Name/Value
 
 hello!/String
     "World"
+; -> "Hello, World!" (Browser Alert)
 
 ; Unabridged:
 
@@ -139,7 +141,8 @@ Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
                 "!"         ; "!" is a Constant::Character.
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
-    "World"     ; "World" is a Constant::String.
+    "World"     ; "World" is a Constant::Word.
+; -> "Hello, World!" (Browser Alert)
 
 ;
 ; Abstraction Operators, Abstracted
@@ -200,6 +203,7 @@ Name/Value
 
 celsius->fahrenheit/Rational
     100
+; -> 212
 
 ; Unabridged:
 
@@ -217,6 +221,7 @@ Name/Value                          ; Name/Value is a MetaMetaFunction of arity:
 
 celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
     100                         ; 100 is a Constant::Even
+; -> 212
 
 ;
 ; 'alert!/String'
@@ -229,6 +234,7 @@ alert!/String
         celsius->fahrenheit/Rational
             0
         " degrees Fahrenheit."
+; -> "0 degrees Celsius is 32 degrees Fahrenehit." (Browser Alert)
 
 ;
 ; 'equal?/Whole/Whole'
@@ -245,6 +251,12 @@ Name/Value
             -
                 X
                 Y
+
+equal?/Whole/Whole
+    1
+    1
+; -> true
+
 
 ;
 ; 'Socrates-is-a-man.'
@@ -263,6 +275,7 @@ if/yes/no
         "Socrates is a featherless biped."
     console.log!/String
         "Socrates is not mortal."
+; -> "Socrates is a featherless biped." (Browser Alert)
 
 ```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
@@ -282,10 +295,11 @@ Names/Value
         join/Strings
             string/Rational
                 C
-            " degrees celsius is "
+            " degrees Celsius is "
             string/Rational
                 F
-            " degrees fahrenheit."
+            " degrees Fahrenheit."
+; -> "0 degrees Celsius is 32 degrees Fahrenheit." (Browser Alert)
 
 ;
 ; HTML Element Constructors
@@ -349,6 +363,7 @@ try/catch/else/finally
         "<Element> successfully added to document."
     alert!
         "document.append/<Element> completed another iteration, for better or worse."
+; -> (DOMEvent)
 
 ```
 
@@ -357,7 +372,7 @@ try/catch/else/finally
 ```
 
 % Prolog is a template for sentences.
-'{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
+; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
 % λόγοι is the Greek word for "words".
 ; -> '{1} is the {2} word for \"{3}\".'('λόγοι', 'Greek', 'words').
