@@ -11,15 +11,15 @@
 Name/Value
     hello/String
     Function
-        Variable::String
+        Variable
         Function
             Function
-                Constant::String
-                Variable::String
-                Constant::String
+                String
+                Variable
+                String
 
 hello/String
-    Constant::String
+    String
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
