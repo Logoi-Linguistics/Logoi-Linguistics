@@ -356,6 +356,9 @@ try/catch/else/finally
 
 ```
 
+% Prolog is a template for sentences.
+'{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
+
 % λόγοι is the Greek word for "words".
 ; -> '{1} is the {2} word for \"{3}\".'('λόγοι', 'Greek', 'words').
 
