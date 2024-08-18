@@ -190,11 +190,11 @@ Name/Value
     celsius->fahrenheit/Rational
     Function/1
         C
-        +
+        +/Numbers
             32
-            *
+            */Numbers
                 C
-                /
+                //Numbers?
                     9
                     5
 
@@ -207,11 +207,11 @@ Name/Value                          ; Name/Value is a MetaMetaFunction of arity:
     celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
     Function/1                      ; Function/1 is a MetaFunction of arity: 1.
         C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-        +                           ; + is a VariadicFunction of domain: Numbers.
+        +/Numbers                   ; + is a VariadicFunction of domain: Numbers.
             32                      ; 32 is a Constant::Even
-            *                       ; * is a VariadicFunction of domain: Numbers.
+            */Numbers               ; * is a VariadicFunction of domain: Numbers.
                 C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                /                   ; / is a VariadicFunction of domain: Numbers? (with exceptions)
+                //Numbers?          ; / is a VariadicFunction of domain: Numbers? (with exceptions)
                     9               ; 9 is a Constant::Odd
                     5               ; 5 is a Constant::Prime
 
@@ -240,9 +240,9 @@ Name/Value
     Function/2
         X
         Y
-        =
+        =/Numbers
             0
-            -
+            -/Numbers
                 X
                 Y
 
