@@ -10,7 +10,7 @@ This is the current* source code repository for the Logoi natural programming la
 ; "Hello, World!", Abstracted
 ;
 
-MetaMetaFunction/2
+MetaFunction/2
     hello/String
     MetaFunction/1
         Variable
@@ -22,7 +22,7 @@ MetaMetaFunction/2
 
 hello/String
     String
-; -> (BrowserEvent)
+; -> BrowserEvent
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
@@ -127,7 +127,7 @@ hello!/String
 
 ; Unabridged:
 
-Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
+Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
     hello!/String           ; hello! is an ImpureFunction of domain: String.
     Function/1              ; Function/1 is a MetaFunction of arity: 1.
         whom                ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
@@ -203,7 +203,7 @@ celsius->fahrenheit/Rational
 
 ; Unabridged:
 
-Name/Value                          ; Name/Value is a MetaMetaFunction of arity: 2.
+Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
     celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
     Function/1                      ; Function/1 is a MetaFunction of arity: 1.
         C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
@@ -358,7 +358,7 @@ try/catch/else/finally
         "<Element> successfully added to document."
     alert!
         "document.append/<Element> completed another iteration, for better or worse."
-; -> (DOMEvent)
+; -> DOM-Event
 
 ```
 
