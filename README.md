@@ -96,16 +96,16 @@ This-sentence-is-translated-to-Lisp.
 ; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
 
 % This sentence is translated to Prolog. ; This sentence is ignored.
-% This sentence is translated to Prolog. This sentence is translated to Prolog.
-% This sentence is translated to Prolog. This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. % This sentence is ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. This-sentence-is-ignored.
+% This sentence is translated to Prolog. This sentence is translated to Prolog. ; This sentence is ignored.
+% This sentence is translated to Prolog. This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
 
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
-This-sentence-is-translated-to-Lisp. This-sentence-causes-a-formatting-error.
-This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
-This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
+This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
+This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
+This-sentence-is-translated-to-Lisp. This-sentence-causes-a-formatting-error.
 
 ;
 ; "Hello, World!", Defined
