@@ -75,17 +75,21 @@ Logoi file design follows two distinct aesthetic dicta:
 
 ; This is editorial (i.e., ignored).
 
+% This is translated to Prolog.
+
 This-is-translated-to-Lisp.
 
 This-is-translated-to-Lisp. ; This is editorial.
 
-This-is-translated-to-Lisp. ; This is editorial. This-is-editorial.
+; This is editorial. This-is-editorial. 
 
-% This is translated to Prolog.
+This-is-translated-to-Lisp. ; This is editorial. This-is-editorial.
 
 % This is translated to Prolog. ; This is editorial.
 
 % This is translated to Prolog. ; This is editorial. % This is editorial.
+
+% This is translated to Prolog. ; This is editorial. This-is-editorial.
 
 This-is-translated-to-Lisp. % This is translated to Prolog. ; This is editorial.
 
@@ -214,6 +218,10 @@ alert!/String
             0
         " degrees Fahrenheit."
 
+;
+; equal?/Natural/Natural is a Function which determines the equality of two Natural numbers.
+;
+
 Name/Value
     equal?/Natural/Natural
     Function/2
@@ -224,6 +232,10 @@ Name/Value
             -
                 X
                 Y
+
+;
+; Socrates-is-a-man. is a name for the Boolean value derived from the equality of 0 and 0.
+;
 
 Name/Value
     Socrates-is-a-man.
