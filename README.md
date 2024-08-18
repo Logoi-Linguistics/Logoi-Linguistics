@@ -22,7 +22,7 @@ MetaMetaFunction/2
 
 hello/String
     String
-; -> BrowserEvent
+; -> (BrowserEvent)
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
@@ -139,7 +139,7 @@ Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
     "World"     ; "World" is a Constant::Word. (Word is a subset of String)
-; -> "Hello, World!" (Browser Alert)
+; -> "Hello, World!" (BrowserAlert)
 
 ;
 ; Abstraction Operators, Abstracted
@@ -230,7 +230,7 @@ alert!/String
         celsius->fahrenheit/Rational
             0
         " degrees Fahrenheit."
-; -> "0 degrees Celsius is 32 degrees Fahrenehit." (Browser Alert)
+; -> "0 degrees Celsius is 32 degrees Fahrenehit." (BrowserAlert)
 
 ;
 ; 'equal?/Whole/Whole'
@@ -270,7 +270,7 @@ if/yes/no
         "Socrates is a featherless biped."
     console.log!/String
         "Socrates is not mortal."
-; -> "Socrates is a featherless biped." (Browser Alert)
+; -> "Socrates is a featherless biped." (BrowserAlert)
 
 ```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
@@ -294,7 +294,7 @@ Names/Value
             rational->string/Rational
                 F
             " degrees Fahrenheit."
-; -> "0 degrees Celsius is 32 degrees Fahrenheit." (Browser Alert)
+; -> "0 degrees Celsius is 32 degrees Fahrenheit." (BrowserAlert)
 
 ;
 ; HTML Element Constructors
