@@ -66,7 +66,7 @@ Logoi file design follows two distinct aesthetic dicta:
 %
 
 ;
-; Logoi Operator (;/%) Precedence
+; Operational (;/%) Precedences
 ;
 
 ; This is editorial (i.e., ignored).
