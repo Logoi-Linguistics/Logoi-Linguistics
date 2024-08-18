@@ -259,9 +259,9 @@ Name/Value
 
 if/yes/no
     Socrates-is-a-man.
-    alert!/String
+    console.log/String
         "Socrates is a featherless biped."
-    alert!/String
+    console.log/String
         "Socrates is not mortal."
 
 ```
@@ -340,12 +340,12 @@ try/catch/else/finally
             <div/content>
                 42
     TypeError
-        console.log
+        console.log/String
             "Null <Element> encountered?"
     Error
-        console.log
+        console.log/String
             "Something, somewhere, is broken."
-    console.log
+    console.log/String
         "<Element> successfully added to document."
     alert!
         "document.append/<Element> has completed another iteration."
