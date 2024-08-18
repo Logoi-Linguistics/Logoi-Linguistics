@@ -120,7 +120,7 @@ Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
         alert!/String       ; alert! is an ImpureFunction of domain: String.
             join/Strings    ; join is a VariadicFunction of domain: Strings.
                 "Hello, "   ; "Hello, " is a Constant::String.
-                whom        ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
+                whom        ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
                 "!"         ; "!" is a Constant::String.
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
@@ -165,8 +165,10 @@ try/catch/else/finally
     <all-cases::Expression>
 
 ;
-; celsius->fahrenheit/Rational is the name of a Function/1
+; celsius->fahrenheit/Rational is a Function of domain: Rational
 ;
+
+; Abridged
 
 Name/Value
     celsius->fahrenheit/Rational
@@ -179,6 +181,30 @@ Name/Value
                 /
                     9
                     5
+
+celsius->fahrenheit/Rational
+    100
+
+; Unabridged
+
+Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
+    celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
+    Function/1                      ; Function/1 is a MetaFunction of arity: 1.
+        C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+        +                           ; + is a VariadicFunction of domain: Numbers.
+            32                      ; 32 is a Constant::Even
+            *                       ; * is a VariadicFunction of domain: Numbers.
+                C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+                /                   ; / is a VariadicFunction of domain: Numbers.
+                    9               ; 9 is a Constant::Odd
+                    5               ; 5 is a Constant::Odd
+
+celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
+    100                         ; 100 is a Constant::Odd
+
+;
+; alert!/String is an ImpureFunction which sends a String to the browser's dialogue box.
+;
 
 alert!/String
     join/Alphanumerics
