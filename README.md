@@ -69,7 +69,7 @@ Logoi file design follows two distinct aesthetic dicta:
 ; Logoi Operator (;/%) Precedence
 ;
 
-; This is ignored.
+; This is editorial (i.e., ignored).
 
 (This is an experimental short-form macro syntax; approach with caution!)
 
