@@ -57,6 +57,8 @@ Logoi file design follows two distinct aesthetic dicta:
 
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
 
+[Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)
+
 ```
 
 ;
