@@ -87,7 +87,7 @@ This-is-translated-to-Lisp. % This is translated to Prolog. ; This is editorial.
 
 This-is-translated-to-Lisp. ; This is editorial. % This is editorial.
 
-(This is an experimental short-form macro syntax. Contemplate with caution!)
+This is an experimental short-form Macro syntax.
 
 ;
 ; "Hello, World!", Defined:
