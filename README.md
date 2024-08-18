@@ -8,7 +8,7 @@
 ; "Hello, World!", Abstracted
 ;
 
-MetaFunction/2
+MetaMetaFunction/2
     hello/String
     MetaFunction/1
         Variable
@@ -113,7 +113,7 @@ hello!/String
 
 ; Unabridged
 
-Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
+Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
     hello!/String           ; hello! is an ImpureFunction of domain: String.
     Function/1              ; Function/1 is a MetaFunction of arity: 1.
         whom                ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
@@ -187,7 +187,7 @@ celsius->fahrenheit/Rational
 
 ; Unabridged
 
-Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
+Name/Value                          ; Name/Value is a MetaMetaFunction of arity: 2.
     celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
     Function/1                      ; Function/1 is a MetaFunction of arity: 1.
         C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
