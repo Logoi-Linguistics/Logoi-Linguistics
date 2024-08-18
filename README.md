@@ -2,6 +2,8 @@
 
 [Logoi Logo]
 
+This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
+
 ```
 
 ;
@@ -37,8 +39,6 @@ hello/String
 ```
 
 # Linguistic Preliminaries
-
-This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
 [What is Logoi?](https://logoi.website/tweedle)
 
