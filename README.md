@@ -10,10 +10,10 @@
 
 Name/Value
     hello/String
-    Function/1
+    Function
         parameter
-        Function/1
-            Function/N
+        Function
+            Function
                 parameter
                 parameter
                 parameter
