@@ -14,9 +14,9 @@ Name/Value
         Variable
         Function
             Function
-                String
+                Constant
                 Variable
-                String
+                Constant
 
 hello/String
     String
