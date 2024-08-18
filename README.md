@@ -88,13 +88,11 @@ Logoi file design follows two distinct aesthetic dicta:
 ;
 
 ; This sentence is ignored.
-
 % This sentence is translated to Prolog.
-
 This-sentence-is-translated-to-Lisp.
 
-; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
 ; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
+; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
 
 % This sentence is translated to Prolog. ; This sentence is ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. % This sentence is ignored.
@@ -106,7 +104,7 @@ This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
 This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
-This-sentence-is-translated-to-Lisp. This-sentence-causes-a-formatting-error. ; (Only one per line)
+This-sentence-is-translated-to-Lisp. This-sentence-causes-a-formatting-error. ; (Only one Atom per line)
 
 ;
 ; "Hello, World!", Defined
@@ -138,10 +136,10 @@ Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
             join/Strings    ; join is a VariadicFunction of domain: Strings.
                 "Hello, "   ; "Hello, " is a Constant::String.
                 whom        ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"         ; "!" is a Constant::Character.
+                "!"         ; "!" is a Constant::Character. (Character is a subset of String)
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
-    "World"     ; "World" is a Constant::Word.
+    "World"     ; "World" is a Constant::Word. (Word is a subset of String)
 ; -> "Hello, World!" (Browser Alert)
 
 ;
@@ -293,10 +291,10 @@ Names/Value
             C
     alert!/String
         join/Strings
-            string/Rational
+            rational->string/Rational
                 C
             " degrees Celsius is "
-            string/Rational
+            rational->string/Rational
                 F
             " degrees Fahrenheit."
 ; -> "0 degrees Celsius is 32 degrees Fahrenheit." (Browser Alert)
