@@ -5,7 +5,7 @@
 ```
 
 ;
-; "Hello, World!", Abstracted:
+; "Hello, World!", Abstracted
 ;
 
 Name/Value
@@ -90,7 +90,7 @@ This-is-translated-to-Lisp. ; This is editorial. % This is editorial.
 This is an experimental short-form Macro syntax.
 
 ;
-; "Hello, World!", Defined:
+; "Hello, World!", Defined
 ;
 
 ; Abridged
