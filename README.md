@@ -71,14 +71,19 @@ Logoi file design follows two distinct aesthetic dicta:
 
 ; This is ignored.
 
-This is an experimental short-form macro syntax; approach with caution.
+(This is an experimental short-form macro syntax; approach with caution!)
 
 This-is-translated-to-lisp.
 
-This-is-translated-to-lisp. ; This is ignored.
+This-is-translated-to-lisp. ; This is 100% ignored.
 
-this-is-evaluated. ; This is ignored. % This is ignored.
-this-is-evaluated. % This is translated. ; This is ignored.
+% This is translated to Prolog.
+
+% This is translated to Prolog. ; This is 100% ignored.
+
+This-is-translated-to-lisp. % This is translated to Prolog. ; This is 100% ignored.
+
+This-is-translated-to-lisp. ; This is 100% ignored. % This is 100% ignored.
 
 ;
 ; "Hello, World!", Implemented:
