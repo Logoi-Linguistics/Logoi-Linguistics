@@ -57,15 +57,19 @@ Logoi file design follows two distinct aesthetic dicta:
 
 ```
 
+;
 ; Logoi; or, "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
+;
 
 ;
 ; "Within any given line of Logoi, the semicolon (;) symbol marks a potential discontinuity between its logical and extralogical neighbors."
+;
 ; Translation: Editorial commentary begins with a semicolon (;).
 ;
 
 %
 % "Within any given line of Logoi, the percentile (%) symbol marks a potential discontinuity between the lambda and predicate calculi."
+%
 % Translation: Logical commentary begins with a percentile (%).
 %
 
