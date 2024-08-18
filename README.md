@@ -370,7 +370,7 @@ try/catch/else/finally
 ; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
 % λόγοι is the Greek word for "words".
-; -> '{1} is the {2} word for \"{3}\".'('λόγοι', 'Greek', 'words').
+; -> '{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').
 
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
