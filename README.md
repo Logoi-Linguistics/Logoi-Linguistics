@@ -50,14 +50,12 @@ Logoi is a:
 
 Logoi file design follows two distinct aesthetic dicta:
 
-- Math = Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
+- Math = Vertical [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (VP/PN/L)
 - Logic = Quinean Sentential Schemata (QSS)
 
 % Humor, being extralogical, is precluded *a priori*.
 
 # Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
-
-[Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)
 
 ```
 
