@@ -250,8 +250,8 @@ Name/Value
 
 equal?/Whole/Whole
     1
-    1
-; -> true
+    2
+; -> false
 
 ;
 ; 'Socrates-is-a-man.'
