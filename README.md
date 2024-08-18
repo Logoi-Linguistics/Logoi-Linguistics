@@ -56,7 +56,7 @@ Logoi file design follows two distinct aesthetic dicta:
 ; Logoi; or, "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
 
 ;
-; "In a given line of Logoi, the semicolon (;) marks a possible discontinuity between its logical and extralogical semantics."
+; "In a given line of Logoi, the semicolon (;) marks a possible discontinuity between its logical and its extralogical semantics."
 ; Translation: Editorial commentary begins with a semicolon (;).
 ;
 
