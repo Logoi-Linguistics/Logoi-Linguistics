@@ -32,6 +32,7 @@ hello/String
 % The plural of man is men.
 
 % Is Socrates mortal?
+; -> "Yes."
 
 ```
 
