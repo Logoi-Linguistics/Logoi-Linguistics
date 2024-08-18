@@ -197,10 +197,10 @@ Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
                 C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
                 /                   ; / is a VariadicFunction of domain: Numbers.
                     9               ; 9 is a Constant::Odd
-                    5               ; 5 is a Constant::Odd
+                    5               ; 5 is a Constant::Prime
 
 celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
-    100                         ; 100 is a Constant::Odd
+    100                         ; 100 is a Constant::Even
 
 ;
 ; alert!/String is an ImpureFunction which sends a String to the browser's dialogue box.
