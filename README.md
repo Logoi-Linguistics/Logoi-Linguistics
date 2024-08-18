@@ -194,7 +194,7 @@ Name/Value
             32
             */Rationals
                 C
-                //Rationals?
+                //Rationals*
                     9
                     5
 
@@ -211,7 +211,7 @@ Name/Value                          ; Name/Value is a MetaMetaFunction of arity:
             32                      ; 32 is a Constant::Even
             */Rationals             ; * is a VariadicFunction of domain: Numbers.
                 C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                //Rationals?        ; / is a VariadicFunction of domain: Numbers? (with exceptions)
+                //Rationals*        ; / is a VariadicFunction of domain: Numbers? (with exceptions)
                     9               ; 9 is a Constant::Odd
                     5               ; 5 is a Constant::Prime
 
