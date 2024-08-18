@@ -40,7 +40,7 @@ This is the current* source code repository for the Logoi natural programming la
 
 λόγοι is the Greek word for "words".
 
-Logoi is: 1) a minimalist superdialect of Prolog, Lisp & JavaScript, and 2) a mouseless browser editor of itself.
+Logoi is a: 1) minimalist superdialect of Prolog, Lisp & JavaScript, and 2) mouseless browser editor of itself.
 
 Logoi file design follows two distinct aesthetic dicta:
 
