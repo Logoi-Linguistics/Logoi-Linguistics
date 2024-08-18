@@ -8,9 +8,9 @@
 ; "Hello, World!", Abstracted
 ;
 
-Name/Value
+MetaFunction/2
     hello/String
-    Function/1
+    MetaFunction/1
         Variable
         Function/1
             Function/N
