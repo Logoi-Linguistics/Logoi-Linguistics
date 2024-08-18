@@ -10,10 +10,10 @@
 
 Name/Value
     hello/String
-    Function
+    Function/1
         Variable
-        Function
-            Function
+        Function/1
+            Function/N
                 Constant
                 Variable
                 Constant
