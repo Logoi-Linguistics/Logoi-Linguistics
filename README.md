@@ -66,24 +66,28 @@ Logoi file design follows two distinct aesthetic dicta:
 %
 
 ;
-; Logoi Semiotic Precedence
+; Logoi Operator (;/%) Precedence
 ;
 
 ; This is ignored.
 
 (This is an experimental short-form macro syntax; approach with caution!)
 
-This-is-translated-to-lisp.
+This-is-translated-to-Lisp.
 
-This-is-translated-to-lisp. ; This is 100% ignored.
+This-is-translated-to-Lisp. ; This is editorial.
+
+This-is-translated-to-Lisp. ; This is editorial. This-is-editorial.
 
 % This is translated to Prolog.
 
-% This is translated to Prolog. ; This is 100% ignored.
+% This is translated to Prolog. ; This is editorial.
 
-This-is-translated-to-lisp. % This is translated to Prolog. ; This is 100% ignored.
+% This is translated to Prolog. ; This is editorial. % This is editorial.
 
-This-is-translated-to-lisp. ; This is 100% ignored. % This is 100% ignored.
+This-is-translated-to-Lisp. % This is translated to Prolog. ; This is editorial.
+
+This-is-translated-to-Lisp. ; This is editorial. % This is editorial.
 
 ;
 ; "Hello, World!", Implemented:
