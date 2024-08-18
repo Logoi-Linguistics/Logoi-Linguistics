@@ -71,8 +71,6 @@ Logoi file design follows two distinct aesthetic dicta:
 
 ; This is editorial (i.e., ignored).
 
-(This is an experimental short-form macro syntax; approach with caution!)
-
 This-is-translated-to-Lisp.
 
 This-is-translated-to-Lisp. ; This is editorial.
@@ -89,13 +87,13 @@ This-is-translated-to-Lisp. % This is translated to Prolog. ; This is editorial.
 
 This-is-translated-to-Lisp. ; This is editorial. % This is editorial.
 
+(This is an experimental short-form macro syntax. Contemplate with caution!)
+
 ;
-; "Hello, World!", Implemented:
-;
-; hello/String is a Function that takes a String.
+; "Hello, World!", Defined:
 ;
 
-; Abridged Definition
+; Abridged
 
 Name/Value
     hello/String
@@ -110,7 +108,7 @@ Name/Value
 hello/String
     "World"
 
-; Unabridged Definition
+; Unabridged
 
 Name/Value                  % `"Name/Value" is a MetaMetaFunction for naming values.
     hello/String            % `"hello" is a Function of domain "String".
@@ -187,7 +185,7 @@ Name/Value
                     9
                     5
 
-alert/String
+alert!/String
     join/Alphanumerics
         "0 degrees Celsius is "
         celsius->fahrenheit/Rational
@@ -213,9 +211,9 @@ Name/Value
 
 if/yes/no
     Socrates-is-a-man.
-    alert/String
+    alert!/String
         "Socrates is a featherless biped."
-    alert/String
+    alert!/String
         "Socrates is not mortal."
 
 ```
@@ -232,7 +230,7 @@ Names/Value
     F
         celsius->fahrenheit/Rational
             C
-    alert/String
+    alert!/String
         join/Strings
             string/Rational
                 C
@@ -303,7 +301,7 @@ try/catch/else/finally
             "Something, somewhere, is broken."
     console.log
         "<Element> successfully added to document."
-    alert
+    alert!
         "document.append/<Element> has completed another iteration."
 
 
