@@ -110,18 +110,18 @@ hello!/String
 
 ; Unabridged
 
-Name/Value                  % Name/Value is a MetaMetaFunction for naming values.
-    hello!/String           % hello! is an impure Function of domain: String.
+Name/Value                  % Name/Value is a MetaFunction of arity: 2.
+    hello!/String           % hello! is an ImpureFunction of domain: String.
     Function/1              % Function/1 is a MetaFunction of arity: 1.
         whom                % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
-        alert!/String       % alert! is an impure Function of domain: String.
-            join/Strings    % join is a variadic Function of domain: Strings.
+        alert!/String       % alert! is an ImpureFunction of domain: String.
+            join/Strings    % join is a VariadicFunction of domain: Strings.
                 "Hello, "   % "Hello, " is a Constant::String.
                 whom        % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
                 "!"         % "!" is a Constant::String.
 
-hello!/String   ; "hello" is an impure Function of domain: String.
-    "World"     ; "!" is a Constant::String.
+hello!/String   ; hello! is an ImpureFunction of domain: String.
+    "World"     ; "World" is a Constant::String.
 
 ;
 ; Abstraction Operators, Abstracted
@@ -242,11 +242,9 @@ Names/Value
 ;
 ; HTML Element Constructors
 ;
-; Note: For concision, <html/functions> assume <parameter::String|s> unless typed/Explicitly/Otherwise.
-;
 
 Name/Value
-    <element/tag>
+    <element/tag::String>
     Function/1
         tag
         document.createElement
@@ -254,34 +252,34 @@ Name/Value
 
 Name/Value
     <div>
-    <element/tag>
+    <element/tag::String>
         "div"
 
 Name/Value
-    <div/content>
+    <div/content::Element>
     Function/1
         content
         .innerHTML
             <div>
-            content
+                content
 
 Name/Value
-    <div/id/content>
+    <div/id::String/content::Element>
     Function/2
         id
         content
         .setAttribute
-            <div/content>
+            <div/content::Element>
                 content
             "id"
             id
 
 Name/Value
-    document.append/<Element>
+    document.append/Element
     Function/1
-        <Element>
+        <element>
         document.append
-            <Element>
+            <element>
 
 ;
 ; Error Handling
