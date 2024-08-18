@@ -87,7 +87,9 @@ Logoi file design follows two distinct aesthetic dicta:
 ;
 
 ; This sentence is ignored.
+
 % This sentence is translated to Prolog.
+
 This-sentence-is-translated-to-Lisp.
 
 ; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
