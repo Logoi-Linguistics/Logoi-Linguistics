@@ -288,10 +288,10 @@ Names/Value
             C
     alert!/String
         join/Strings
-            rational->string/Rational
+            string/Rational
                 C
             " degrees Celsius is "
-            rational->string/Rational
+            string/Rational
                 F
             " degrees Fahrenheit."
 ; -> "0 degrees Celsius is 32 degrees Fahrenheit." (BrowserAlert)
