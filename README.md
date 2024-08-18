@@ -110,15 +110,15 @@ hello!/String
 
 ; Unabridged
 
-Name/Value                  % Name/Value is a MetaFunction of arity: 2.
-    hello!/String           % hello! is an ImpureFunction of domain: String.
-    Function/1              % Function/1 is a MetaFunction of arity: 1.
-        whom                % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
-        alert!/String       % alert! is an ImpureFunction of domain: String.
-            join/Strings    % join is a VariadicFunction of domain: Strings.
-                "Hello, "   % "Hello, " is a Constant::String.
-                whom        % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
-                "!"         % "!" is a Constant::String.
+Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
+    hello!/String           ; hello! is an ImpureFunction of domain: String.
+    Function/1              ; Function/1 is a MetaFunction of arity: 1.
+        whom                ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
+        alert!/String       ; alert! is an ImpureFunction of domain: String.
+            join/Strings    ; join is a VariadicFunction of domain: Strings.
+                "Hello, "   ; "Hello, " is a Constant::String.
+                whom        ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
+                "!"         ; "!" is a Constant::String.
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
     "World"     ; "World" is a Constant::String.
@@ -160,14 +160,6 @@ try/catch/else/finally
         <handlerN::Expression>
     <if-no-error::Expression>
     <all-cases::Expression>
-
-;
-; Typographical Note
-;
-; When using English words:
-;  - Types are Capitalized
-;  - instances of types are not capitalized
-;
 
 ;
 ; celsius->fahrenheit/Rational is the name of a Function/1
