@@ -96,7 +96,7 @@ This is an experimental short-form Macro syntax.
 ; Abridged
 
 Name/Value
-    hello/String
+    hello!/String
     Function/1
         whom
         alert!/String
@@ -105,23 +105,23 @@ Name/Value
                 whom
                 "!"
 
-hello/String
+hello!/String
     "World"
 
 ; Unabridged
 
-Name/Value                  % `"Name/Value" is a MetaMetaFunction for naming values.
-    hello/String            % `"hello" is a Function of domain "String".
-    Function/1              % `"Function/1" is a MetaFunction of arity "1".
-        whom                % `"whom" is a Parameter::X, where X = #TypeSignatureIndex#.
-        alert!/String       % `"alert!" is an impure Function of domain "String".
-            join/Strings    % `"join" is a Function of domain List of "Strings".
-                "Hello, "   % `"Hello, " is a Constant::String.
-                whom        % "whom" is a Parameter::X, where X = #TypeSignatureIndex#.
+Name/Value                  % Name/Value is a MetaMetaFunction for naming values.
+    hello!/String           % hello! is an impure Function of domain: String.
+    Function/1              % Function/1 is a MetaFunction of arity: 1.
+        whom                % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
+        alert!/String       % alert! is an impure Function of domain: String.
+            join/Strings    % join is a variadic Function of domain: Strings.
+                "Hello, "   % "Hello, " is a Constant::String.
+                whom        % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
                 "!"         % "!" is a Constant::String.
 
-hello/String    ; `"hello" is a Function of domain String.`
-    "World"     ; `"!"` is a constant of type String.`
+hello!/String    ; "hello" is an impure Function of domain: String.`
+    "World"     ; "!"` is a Constant::String.`
 
 ;
 ; Abstraction Operators, Abstracted
