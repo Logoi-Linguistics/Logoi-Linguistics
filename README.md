@@ -10,13 +10,16 @@
 
 Name/Value
     hello/String
-    Function
+    Function/1
         parameter
-        Function
-            Function
+        Function/1
+            Function/N
                 parameter
                 parameter
                 parameter
+
+hello/String
+    String
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
