@@ -329,7 +329,7 @@ try/catch/else/finally
 ```
 [[Existential Quantification](https://en.wikipedia.org/wiki/Existential_quantification)]
 
-English is but one of [[many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)]:
+English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
 
 % Sokrato estas viro.
