@@ -374,7 +374,7 @@ try/catch/else/finally
 ;    'The {1} of {2} is {3}.'('plural', Y, X).
 
 ```
-[[Existential Quantification](https://en.wikipedia.org/wiki/Existential_quantification)]
+[[Existentialization](https://en.wikipedia.org/wiki/Existential_quantification)]
 
 English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
