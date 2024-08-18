@@ -165,7 +165,7 @@ try/catch/else/finally
     <all-cases::Expression>
 
 ;
-; celsius->fahrenheit/Rational is a Function of domain: Rational
+; celsius->fahrenheit/Rational is a Function which converts a temperature from C to F.
 ;
 
 ; Abridged
@@ -195,7 +195,7 @@ Name/Value                          ; Name/Value is a MetaMetaFunction of arity:
             32                      ; 32 is a Constant::Even
             *                       ; * is a VariadicFunction of domain: Numbers.
                 C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                /                   ; / is a VariadicFunction of domain: Numbers.
+                /                   ; / is a VariadicFunction of domain: Numbers? (with exceptions)
                     9               ; 9 is a Constant::Odd
                     5               ; 5 is a Constant::Prime
 
@@ -203,7 +203,7 @@ celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: R
     100                         ; 100 is a Constant::Even
 
 ;
-; alert!/String is an ImpureFunction which sends a String to the browser's dialogue box.
+; alert!/String is an ImpureFunction which displays a String in the browser dialogue box.
 ;
 
 alert!/String
