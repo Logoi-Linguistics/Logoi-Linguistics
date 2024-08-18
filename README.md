@@ -105,9 +105,6 @@ This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; 
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
 
-This sentence is an experimental short-form Macro syntax.
-(This sentence is an experimental short-form Macro syntax.)
-
 ;
 ; "Hello, World!", Defined
 ;
