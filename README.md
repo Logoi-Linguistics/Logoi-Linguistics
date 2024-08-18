@@ -231,18 +231,18 @@ alert!/String
         " degrees Fahrenheit."
 
 ;
-; 'equal?/Natural/Natural'
-; is a Function that determines the equality of two Natural numbers.
+; 'equal?/Whole/Whole'
+; is a Function that determines the equality of two Whole numbers.
 ;
 
 Name/Value
-    equal?/Natural/Natural
+    equal?/Whole/Whole
     Function/2
         X
         Y
-        =/Numbers
+        =
             0
-            -/Numbers
+            -
                 X
                 Y
 
@@ -253,7 +253,7 @@ Name/Value
 
 Name/Value
     Socrates-is-a-man.
-    equal?/Natural/Natural
+    equal?/Whole/Whole
         0
         0
 
@@ -309,7 +309,7 @@ Name/Value
         content
         .innerHTML
             <div>
-                content
+            content
 
 Name/Value
     <div/id::String/content::Element>
