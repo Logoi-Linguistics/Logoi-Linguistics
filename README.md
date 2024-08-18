@@ -66,16 +66,16 @@ Logoi file design follows two distinct aesthetic dicta:
 ;
 
 ;
-; Within a given line of Logoi,
+; In a given line of Logoi,
 ;   the semicolon (;) marks
 ;   a potential discontinuity between
-;   its logical and extralogical neighbors.
+;   logical and extralogical semantics.
 ;
 ; Translation: Editorial commentary begins with a semicolon (;).
 ;
 
 %
-% Within a given line of Logoi,
+% In a given line of Logoi,
 %   the percentile (%) marks
 %   a potential discontinuity between
 %   the lambda and predicate calculi.
@@ -124,7 +124,6 @@ Name/Value
 
 hello!/String
     "World"
-; -> "Hello, World!" (Browser Alert)
 
 ; Unabridged:
 
@@ -201,7 +200,6 @@ Name/Value
 
 celsius->fahrenheit/Rational
     100
-; -> 212
 
 ; Unabridged:
 
@@ -254,7 +252,6 @@ equal?/Whole/Whole
     1
     1
 ; -> true
-
 
 ;
 ; 'Socrates-is-a-man.'
