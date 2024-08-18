@@ -120,7 +120,7 @@ Name/Value                  % Name/Value is a MetaMetaFunction for naming values
                 whom        % whom is a Parameter::X, where: X = #TypeSignatureIndex#.
                 "!"         % "!" is a Constant::String.
 
-hello!/String    ; "hello" is an impure Function of domain: String.`
+hello!/String   ; "hello" is an impure Function of domain: String.`
     "World"     ; "!"` is a Constant::String.`
 
 ;
