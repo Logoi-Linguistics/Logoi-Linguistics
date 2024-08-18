@@ -171,7 +171,8 @@ try/catch/else/finally
     <all-cases::Expression>
 
 ;
-; 'celsius->fahrenheit/Rational' is a Function which converts a temperature from C to F.
+; 'celsius->fahrenheit/Rational'
+; is a Function that converts a temperature from Celsius to Fahrenheit.
 ;
 
 ; Abridged:
@@ -209,7 +210,8 @@ celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: R
     100                         ; 100 is a Constant::Even
 
 ;
-; 'alert!/String' is an ImpureFunction which displays a String in the browser dialogue box.
+; 'alert!/String'
+; is an ImpureFunction that displays a String in the browser's popup/dialogue box.
 ;
 
 alert!/String
@@ -220,7 +222,8 @@ alert!/String
         " degrees Fahrenheit."
 
 ;
-; 'equal?/Natural/Natural' is a Function which determines the equality of two Natural numbers.
+; 'equal?/Natural/Natural'
+; is a Function that determines the equality of two Natural numbers.
 ;
 
 Name/Value
@@ -235,7 +238,8 @@ Name/Value
                 Y
 
 ;
-; 'Socrates-is-a-man.' is a Boolean derived from the equality of 0 and 0.
+; 'Socrates-is-a-man.'
+; is a Boolean derived from the equality of 0 and 0.
 ;
 
 Name/Value
@@ -336,7 +340,6 @@ try/catch/else/finally
         "<Element> successfully added to document."
     alert!
         "document.append/<Element> has completed another iteration."
-
 
 ```
 
