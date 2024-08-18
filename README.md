@@ -1,8 +1,17 @@
 # Logoi (λόγοι)
 
-<img src="./static/images/logoi-logo-rectangle.jpg" width="250" />
+This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *(2024/08)
 
-This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
+<a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
+
+"The principal difficult[y to overcome in designing a universal language is t]o render the study of the language so easy as to make its acquisition mere play to the learner."
+Dr. L. L. Zamenhof, creator of <a target="_blank" href="https://en.wikipedia.org/wiki/Esperanto">Esperanto</a>
+
+[What is Logoi?](https://logoi.website/tweedle)
+
+λόγοι is the Greek word for "words".
+
+Logoi is a *minimalist superdialect** (of JavaScript/Prolog/Lisp) and a mouseless editor (of itself, in itself, and, eventually, by itself). *(or "Self-aware MetaLanguage", perhaps?)
 
 ```
 
@@ -41,15 +50,15 @@ hello/String
 
 # Linguistic Preliminaries
 
-[What is Logoi?](https://logoi.website/tweedle)
+Logoi was inspired by a dream of turning spoken languages into functional/logic programming languages.
 
-λόγοι is the Greek word for "words".
+Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://en.wikipedia.org/wiki/Alonzo_Church">Church</a> & <a target="_blank" href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine">Quine</a>:
+- Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
+- Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
 
-Logoi is a:
-1) minimalist superdialect of Prolog, Lisp & JavaScript, and
-2) mouseless browser editor of itself.
+A JavaScript/browser implementation improves upon the installation processes of both.
 
-Logoi file design follows two distinct aesthetic dicta:
+Logoi file formatting follows two distinct aesthetic dicta:
 
 - Math = "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
 - Logic = Quinean Sentential Schemata (QSS)
