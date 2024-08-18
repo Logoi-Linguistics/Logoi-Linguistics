@@ -96,7 +96,7 @@ This is an experimental short-form Macro syntax.
 ; "Hello, World!", Defined
 ;
 
-; Abridged
+; Abridged:
 
 Name/Value
     hello!/String
@@ -111,7 +111,7 @@ Name/Value
 hello!/String
     "World"
 
-; Unabridged
+; Unabridged:
 
 Name/Value                  ; Name/Value is a MetaMetaFunction of arity: 2.
     hello!/String           ; hello! is an ImpureFunction of domain: String.
@@ -168,7 +168,7 @@ try/catch/else/finally
 ; celsius->fahrenheit/Rational is a Function which converts a temperature from C to F.
 ;
 
-; Abridged
+; Abridged:
 
 Name/Value
     celsius->fahrenheit/Rational
@@ -185,7 +185,7 @@ Name/Value
 celsius->fahrenheit/Rational
     100
 
-; Unabridged
+; Unabridged:
 
 Name/Value                          ; Name/Value is a MetaMetaFunction of arity: 2.
     celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
