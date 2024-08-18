@@ -1,6 +1,6 @@
 # Logoi (λόγοι)
 
-[Logoi Logo]
+<img src="./static/images/logoi-logo-square.jpg" width=250 />
 
 This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
