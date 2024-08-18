@@ -44,7 +44,9 @@ This is the current* source code repository for the Logoi natural programming la
 
 λόγοι is the Greek word for "words".
 
-Logoi is a: 1) minimalist superdialect of Prolog, Lisp & JavaScript, and 2) mouseless browser editor of itself.
+Logoi is a:
+1) minimalist superdialect of Prolog, Lisp & JavaScript, and
+2) mouseless browser editor of itself.
 
 Logoi file design follows two distinct aesthetic dicta:
 
@@ -58,19 +60,24 @@ Logoi file design follows two distinct aesthetic dicta:
 ```
 
 ;
-; Logoi; or, "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
+; Logoi; or,
+; "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
 ;
 
 ;
 ; "Within any given line of Logoi,
-;  the semicolon (;) symbol marks a potential discontinuity between its logical and extralogical neighbors."
+;  the semicolon (;) symbol marks
+;  a potential discontinuity between
+;  its logical and extralogical neighbors."
 ;
 ; Translation: Editorial commentary begins with a semicolon (;).
 ;
 
 %
 % "Within any given line of Logoi,
-%  the percentile (%) symbol marks a potential discontinuity between the lambda and predicate calculi."
+%  the percentile (%) symbol marks
+%  a potential discontinuity between
+%  the lambda and predicate calculi."
 %
 % Translation: Logical commentary begins with a percentile (%).
 %
