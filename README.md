@@ -73,29 +73,29 @@ Logoi file design follows two distinct aesthetic dicta:
 ; Operational (;/%) Precedences
 ;
 
-; This is editorial (i.e., ignored).
+; This sentence is editorial (i.e., ignored).
 
-% This is translated to Prolog.
+% This sentence is translated to Prolog.
 
-This-is-translated-to-Lisp.
+This-sentence-is-translated-to-Lisp.
 
-This-is-translated-to-Lisp. ; This is editorial.
+This-sentence-is-translated-to-Lisp. ; This sentence is editorial.
 
-; This is editorial. This-is-editorial. 
+; This sentence is editorial. This-sentence-is-editorial. 
 
-This-is-translated-to-Lisp. ; This is editorial. This-is-editorial.
+This-sentence-is-translated-to-Lisp. ; This sentence is editorial. This-sentence-is-editorial.
 
-% This is translated to Prolog. ; This is editorial.
+% This sentence is translated to Prolog. ; This sentence is editorial.
 
-% This is translated to Prolog. ; This is editorial. % This is editorial.
+% This sentence is translated to Prolog. ; This sentence is editorial. % This sentence is editorial.
 
-% This is translated to Prolog. ; This is editorial. This-is-editorial.
+% This sentence is translated to Prolog. ; This sentence is editorial. This-sentence-is-editorial.
 
-This-is-translated-to-Lisp. % This is translated to Prolog. ; This is editorial.
+This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is editorial.
 
-This-is-translated-to-Lisp. ; This is editorial. % This is editorial.
+This-sentence-is-translated-to-Lisp. ; This sentence is editorial. % This sentence is editorial.
 
-This is an experimental short-form Macro syntax.
+This sentence is an experimental short-form Macro syntax.
 
 ;
 ; "Hello, World!", Defined
@@ -170,7 +170,7 @@ try/catch/else/finally
     <all-cases::Expression>
 
 ;
-; celsius->fahrenheit/Rational is a Function which converts a temperature from C to F.
+; 'celsius->fahrenheit/Rational' is a Function which converts a temperature from C to F.
 ;
 
 ; Abridged:
@@ -208,7 +208,7 @@ celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: R
     100                         ; 100 is a Constant::Even
 
 ;
-; alert!/String is an ImpureFunction which displays a String in the browser dialogue box.
+; 'alert!/String' is an ImpureFunction which displays a String in the browser dialogue box.
 ;
 
 alert!/String
@@ -219,7 +219,7 @@ alert!/String
         " degrees Fahrenheit."
 
 ;
-; equal?/Natural/Natural is a Function which determines the equality of two Natural numbers.
+; 'equal?/Natural/Natural' is a Function which determines the equality of two Natural numbers.
 ;
 
 Name/Value
@@ -234,7 +234,7 @@ Name/Value
                 Y
 
 ;
-; Socrates-is-a-man. is a name for the Boolean value derived from the equality of 0 and 0.
+; 'Socrates-is-a-man.' is a Boolean derived from the equality of 0 and 0.
 ;
 
 Name/Value
