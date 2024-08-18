@@ -56,7 +56,7 @@ Logoi file design follows two distinct aesthetic dicta:
 
 % Humor, being extralogical, is precluded *a priori*.
 
-# Vertical Polish/Prefix Notation/Lisp (VP/PN/L)
+# "Vertical" Polish/Prefix Notation/Lisp (VP/PN/L)
 
 ```
 
