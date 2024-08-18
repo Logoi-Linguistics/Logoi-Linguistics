@@ -36,7 +36,7 @@ hello/String
 
 ```
 
-# Lexicographical Preliminaries
+# Linguistic Preliminaries
 
 This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *[2024/08]
 
