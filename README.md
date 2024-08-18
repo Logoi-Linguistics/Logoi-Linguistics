@@ -73,27 +73,23 @@ Logoi file design follows two distinct aesthetic dicta:
 ; Operational (;/%) Precedences
 ;
 
-; This sentence is editorial (i.e., ignored).
-
+; This sentence is ignored.
 % This sentence is translated to Prolog.
-
 This-sentence-is-translated-to-Lisp.
 
-This-sentence-is-translated-to-Lisp. ; This sentence is editorial.
+; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
+; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
 
-; This sentence is editorial. This-sentence-is-editorial. 
+% This sentence is translated to Prolog. ; This sentence is ignored.
+% This sentence is translated to Prolog. This sentence is translated to Prolog.
+% This sentence is translated to Prolog. This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
+% This sentence is translated to Prolog. ; This sentence is ignored. % This sentence is ignored.
+% This sentence is translated to Prolog. ; This sentence is ignored. This-sentence-is-ignored.
 
-This-sentence-is-translated-to-Lisp. ; This sentence is editorial. This-sentence-is-editorial.
-
-% This sentence is translated to Prolog. ; This sentence is editorial.
-
-% This sentence is translated to Prolog. ; This sentence is editorial. % This sentence is editorial.
-
-% This sentence is translated to Prolog. ; This sentence is editorial. This-sentence-is-editorial.
-
-This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is editorial.
-
-This-sentence-is-translated-to-Lisp. ; This sentence is editorial. % This sentence is editorial.
+This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
+This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
+This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
+This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
 
 This sentence is an experimental short-form Macro syntax.
 
