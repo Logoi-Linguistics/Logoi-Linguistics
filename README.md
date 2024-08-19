@@ -65,7 +65,7 @@ hello/String
 
 Logoi was inspired by a daydream about turning spoken languages into functional/logic programming languages.
 
-Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://en.wikipedia.org/wiki/Alonzo_Church">Church</a> & <a target="_blank" href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine">Quine</a>:
+Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://plato.stanford.edu/entries/church/">Church</a> & <a target="_blank" href="https://plato.stanford.edu/entries/quine/">Quine</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
 2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
 3. A JavaScript/WebAssembly editor implementation provides instant access to a REPL, CLI, and IDE.
