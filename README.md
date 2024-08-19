@@ -107,38 +107,39 @@ Logoi file formatting follows two distinct aesthetic dicta:
 ; Operational (;/%) Precedences (For Human Eyes Only!)
 ;
 
-; This sentence is ignored. ; (Editorial)
+This-is-translated-to:Lisp. ; (Mathematical)
 
-% This sentence is translated to Prolog. ; (Logical)
+% This is translated to: Prolog. ; (Logical)
 
-This-is-translated-to-Lisp. ; (Mathematical)
+; This is ignored. ; (Editorial)
 
 ;
 ; Operational (;/%) Precedences (For Human Eyes Only!)
 ;
 
 ; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
+
 ; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
 
 % Prolog:
 
 % This sentence is translated to Prolog.
 %   This sentence is translated to Prolog.
-%   This sentence is translated to Prolog.
-%       This sentence is translated to Prolog.
 %   This sentence is translated to Prolog. This sentence is translated to Prolog.
+%       This sentence is translated to Prolog. This sentence is translated to Prolog.
+%   This sentence is translated to Prolog.
 
 % This sentence is translated to Prolog. ; This sentence is ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. This-is-ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. % This sentence is ignored.
 % This sentence is translated to Prolog. This sentence is translated to Prolog. ; This sentence is ignored.
-% This sentence is translated to Prolog. This-is-translated-to-Lisp. ; This sentence is ignored.
+% This sentence is translated to Prolog. This-is-translated-to-Prolog. ; This sentence is ignored.
 
-This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
-This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
-This-sentence-is-translated-to-Lisp. ; This sentence is ignored. This-sentence-is-ignored.
-This-sentence-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
-This-sentence-is-translated-to-Lisp. This-sentence-causes-a-formatting-error. ; (Only one Atom per line)
+This-is-translated-to-Lisp. ; This sentence is ignored.
+This-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
+This-is-translated-to-Lisp. ; This sentence is ignored. This-is-ignored.
+This-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
+This-is-translated-to-Lisp. This-causes-a-formatting-error. ; (1 Atom per Line)
 
 ;
 ; "Hello, World!", Defined
@@ -169,10 +170,10 @@ Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
             join/Strings    ; join is a VariadicFunction of domain: Strings.
                 "Hello, "   ; "Hello, " is a Constant::String.
                 whom        ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"         ; "!" is a Constant::Character. (Character is a subset of String)
+                "!"         ; "!" is a Constant::Character. (Character is a subtype of String)
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
-    "World"     ; "World" is a Constant::Word. (Word is a subset of String)
+    "World"     ; "World" is a Constant::Word. (Word is a subtype of String)
 ; -> "Hello, World!" (BrowserAlert)
 
 ;
