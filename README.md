@@ -1,5 +1,7 @@
 # Logoi (λόγοι)
 
+Logoi = Prolog ∧ Lisp
+
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
 <em>"The principal difficulty to overcome in designing a universal language is to render the study of the language so easy as to make its acquisition mere play to the learner."</em>
