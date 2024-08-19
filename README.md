@@ -65,12 +65,12 @@ hello/String
 
 # Linguistic Preliminaries
 
-Logoi was inspired by a daydream about turning spoken languages into functional/logic programming languages.
+Logoi was inspired by a daydream about using spoken languages as functional/logic programming languages.
 
 Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://plato.stanford.edu/entries/church/">Church</a> & <a target="_blank" href="https://plato.stanford.edu/entries/quine/">Quine</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
 2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
-3. A JavaScript/WebAssembly editor implementation provides instant access to a REPL, CLI, and IDE.
+3. A JavaScript/WebAssembly editor implementation provides (near) instant access to a REPL, CLI, and IDE.
 
 Logoi file formatting follows two distinct aesthetic dicta:
 
@@ -106,17 +106,17 @@ Logoi file formatting follows two distinct aesthetic dicta:
 %
 
 ;
-; Operational (;/%) Precedences (For Human Eyes Only!)
+; Operators Editorial (;) and Logical (%)
 ;
-
-This-is-translated-to:Lisp. ; (Mathematical)
-
-% This is translated to: Prolog. ; (Logical)
 
 ; This is ignored. ; (Editorial)
 
+% This is translated to Prolog. ; (Logical)
+
+This-is-translated-to-Lisp. ; (Mathematical)
+
 ;
-; Operational (;/%) Precedences (For Human Eyes Only!)
+; Operational Precedences
 ;
 
 ; Editorial:
@@ -143,7 +143,7 @@ This-is-translated-to:Lisp. ; (Mathematical)
 
 This-is-translated-to-Lisp. ; This sentence is ignored.
     This-is-translated-to-Lisp.
-    This-is-translated-to-Lisp. ; This sentence is ignored.
+    This-is-translated-to-Lisp. % This sentence is translated to Prolog..
         This-is-translated-to-Lisp.
             This-is-translated-to-Lisp. ; This sentence is ignored.
 
@@ -170,6 +170,7 @@ Name/Value
 
 hello!/String
     "World"
+; -> "Hello, World!" (BrowserAlert)
 
 ; Unabridged:
 
@@ -210,6 +211,11 @@ Function/2
     <parameter1::Atom>
     <parameter2::Atom>
     <body::Expression>
+
+if/true/false
+    <conditional::BooleanExpression>
+    <truth-case::Expression>
+    <false-case::Expression>
     
 if/yes/no
     <conditional::BooleanExpression>
@@ -222,12 +228,12 @@ try/catch/else/finally
         <handler1::Expression>
     <errorN::ErrorType>
         <handlerN::Expression>
-    <if-no-error::Expression>
+    <no-error::Expression>
     <all-cases::Expression>
 
 ;
 ; 'celsius->fahrenheit/Rational'
-; is a Function that converts a temperature from Celsius to Fahrenheit.
+; is a Function that converts a Rational temperature from Celsius to Fahrenheit.
 ;
 
 ; Abridged:
@@ -246,6 +252,7 @@ Name/Value
 
 celsius->fahrenheit/Rational
     100
+; -> 212
 
 ; Unabridged:
 
@@ -288,11 +295,17 @@ Name/Value
     Function/2
         X
         Y
-        =
-            0
-            -
-                X
-                Y
+        Names/Value
+            difference
+                -
+                    X ; Minuend
+                    Y ; Subtrahend
+            not/Boolean
+                or/Booleans
+                    positive?/Integer
+                        difference
+                    negative?/Integer
+                        difference
 
 equal?/Whole/Whole
     1
@@ -301,7 +314,7 @@ equal?/Whole/Whole
 
 ;
 ; 'Socrates-is-a-man.'
-; is a Boolean derived from the equality of 0 and 0.
+; is a Boolean value derived from the equality of 0 and 0.
 ;
 
 Name/Value
@@ -410,6 +423,10 @@ try/catch/else/finally
 
 # Quinean Sentential Schemata (QSS)
 
+The joyful bliss of logic programming has long been shrouded by dint of a daunting syntax.
+
+In response to this perplexing pedagogical puzzle, Logoi translates logical sentences into Prolog code:
+
 ```
 
 % Prolog is a template for sentences.
@@ -419,7 +436,7 @@ try/catch/else/finally
 ; -> '{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').
 
 % Daedalus is the father of Icarus.
-; -> '{1} is the {2} of {3}.'('Daedalus', 'father', Icarus).
+; -> '{1} is the {2} of {3}.'('Daedalus', 'father', 'Icarus').
 
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
@@ -453,9 +470,6 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 
 % Dedalo estas la patro de Ikaro.
 ; -> '{1} estas la {2} de {3}.'('Dedalo', 'patro', 'Ikaro').
-
-% &#8743; simbolas konjunkcion.
-; -> '{1} simbolas {2}.'('&#8743', 'konjunkcion').
 
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
