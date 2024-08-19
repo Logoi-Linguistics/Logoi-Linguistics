@@ -7,12 +7,15 @@ This is the current* source code repository for the Logoi:
 
 [What is Logoi?](https://logoi.website/tweedle)
 
+<hr>
+
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
 <em>"The principal difficult[y to overcome in designing a universal language is t]o render the study of the language so easy as to make its acquisition mere play to the learner."</em>
 
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
+<hr>
 
 <b>λόγοι</b> is the Greek word for "words".
 
