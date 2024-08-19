@@ -65,7 +65,7 @@ hello/String
 
 # Linguistic Preliminaries
 
-Logoi was inspired by a daydream about using spoken languages as functional/logic programming languages.
+Logoi was inspired by a daydream about using spoken languages as logical/functional programming languages.
 
 Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://plato.stanford.edu/entries/church/">Church</a> & <a target="_blank" href="https://plato.stanford.edu/entries/quine/">Quine</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
