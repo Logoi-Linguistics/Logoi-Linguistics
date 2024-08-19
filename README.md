@@ -407,6 +407,9 @@ try/catch/else/finally
 % λόγοι is the Greek word for "words".
 ; -> '{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').
 
+% &#8743 symbolizes conjunction.
+; -> '{1} symbolizes {2}.'('&#8743;', 'conjunction').
+
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
 
@@ -436,6 +439,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 
 % "λόγοι" estas la greka vorto por "vortoj".
 ; -> '"{1}" estas la {2} vorto por "{3}".'('λόγοι', 'greka', 'vortoj').
+
+% &#8743; simbolas konjunkcion.
+; -> '{1} simbolas {2}.'('&#8743', 'konjunkcion').
 
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
