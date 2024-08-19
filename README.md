@@ -286,6 +286,26 @@ alert!/String
 ; -> "0 degrees Celsius is 32 degrees Fahrenehit." (BrowserAlert)
 
 ;
+; "Let-Scope" Bindings
+;
+
+Names/Value
+    C
+        0
+    F
+        celsius->fahrenheit/Rational
+            C
+    alert!/String
+        join/Strings
+            string/Rational
+                C
+            " degrees Celsius is "
+            string/Rational
+                F
+            " degrees Fahrenheit."
+; -> "0 degrees Celsius is 32 degrees Fahrenheit." (BrowserAlert)
+
+;
 ; 'equal?/Whole/Whole'
 ; is a Function that determines the equality of two Whole numbers.
 ;
@@ -334,26 +354,6 @@ if/yes/no
 ```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
 ```
-
-;
-; "Let-Scope" Bindings
-;
-
-Names/Value
-    C
-        0
-    F
-        celsius->fahrenheit/Rational
-            C
-    alert!/String
-        join/Strings
-            string/Rational
-                C
-            " degrees Celsius is "
-            string/Rational
-                F
-            " degrees Fahrenheit."
-; -> "0 degrees Celsius is 32 degrees Fahrenheit." (BrowserAlert)
 
 ;
 ; HTML Element Constructors
