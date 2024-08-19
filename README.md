@@ -451,6 +451,7 @@ In response to this perplexing pedagogical puzzle, Logoi translates logical sent
 ; -> 'All {1} are {2}.'(Y, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', X),
 ;    'The {1} of {2} is {3}.'('plural', X, Y).
+; -> "Yes."
 
 ```
 [[Existentialization](https://en.wikipedia.org/wiki/Existential_quantification)]
