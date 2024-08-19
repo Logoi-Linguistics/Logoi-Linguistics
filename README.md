@@ -423,9 +423,9 @@ try/catch/else/finally
 
 # Quinean Sentential Schemata (QSS)
 
-The joyful bliss of logic programming has long been shrouded by dint of a daunting syntax.
+The logic programming paradigm has long been shrouded by dint of a daunting syntax.
 
-In response to this perplexing pedagogical puzzle, Logoi translates logical sentences into Prolog code:
+In response to this puzzle of pedagogy, Logoi translates logical sentences into Prolog code for you:
 
 ```
 
