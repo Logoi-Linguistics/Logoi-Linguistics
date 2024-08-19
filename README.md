@@ -63,20 +63,18 @@ hello/String
 
 # Linguistic Preliminaries
 
-Logoi was inspired by a dream of turning spoken languages into functional/logic programming languages.
+Logoi was inspired by a daydream about turning spoken languages into functional/logic programming languages.
 
 Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://en.wikipedia.org/wiki/Alonzo_Church">Church</a> & <a target="_blank" href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine">Quine</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
 2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
-
-A JavaScript/browser implementation improves upon the installation processes of both.
+3. A JavaScript/WebAssembly editor implementation provides instant access to a REPL, CLI, and IDE.
 
 Logoi file formatting follows two distinct aesthetic dicta:
 
-- Math = "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
-- Logic = Quinean Sentential Schemata (QSS)
-
-% Humor, being extralogical, is precluded *a priori*.
+- Math: "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
+- Logic: Quinean Sentential Schemata (QSS)
+- Humor: being extralogical, is precluded *a priori*.
 
 # "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L)
 
