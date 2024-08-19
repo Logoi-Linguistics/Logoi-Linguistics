@@ -1,6 +1,9 @@
 # Logoi (λόγοι)
 
-This is the current* source code repository for the Logoi natural programming language & hyperextensible text editor. *(2024/08)
+This is the current* source code repository for the Logoi:
+- natural programming language &
+- hyperextensible text editor.
+*(2024/08)
 
 [What is Logoi?](https://logoi.website/tweedle)
 
@@ -8,9 +11,7 @@ This is the current* source code repository for the Logoi natural programming la
 
 "The principal difficult[y to overcome in designing a universal language is t]o render the study of the language so easy as to make its acquisition mere play to the learner."
 
-- <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">
-Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj
-</a>
+- <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
 
 λόγοι is the Greek word for "words".
@@ -57,8 +58,8 @@ hello/String
 Logoi was inspired by a dream of turning spoken languages into functional/logic programming languages.
 
 Logoi is the curious offspring of many months spent blissfully contemplating the written works by <a target="_blank" href="https://en.wikipedia.org/wiki/Alonzo_Church">Church</a> & <a target="_blank" href="https://en.wikipedia.org/wiki/Willard_Van_Orman_Quine">Quine</a>:
-- Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
-- Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
+1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
+2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
 
 A JavaScript/browser implementation improves upon the installation processes of both.
 
