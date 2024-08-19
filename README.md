@@ -9,14 +9,14 @@ This is the current* source code repository for the Logoi:
 
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
-"The principal difficult[y to overcome in designing a universal language is t]o render the study of the language so easy as to make its acquisition mere play to the learner."
+<em>"The principal difficult[y to overcome in designing a universal language is t]o render the study of the language so easy as to make its acquisition mere play to the learner."</em>
 
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
 
-λόγοι is the Greek word for "words".
+<b>λόγοι</b> is the Greek word for "words".
 
-Logoi is a *minimalist superdialect** (of JavaScript/Prolog/Lisp) and a mouseless editor (of itself, in itself, and, eventually, by itself). *(or "Self-aware MetaLanguage", perhaps?)
+<b>Logoi</b> is a *minimalist superdialect** (of JavaScript/Prolog/Lisp) and a mouseless editor (of itself, in itself, and, eventually, by itself). *(or "Self-aware MetaLanguage", perhaps?)
 
 ```
 
