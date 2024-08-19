@@ -52,7 +52,7 @@ hello/String
 
 % λόγοι is the Greek word for "words".
 
-% <html>&#8743;</html> symbolizes conjunction.
+% Daedalus is the father of Icarus.
 
 % Socrates is a man.
 % All men are mortal.
@@ -119,17 +119,19 @@ This-is-translated-to:Lisp. ; (Mathematical)
 ; Operational (;/%) Precedences (For Human Eyes Only!)
 ;
 
+; Editorial:
+
 ; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
 
 ; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
 
-% Prolog:
+; Logical:
 
-% This sentence is translated to Prolog.
+% This sentence is translated to Prolog. ; This sentence is ignored.
 %   This sentence is translated to Prolog.
+%   This sentence is translated to Prolog. ; This sentence is ignored.
+%       This sentence is translated to Prolog.
 %   This sentence is translated to Prolog. This sentence is translated to Prolog.
-%       This sentence is translated to Prolog. This sentence is translated to Prolog.
-%   This sentence is translated to Prolog.
 
 % This sentence is translated to Prolog. ; This sentence is ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. This-is-ignored.
@@ -137,9 +139,16 @@ This-is-translated-to:Lisp. ; (Mathematical)
 % This sentence is translated to Prolog. This sentence is translated to Prolog. ; This sentence is ignored.
 % This sentence is translated to Prolog. This-is-translated-to-Prolog. ; This sentence is ignored.
 
+; Mathematical:
+
 This-is-translated-to-Lisp. ; This sentence is ignored.
-This-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
+    This-is-translated-to-Lisp.
+    This-is-translated-to-Lisp. ; This sentence is ignored.
+        This-is-translated-to-Lisp.
+            This-is-translated-to-Lisp. ; This sentence is ignored.
+
 This-is-translated-to-Lisp. ; This sentence is ignored. This-is-ignored.
+This-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
 This-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
 This-is-translated-to-Lisp. This-causes-a-formatting-error. ; (1 Atom per Line)
 
@@ -409,8 +418,8 @@ try/catch/else/finally
 % λόγοι is the Greek word for "words".
 ; -> '{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').
 
-% &#8743 symbolizes conjunction.
-; -> '{1} symbolizes {2}.'('&#8743;', 'conjunction').
+% Daedalus is the father of Icarus.
+; -> '{1} is the {2} of {3}.'('Daedalus', 'father', Icarus).
 
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
@@ -442,6 +451,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % "λόγοι" estas la greka vorto por "vortoj".
 ; -> '"{1}" estas la {2} vorto por "{3}".'('λόγοι', 'greka', 'vortoj').
 
+% Dedalo estas la patro de Ikaro.
+; -> '{1} estas la {2} de {3}.'('Dedalo', 'patro', 'Ikaro').
+
 % &#8743; simbolas konjunkcion.
 ; -> '{1} simbolas {2}.'('&#8743', 'konjunkcion').
 
@@ -467,6 +479,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % "λόγοι" es la palabra griega que significa "palabras".
 ; -> '"{1}" es la palabra {2} que significa "{3}".'('λόγοι', 'griega', 'palabras').
 
+% Dédalo es el padre de Ícaro.
+; -> '{1} es el {2} de {3}.'('Dédalo', 'padre', 'Ícaro').
+
 % Sócrates es un hombre.
 ; -> '{1} es un {2}.'('Sócrates', 'hombre').
 
@@ -491,6 +506,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 
 % „λόγοι“ ist das griechische Wort für „Worte“.
 ; -> '„{1}“ ist das {2} Wort für „{3}“.'('λόγοι', 'griechische', 'Worte').
+
+% Daedalus ist der Vater von Ikarus.
+; -> '{1} ist der {2} von {3}.'('Daedalus', 'Vater', 'Ikarus').
 
 % Sokrates ist ein Mann.
 ; -> '{1} ist ein {2}.'('Sokrates', 'Mann').
