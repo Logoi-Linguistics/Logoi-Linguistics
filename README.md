@@ -84,7 +84,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 
 ;
 ; Logoi; or,
-; "A Universal (Human) Grammar for Commentary Mathematical, Logical & Editorial"
+; "A Universal (Human) Grammar for Commentary Logical, Mathematical & Editorial"
 ;
 
 ;
