@@ -21,8 +21,8 @@ This is the current* "source code repository" for the Logoi:
 <b>λόγοι</b> is the Greek word for "words".
 
 <b>Logoi</b> is a:
-- *minimalist superdialect** (of JavaScript/Prolog/Lisp), and
-- mouseless editor (of itself, in itself, and, eventually, by itself).
+- *minimalist superdialect* (of JavaScript/Prolog/Lisp), and a
+- *mouseless editor* (of itself, in itself, and, eventually, by itself).
 
 ```
 
