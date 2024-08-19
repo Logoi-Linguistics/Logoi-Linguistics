@@ -93,21 +93,35 @@ Logoi file formatting follows two distinct aesthetic dicta:
 %
 
 ;
-; Operational (;/%) Precedences
+; Operational (;/%) Precedences (For Human Eyes Only!)
 ;
 
-; This sentence is ignored.
-% This sentence is translated to Prolog.
-This-sentence-is-translated-to-Lisp.
+; This sentence is ignored. ; (Editorial)
+
+% This sentence is translated to Prolog. ; (Logical)
+
+This-is-translated-to-Lisp. ; (Mathematical)
+
+;
+; Operational (;/%) Precedences (For Human Eyes Only!)
+;
 
 ; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
 ; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
 
+% Prolog:
+
+% This sentence is translated to Prolog.
+%   This sentence is translated to Prolog.
+%   This sentence is translated to Prolog.
+%       This sentence is translated to Prolog.
+%   This sentence is translated to Prolog. This sentence is translated to Prolog.
+
 % This sentence is translated to Prolog. ; This sentence is ignored.
+% This sentence is translated to Prolog. ; This sentence is ignored. This-is-ignored.
 % This sentence is translated to Prolog. ; This sentence is ignored. % This sentence is ignored.
-% This sentence is translated to Prolog. ; This sentence is ignored. This-sentence-is-ignored.
 % This sentence is translated to Prolog. This sentence is translated to Prolog. ; This sentence is ignored.
-% This sentence is translated to Prolog. This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
+% This sentence is translated to Prolog. This-is-translated-to-Lisp. ; This sentence is ignored.
 
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored.
 This-sentence-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
