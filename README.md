@@ -52,6 +52,8 @@ hello/String
 
 % λόγοι is the Greek word for "words".
 
+% <html>&#8743;</html> symbolizes conjunction.
+
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
