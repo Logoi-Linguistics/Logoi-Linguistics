@@ -417,15 +417,25 @@ try/catch/else/finally
 ; -> 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
 % Is Socrates mortal?
-; -> 'All {1} are {2}.'(X, 'mortal'),
-;    '{1} is a {2}.'('Socrates', Y),
-;    'The {1} of {2} is {3}.'('plural', Y, X).
+; -> 'All {1} are {2}.'(Y, 'mortal'),
+;    '{1} is a {2}.'('Socrates', X),
+;    'The {1} of {2} is {3}.'('plural', X, Y).
 
 ```
 [[Existentialization](https://en.wikipedia.org/wiki/Existential_quantification)]
 
 English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
+
+;
+; Esperanto
+;
+
+% Prologo estas ŝablono por frazoj.
+; -> '{1} estas {2} por {3}.'('Prologo', 'ŝablono', 'frazoj').
+
+% "λόγοι" estas la greka vorto por "vortoj".
+; -> '"{1}" estas la {2} vorto por "{3}".'('λόγοι', 'greka', 'vortoj').
 
 % Sokrato estas viro.
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
@@ -434,8 +444,59 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Ĉiuj {1} estas {2}.'('viroj', 'mortemaj').
 
 % Ĉu Sokrato estas mortema?
-; -> 'Ĉiuj {1} estas {2}.'(X, 'mortemaj'),
-;    '{1} estas {2}.'('Socrates', Y),
-;    '{1} = {2} + {3}.'(X, Y, 'j').
+; -> 'Ĉiuj {1} estas {2}.'(Y, 'mortemaj'),
+;    '{1} estas {2}.'('Socrates', X),
+;    '{1} = {2} + {3}.'(Y, X, 'j').
+; -> "Jes."
+
+;
+; Español
+;
+
+% Prolog es una plantilla para oraciones.
+; -> '{1} es una {2} para {3}.'('Prolog', 'plantilla', 'oraciones').
+
+% "λόγοι" es la palabra griega que significa "palabras".
+; -> '"{1}" es la palabra {2} que significa "{3}".'('λόγοι', 'griega', 'palabras').
+
+% Sócrates es un hombre.
+; -> '{1} es un {2}.'('Sócrates', 'hombre').
+
+% Todos los hombres son mortales.
+; -> 'Todos los {1} son {2}.'('hombres', 'mortales').
+
+% El plural de hombre es hombres.
+; -> 'El {1} de {2} es {3}.'('plural', 'hombre', 'hombres').
+
+% ¿Es Sócrates mortal?
+; -> 'Todos los {1} son {2}.'(Y, 'mortales'),
+;    '{1} es un {2}.'('Sócrates', X),
+;    '{1} = {2} + {3}.'(Y, X, 's').
+; -> "Sí."
+
+;
+; Deutsch
+;
+
+% Prolog ist eine Vorlage für Sätze.
+; -> '{1} ist eine {2} für {3}.'('Prolog', 'Vorlage', 'Sätze').
+
+% „λόγοι“ ist das griechische Wort für „Worte“.
+; -> '„{1}“ ist das {2} Wort für „{3}“.'('λόγοι', 'griechische', 'Worte').
+
+% Sokrates ist ein Mann.
+; -> '{1} ist ein {2}.'('Sokrates', 'Mann').
+
+% Alle Menschen sind sterblich.
+; -> 'Alle {1} sind {2}.'('Menschen', 'sterblich').
+
+% Der Plural von Mann ist Männer.
+; -> 'Der {1} von {2} ist {3}.'('Plural', 'Mann', 'Menschen').
+
+% Ist Sokrates sterblich?
+; -> 'Alle {1} sind {2}.'(Y, 'sterblich'),
+;    '{1} ist ein {2}.'('Sokrates', X),
+;    'Der {1} von {2} ist {3}.'('Plural', X, Y).
+; -> "Ja."
 
 ```
