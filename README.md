@@ -14,10 +14,9 @@ This is the current* "source code repository" for the Logoi:
 
 *(2024/08)
 
-[What is Logoi?](https://logoi.website/tweedle)
-
-
 <hr>
+
+[What is Logoi?](https://logoi.website/tweedle)
 
 <b>λόγοι</b> is the Greek word for "words".
 
