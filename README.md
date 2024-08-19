@@ -1,8 +1,9 @@
 # Logoi (λόγοι)
 
-This is the current* source code repository for the Logoi:
-- natural programming language &
+This is the current* "source code repository" for the Logoi:
+- natural programming language, and
 - hyperextensible text editor.
+
 *(2024/08)
 
 [What is Logoi?](https://logoi.website/tweedle)
