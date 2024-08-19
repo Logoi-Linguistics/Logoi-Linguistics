@@ -23,7 +23,7 @@ This is the current* "source code repository" for the Logoi:
 <b>Logoi</b> is both a:
 - *minimalist superdialect* (of JavaScript/Prolog/Lisp), and a
 - *mouseless editor* (of itself, in itself, and, eventually, by itself)
-at once.
+<br>at once.
 
 ```
 
