@@ -106,7 +106,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 %
 
 ;
-; Operators Editorial (;) and Logical (%)
+; Operators, Exemplified
 ;
 
 ; This is ignored. ; (Editorial)
@@ -116,7 +116,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 This-is-translated-to-Lisp. ; (Mathematical)
 
 ;
-; Operational Precedences
+; Operator Precedences, Exemplified
 ;
 
 ; Editorial:
