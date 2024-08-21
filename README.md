@@ -525,7 +525,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> '„{1}“ ist das {2} Wort für „{3}“.'('λόγοι', 'griechische', 'Worte').
 
 % Daedalus war der Vater von Ikarus.
-; -> '{1} ist der {2} von {3}.'('Daedalus', 'Vater', 'Ikarus').
+; -> '{1} war der {2} von {3}.'('Daedalus', 'Vater', 'Ikarus').
 
 % Sokrates ist ein Mann.
 ; -> '{1} ist ein {2}.'('Sokrates', 'Mann').
