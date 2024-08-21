@@ -427,7 +427,7 @@ try/catch/else/finally
 
 The logic programming paradigm has long been shrouded by dint of a daunting syntax.
 
-In response to this puzzle of pedagogy, Logoi translates logical sentences into Prolog code for you:
+In response to this puzzle pedagogical, Logoi translates logical sentences into Prolog code for you:
 
 ```
 
