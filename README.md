@@ -195,43 +195,43 @@ hello!/String   ; hello! is an ImpureFunction of domain: String.
 ;
 
 Name/Value
-    <name::Atom>
-    <value::Expression>
+    {name::Atom}
+    {value::Expression}
 
 Names/Value
-    <name1::Atom>
-        <value1::Expression>
-    <nameN::Atom>
-        <valueN::Expression>
-    <value::Expression>
+    {name1::Atom}
+        {value1::Expression}
+    {nameN::Atom}
+        {valueN::Expression}
+    {value::Expression}
 
 Function/1
-    <parameter1::Atom>
-    <body::Expression>
+    {parameter1::Atom}
+    {body::Expression}
 
 Function/2
-    <parameter1::Atom>
-    <parameter2::Atom>
-    <body::Expression>
+    {parameter1::Atom}
+    {parameter2::Atom}
+    {body::Expression}
 
 if/true/false
-    <conditional::BooleanExpression>
-    <truth-case::Expression>
-    <false-case::Expression>
+    {conditional::BooleanExpression}
+    {truth-case::Expression}
+    {false-case::Expression}
     
 if/yes/no
-    <conditional::BooleanExpression>
-    <truth-case::Expression>
-    <false-case::Expression>
+    {conditional::BooleanExpression}
+    {truth-case::Expression}
+    {false-case::Expression}
     
 try/catch/else/finally
-    <attempt::Expression>
-    <error1::ErrorType>
-        <handler1::Expression>
-    <errorN::ErrorType>
-        <handlerN::Expression>
-    <no-error::Expression>
-    <all-cases::Expression>
+    {attempt::Expression}
+    {error1::ErrorType}
+        {handler1::Expression}
+    {errorN::ErrorType}
+        {handlerN::Expression}
+    {no-error::Expression}
+    {all-cases::Expression}
 
 ;
 ; 'celsius->fahrenheit/Rational'
