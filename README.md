@@ -145,7 +145,7 @@ This-is-translated-to-Lisp. ; (Mathematical)
 
 This-is-translated-to-Lisp. ; This sentence is ignored.
     This-is-translated-to-Lisp.
-    This-is-translated-to-Lisp. % This sentence is translated to Prolog..
+    This-is-translated-to-Lisp. % This sentence is translated to Prolog.
         This-is-translated-to-Lisp.
             This-is-translated-to-Lisp. ; This sentence is ignored.
 
