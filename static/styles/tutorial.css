@@ -85,3 +85,8 @@ p {
 .centered {
     text-align: center;
 }
+
+.quotation {
+    color: white;
+    font-style: italic;
+}
