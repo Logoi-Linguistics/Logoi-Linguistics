@@ -562,3 +562,32 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Όλοι {1} είναι {2}.'('άνδρες', 'θνητοί').
 
 ```
+# Conjunction Junction
+```
+
+english/String
+    `Socrates is a man.`
+
+prolog/String
+    `'{1} is a {2}'('Socrates', 'man').`
+
+esperanto/String
+    `Sokrato estas viro.`
+
+prolog/String
+    `'{1} estas {2}'('Sokrato', 'viro').`
+
+% The sum of {1} and {2} is {3}.
+; -> Name/Value
+;       {3}
+;           sum/Number/Number
+;               {1}
+;               {2}
+
+% The first character of {1} is {2}.
+; -> Name/Value
+;       {2}
+;           first/String
+;               {1}
+
+```
