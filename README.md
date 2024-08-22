@@ -673,7 +673,7 @@ jes?/Demando
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
 ; -> jes
 
-prolog/Ŝnuro
+prolog/Frazo
     "'{1} estas {2}.'('Sokrato', 'viro')."
 ; -> '{1} estas {2}.'('Sokrato', 'viro').
 
