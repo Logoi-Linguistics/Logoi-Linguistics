@@ -533,7 +533,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Alle Menschen sind sterblich.
 ; -> 'Alle {1} sind {2}.'('Menschen', 'sterblich').
 
-% Der Plural von Mann ist Männer.
+% Der Plural von Mann ist Menschen.
 ; -> 'Der {1} von {2} ist {3}.'('Plural', 'Mann', 'Menschen').
 
 % Ist Sokrates sterblich?
@@ -571,12 +571,15 @@ Abandon all hope, and grab a hard hat, ye who enter here.
 
 english/String
     "Socrates is a man."
+; -> '{1} is a {2}.'('Socrates', 'man').
 
 prolog/String
     "'{1} is a {2}.'('Socrates', 'man')."
+; -> '{1} is a {2}.'('Socrates', 'man').
 
 esperanto/String
     "Sokrato estas viro."
+; -> '{1} estas {2}.'('Sokrato', 'viro').
 
 prolog/String
     "'{1} estas {2}.'('Sokrato', 'viro')."
