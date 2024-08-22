@@ -613,7 +613,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 
 % Er Sokrates dødelig?
 ; -> 'Alle {1} er {2}.'(Y, 'dødelige'),
-;    '{1} is a {2}.'('Sokrates', X),
+;    '{1} er en {2}.'('Sokrates', X),
 ;    '{1} af {2} er {3}.'('Flertal', X, Y).
 ; -> "Ja."
 
