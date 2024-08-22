@@ -54,7 +54,7 @@ hello/String
 
 % λόγοι is the Greek word for "words".
 
-% Daedalus is the father of Icarus.
+% Daedalus was the father of Icarus.
 
 % Socrates is a man.
 % All men are mortal.
