@@ -561,6 +561,62 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Όλοι άνδρες είναι θνητοί.
 ; -> 'Όλοι {1} είναι {2}.'('άνδρες', 'θνητοί').
 
+;
+; Latin
+;
+
+% Prolog est exemplum sententias.
+; -> '{1} est {2} {3}.'('Prolog', 'exemplum', 'sententias').
+
+% λόγοι graecum est apud verba.
+; -> '{1} {2} est apud {3}.'('λόγοι', 'graecum', 'verba').
+
+% Daedalus pater Icari.
+; -> '{1} {2} {3}.'('Daedalus', 'pater', 'Icari').
+
+% Socrates est homo.
+; -> '{1} est {2}.'('Socrates', 'homo').
+
+% Omnes homines mortales.
+; -> 'Omnes {1} {2}.'('homines', 'mortales').
+
+% Pluralis hominis est hominum.
+; -> '{1} {2} est {3}.'('Pluralis', 'homo', 'homines').
+
+% Estne Socrates mortalis?
+; -> 'Omnes {1} {2}.'(Y, 'mortales'),
+;    '{1} est {2}.'('Socrates', X),
+;    '{1} {2} est {3}.'('Pluralis', X, Y).
+; -> "Sic."
+
+;
+; Danish
+;
+
+% Prolog er en skabelon til sætninger.
+; -> '{1} er en {2} til {3}.'('Prolog', 'skabelon', 'sætninger').
+
+% λόγοι er det græske ord for "ord".
+; -> '{1} is the {2} word for "{3}".'('λόγοι', 'græske', 'ord').
+
+% Daedalus var far til Ikaros.
+; -> '{1} var {2} til {3}.'('Daedalus', 'far', 'Ikaros').
+
+% Sokrates er en mand.
+; -> '{1} er en {2}.'('Sokrates', 'mand').
+
+% Alle mennesker er dødelige.
+; -> 'Alle {1} er {2}.'('mennesker', 'dødelige').
+
+% Flertal af mand er mennesker.
+; -> '{1} af {2} er {3}.'('Flertal', 'mand', 'mennesker').
+
+% Er Sokrates dødelig?
+; -> 'Alle {1} er {2}.'(Y, 'dødelige'),
+;    '{1} is a {2}.'('Sokrates', X),
+;    '{1} af {2} er {3}.'('Flertal', X, Y).
+; -> "Ja."
+
 ```
 # Conjunction Junction
 
