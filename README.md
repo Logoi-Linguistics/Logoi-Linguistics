@@ -179,7 +179,7 @@ hello!/String
 Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
     hello!/String           ; hello! is an ImpureFunction of domain: String.
     Function/1              ; Function/1 is a MetaFunction of arity: 1.
-        whom                ; whom is a Parameter::X, where: X = #TypeSignatureIndex#.
+        whom                ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
         alert!/String       ; alert! is an ImpureFunction of domain: String.
             join/Strings    ; join is a VariadicFunction of domain: Strings.
                 "Hello, "   ; "Hello, " is a Constant::String.
