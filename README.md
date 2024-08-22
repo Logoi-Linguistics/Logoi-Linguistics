@@ -649,7 +649,9 @@ yes?/Question
 ;    'The {1} of {2} is {3}.'('plural', 'man', 'men').
 ; -> yes
 
-prolog/String
+; Term::String
+
+prolog/Term
     "'{1} is a {2}.'('Socrates', 'man')."
 ; -> '{1} is a {2}.'('Socrates', 'man').
 
@@ -672,6 +674,8 @@ jes?/Demando
 ;    '{1} estas {2}.'('Socrates', X),
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
 ; -> jes
+
+; Frazo::Ŝnuro
 
 prolog/Frazo
     "'{1} estas {2}.'('Sokrato', 'viro')."
