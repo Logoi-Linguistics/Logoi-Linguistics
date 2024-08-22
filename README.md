@@ -577,6 +577,10 @@ english/String
     "Socrates is a man."
 ; -> '{1} is a {2}.'('Socrates', 'man').
 
+yes?/Question
+    "Is Socrates a man?"
+; -> true
+
 prolog/String
     "'{1} is a {2}.'('Socrates', 'man')."
 ; -> '{1} is a {2}.'('Socrates', 'man').
