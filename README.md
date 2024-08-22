@@ -562,7 +562,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Όλοι {1} είναι {2}.'('άνδρες', 'θνητοί').
 
 ```
-# Conjunction Junction (Hard-hat Laboratory)
+# Conjunction Junction
 
 !!!This area is closed to the general public!!!
 
