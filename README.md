@@ -511,7 +511,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % ¿Es Sócrates mortal?
 ; -> 'Todos los {1} son {2}.'(Y, 'mortales'),
 ;    '{1} es un {2}.'('Sócrates', X),
-;    '{1} = {2} + {3}.'(Y, X, 's').
+;    'El {1} de {2} es {3}.'('plural', X, Y).
 ; -> "Sí."
 
 ;
