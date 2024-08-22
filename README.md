@@ -591,7 +591,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Omnes homines mortales.
 ; -> 'Omnes {1} {2}.'('homines', 'mortales').
 
-% Pluralis hominis est hominum.
+% Pluralis homo est homines.
 ; -> '{1} {2} est {3}.'('Pluralis', 'homo', 'homines').
 
 % Estne Socrates mortalis?
