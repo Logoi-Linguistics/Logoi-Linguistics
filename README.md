@@ -374,7 +374,7 @@ Name/Value
         "div"
 
 Name/Value
-    <div/content::Element>
+    <div/Content>
     Function/1
         content
         .innerHTML
@@ -382,12 +382,12 @@ Name/Value
             content
 
 Name/Value
-    <div/id::String/content::Element>
+    <div/id::String/Content>
     Function/2
         id
         content
         .setAttribute
-            <div/content::Element>
+            <div/Content>
                 content
             "id"
             id
