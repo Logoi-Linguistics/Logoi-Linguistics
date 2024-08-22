@@ -56,6 +56,8 @@ hello/String
 
 % Daedalus was the father of Icarus.
 
+% Socrates was ugly.
+
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
