@@ -234,7 +234,7 @@ try/catch/else/finally
     {all-cases::Expression}
 
 ;
-; 'celsius->fahrenheit/Rational'
+; celsius->fahrenheit/Rational
 ; is a Function that converts a Rational temperature from Celsius to Fahrenheit.
 ;
 
@@ -275,8 +275,8 @@ celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: R
 ; -> 212
 
 ;
-; 'alert!/String'
-; is an ImpureFunction that displays a String in the browser's popup/dialogue box.
+; alert!/String
+; is an ImpureFunction/1 that displays a String in the browser's popup/alert/dialogue box.
 ;
 
 alert!/String
@@ -308,8 +308,8 @@ Names/Value
 ; -> "0 degrees Celsius is 32 degrees Fahrenheit." (BrowserAlert)
 
 ;
-; 'equal?/Whole/Whole'
-; is a Function that determines the equality of two Whole numbers.
+; equal?/Whole/Whole
+; is a Function/2 that determines the equality of two Whole numbers.
 ;
 
 Name/Value
@@ -335,7 +335,7 @@ equal?/Whole/Whole
 ; -> false
 
 ;
-; 'Socrates-is-a-man.'
+; Socrates-is-a-man.
 ; is a Boolean value derived from the equality of 0 and 0.
 ;
 
@@ -365,7 +365,7 @@ Name/Value
     <element/tag::String>
     Function/1
         tag
-        document.createElement
+        document.createElement/String
             tag
 
 Name/Value
@@ -377,7 +377,7 @@ Name/Value
     <div/Content>
     Function/1
         content
-        .innerHTML
+        .innerHTML/Element/Content
             <div>
             content
 
@@ -386,7 +386,7 @@ Name/Value
     Function/2
         id
         content
-        .setAttribute
+        .setAttribute/Element/String/String
             <div/Content>
                 content
             "id"
@@ -396,7 +396,7 @@ Name/Value
     document.append/Element
     Function/1
         <element>
-        document.append
+        document.append/Element
             <element>
 
 ;
@@ -404,10 +404,10 @@ Name/Value
 ;
 
 try/catch/else/finally
-    document.append/<Element>
-        <div/id/content>
+    document.append/Element
+        <div/id::String/Content>
             "selected"
-            <div/content>
+            <div/Content>
                 42
     TypeError
         console.log!/String
@@ -417,7 +417,7 @@ try/catch/else/finally
             "Something, somewhere, is broken."
     console.log!/String
         "<Element> successfully added to document."
-    alert!
+    alert!/String
         "document.append/<Element> completed another iteration, for better or worse."
 ; -> DOM-Event
 
