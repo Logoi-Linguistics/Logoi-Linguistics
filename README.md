@@ -184,10 +184,10 @@ Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
             join/Strings    ; join is a VariadicFunction of domain: Strings.
                 "Hello, "   ; "Hello, " is a Constant::String.
                 whom        ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"         ; "!" is a Constant::Character. (Character is a subtype of String)
+                "!"         ; "!" is a Constant::Character::String.
 
 hello!/String   ; hello! is an ImpureFunction of domain: String.
-    "World"     ; "World" is a Constant::Word. (Word is a subtype of String)
+    "World"     ; "World" is a Constant::Word::String.
 ; -> "Hello, World!" (BrowserAlert)
 
 ;
@@ -263,12 +263,12 @@ Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
     Function/1                      ; Function/1 is a MetaFunction of arity: 1.
         C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
         +                           ; + is a VariadicFunction of domain: Numbers.
-            32                      ; 32 is a Constant::Even
+            32                      ; 32 is a Constant::Even::Whole
             *                       ; * is a VariadicFunction of domain: Numbers.
                 C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
                 /                   ; / is a VariadicFunction of domain: Numbers? (with exceptions)
-                    9               ; 9 is a Constant::Odd
-                    5               ; 5 is a Constant::Prime
+                    9               ; 9 is a Constant::Odd::Whole
+                    5               ; 5 is a Constant::Prime::Whole
 
 celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
     100                         ; 100 is a Constant::Even
