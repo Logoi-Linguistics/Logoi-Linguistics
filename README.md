@@ -61,7 +61,7 @@ hello/String
 % The plural of man is men.
 
 % Is Socrates mortal?
-; -> "Yes."
+; -> yes
 
 ```
 
@@ -453,7 +453,7 @@ In response to this puzzle pedagogical, Logoi translates logical sentences into 
 ; -> 'All {1} are {2}.'(Y, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', X),
 ;    'The {1} of {2} is {3}.'('plural', X, Y).
-; -> "Yes."
+; -> yes
 
 ```
 [[Existentialization](https://en.wikipedia.org/wiki/Existential_quantification)]
@@ -484,7 +484,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Ĉiuj {1} estas {2}.'(Y, 'mortemaj'),
 ;    '{1} estas {2}.'('Socrates', X),
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
-; -> "Jes."
+; -> jes
 
 ;
 ; Español
@@ -512,7 +512,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Todos los {1} son {2}.'(Y, 'mortales'),
 ;    '{1} es un {2}.'('Sócrates', X),
 ;    'El {1} de {2} es {3}.'('plural', X, Y).
-; -> "Sí."
+; -> sí
 
 ;
 ; Deutsch
@@ -540,7 +540,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Alle {1} sind {2}.'(Y, 'sterblich'),
 ;    '{1} ist ein {2}.'('Sokrates', X),
 ;    'Der {1} von {2} ist {3}.'('Plural', X, Y).
-; -> "Ja."
+; -> ja
 
 ;
 ; ελληνικά
@@ -560,6 +560,15 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 
 % Όλοι άνδρες είναι θνητοί.
 ; -> 'Όλοι {1} είναι {2}.'('άνδρες', 'θνητοί').
+
+% Ο πληθυντικός του άνθρωπος είναι άνδρες.
+; -> 'Ο {1} του {2} είναι {3}.'('πληθυντικός', 'άνθρωπος', 'άνδρες').
+
+% Είναι θνητός ο Σωκράτης;
+; -> 'Όλοι {1} είναι {2}.'(Y, 'θνητοί'),
+;    'Ο {1} είναι ένας {2}.'('Σωκράτης', X),
+;    'Ο {1} του {2} είναι {3}.'('πληθυντικός', X, Y).
+; -> ναι
 
 ;
 ; Latin
@@ -587,7 +596,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Omnes {1} {2}.'(Y, 'mortales'),
 ;    '{1} est {2}.'('Socrates', X),
 ;    '{1} {2} est {3}.'('Pluralis', X, Y).
-; -> "Sic."
+; -> sic
 
 ;
 ; Danish
@@ -615,7 +624,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> 'Alle {1} er {2}.'(Y, 'dødelige'),
 ;    '{1} er en {2}.'('Sokrates', X),
 ;    '{1} af {2} er {3}.'('Flertal', X, Y).
-; -> "Ja."
+; -> ja
 
 ```
 # Conjunction Junction
