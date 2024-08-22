@@ -569,6 +569,10 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 Abandon all hope, and grab a hard hat, ye who enter here.
 ```
 
+;
+; Lisp->Prolog
+;
+
 english/String
     "Socrates is a man."
 ; -> '{1} is a {2}.'('Socrates', 'man').
@@ -583,6 +587,10 @@ esperanto/String
 
 prolog/String
     "'{1} estas {2}.'('Sokrato', 'viro')."
+
+;
+; Prolog->Lisp
+;
 
 % The sum of {1} and {2} is {3}.
 ; -> Name/Value
