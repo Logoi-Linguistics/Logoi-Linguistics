@@ -566,16 +566,16 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ```
 
 english/String
-    `Socrates is a man.`
+    "Socrates is a man."
 
 prolog/String
-    `'{1} is a {2}.'('Socrates', 'man').`
+    "'{1} is a {2}.'('Socrates', 'man')."
 
 esperanto/String
-    `Sokrato estas viro.`
+    "Sokrato estas viro."
 
 prolog/String
-    `'{1} estas {2}.'('Sokrato', 'viro').`
+    "'{1} estas {2}.'('Sokrato', 'viro')."
 
 % The sum of {1} and {2} is {3}.
 ; -> Name/Value
