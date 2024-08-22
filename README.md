@@ -597,7 +597,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> '{1} er en {2} til {3}.'('Prolog', 'skabelon', 'sætninger').
 
 % λόγοι er det græske ord for "ord".
-; -> '{1} is the {2} word for "{3}".'('λόγοι', 'græske', 'ord').
+; -> '{1} er det {2} ord for "{3}".'('λόγοι', 'græske', 'ord').
 
 % Daedalus var far til Ikaros.
 ; -> '{1} var {2} til {3}.'('Daedalus', 'far', 'Ikaros').
