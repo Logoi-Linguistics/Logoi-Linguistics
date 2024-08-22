@@ -629,28 +629,53 @@ Abandon all hope, and grab a hard hat, ye who enter here.
 ; Lisp->Prolog
 ;
 
-english/String
+; Sentence::String
+; Sentences::Strings
+
+english/Sentences
     "Socrates is a man."
+    "All men are mortal."
+    "The plural of man is men."
 ; -> '{1} is a {2}.'('Socrates', 'man').
+;    'All {1} are {2}.'('men', 'mortal').
+;    'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
-; English::Sentence::String
+; Question::Sentence::String
 
-yes?/English
-    "Is Socrates a man?"
-; -> true
+yes?/Question
+    "Is Socrates mortal?"
+; -> '{1} is a {2}.'('Socrates', 'man').
+;    'All {1} are {2}.'('men', 'mortal').
+;    'The {1} of {2} is {3}.'('plural', 'man', 'men').
+; -> yes
 
 prolog/String
     "'{1} is a {2}.'('Socrates', 'man')."
 ; -> '{1} is a {2}.'('Socrates', 'man').
 
-; Esperanto::Sentence::String
+; Demando::Frazo::Ŝnuro
 
-jes?/Esperanto
-    "Sokrato estas viro."
-; -> '{1} estas {2}.'('Sokrato', 'viro').
+Nomo/Valoro
+    jes
+    yes
 
-prolog/String
+Nomo/Valoro
+    jes?/Demando    
+    Funkcio/1
+        demando
+        esperanto?/Ŝnuro
+            demando
+
+jes?/Demando
+    "Sokrato estas mortema?"
+; -> 'Ĉiuj {1} estas {2}.'(Y, 'mortemaj'),
+;    '{1} estas {2}.'('Socrates', X),
+;    '{1} = {2} + {3}.'(Y, X, 'j').
+; -> jes
+
+prolog/Ŝnuro
     "'{1} estas {2}.'('Sokrato', 'viro')."
+; -> '{1} estas {2}.'('Sokrato', 'viro').
 
 ;
 ; Prolog->Lisp
