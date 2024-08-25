@@ -82,7 +82,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 - Logic: Quinean Sentential Schemata (QSS)
 - Humor: being extralogical, is precluded *a priori*.
 
-# Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L)
+# Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [Quantum]
 
 ```
 
@@ -425,7 +425,7 @@ try/catch/else/finally
 
 ```
 
-# Logic: Quinean Sentential Schemata (QSS)
+# Logic: Quinean Sentential Schemata (QSS) [Newtonian]
 
 The logic programming paradigm has long been shrouded by dint of a daunting syntax.
 
