@@ -19,7 +19,7 @@ Roadmap:
 - HTML: &lt;done&gt;
 - CSS: .done
 - English: Done!
-- esperanton (kompleta!)
+- esperanto (kompleta!)
 - Español ()
 - Deutsch ()
 - ελληνικά ()
