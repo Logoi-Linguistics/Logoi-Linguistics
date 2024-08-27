@@ -8,16 +8,18 @@ Logoi = Prolog ∧ Lisp
 
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
+Meta-Prequest: Please excuse my insufferable sense of humor. I am a recovering poet.
+
 <hr>
 
 Roadmap:
-- JavaScript (Browser)
-- Prolog (Done)
-- Lisp (Done)
-- HTML (Done)
-- CSS (Done)
-- English (Done)
-- Esperanto (Done)
+- JavaScript: (Browser!)
+- Prolog: Done.
+- Lisp: (Staged)
+- HTML: &lt;done&gt;
+- CSS: .done
+- English: Done!
+- esperanton (kompleta!)
 - Español ()
 - Deutsch ()
 - ελληνικά ()
@@ -99,6 +101,10 @@ Logoi file formatting follows two distinct aesthetic dicta:
 ```
 
 ;
+; [English]
+;
+
+;
 ; Logoi; or,
 ; "A Universal (Human) Grammar for Commentary Logical, Mathematical & Editorial"
 ;
@@ -137,9 +143,9 @@ This-is-translated-to-Lisp. ; (Mathematical)
 
 ; Editorial:
 
-; This sentence is ignored. % This sentence is ignored. This-sentence-is-ignored.
+; This sentence is ignored. % This sentence is ignored. This-is-ignored.
 
-; This sentence is ignored. This-sentence-is-ignored. % This sentence is ignored.
+; This sentence is ignored. This-is-ignored. % This sentence is ignored.
 
 ; Logical:
 
@@ -190,18 +196,18 @@ hello!/String
 
 ; Unabridged:
 
-Name/Value                  ; Name/Value is a MetaFunction of arity: 2.
-    hello!/String           ; hello! is an ImpureFunction of domain: String.
-    Function/1              ; Function/1 is a MetaFunction of arity: 1.
-        whom                ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-        alert!/String       ; alert! is an ImpureFunction of domain: String.
-            join/Strings    ; join is a VariadicFunction of domain: Strings.
-                "Hello, "   ; "Hello, " is a Constant::String.
-                whom        ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"         ; "!" is a Constant::Character::String.
+Name/Value                ; Name/Value is a MetaFunction of arity: 2.
+    hello!/String         ; hello! is an ImpureFunction of domain: String.
+    Function/1            ; Function/1 is a MetaFunction of arity: 1.
+        whom              ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+        alert!/String     ; alert! is an ImpureFunction of domain: String.
+            join/Strings  ; join is a VariadicFunction of domain: Strings.
+                "Hello, " ; "Hello, " is a String.
+                whom      ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+                "!"       ; "!" is a Character::String.
 
-hello!/String   ; hello! is an ImpureFunction of domain: String.
-    "World"     ; "World" is a Constant::Word::String.
+hello!/String ; hello! is an ImpureFunction of domain: String.
+    "World"   ; "World" is a Word::String.
 ; -> "Hello, World!" (BrowserAlert)
 
 ;
@@ -272,20 +278,20 @@ celsius->fahrenheit/Rational
 
 ; Unabridged:
 
-Name/Value                          ; Name/Value is a MetaFunction of arity: 2.
-    celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
-    Function/1                      ; Function/1 is a MetaFunction of arity: 1.
-        C                           ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-        +                           ; + is a VariadicFunction of domain: Numbers.
-            32                      ; 32 is a Constant::Even::Whole
-            *                       ; * is a VariadicFunction of domain: Numbers.
-                C                   ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                /                   ; / is a VariadicFunction of domain: Numbers? (with exceptions)
-                    9               ; 9 is a Constant::Odd::Whole
-                    5               ; 5 is a Constant::Prime::Whole
+Name/Value                       ; Name/Value is a MetaFunction of arity: 2.
+    celsius->fahrenheit/Rational ; celsius->fahrenheit is a Function of domain: Rational.
+    Function/1                   ; Function/1 is a MetaFunction of arity: 1.
+        C                        ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+        +                        ; + is a VariadicFunction of domain: Numbers.
+            32                   ; 32 is a Even::Whole
+            *                    ; * is a VariadicFunction of domain: Numbers.
+                C                ; C is a Parameter::??, where: ?? = #TypeSignatureIndex#.
+                /                ; / is a VariadicFunction of domain: Numbers? (with exceptions)
+                    9            ; 9 is a Odd::Whole
+                    5            ; 5 is a Prime::Whole
 
-celsius->fahrenheit/Rational    ; celsius->fahrenheit is a Function of domain: Rational.
-    100                         ; 100 is a Constant::Even
+celsius->fahrenheit/Rational ; celsius->fahrenheit is a Function of domain: Rational.
+    100                      ; 100 is a Natural::Even
 ; -> 212
 
 ;
@@ -434,6 +440,349 @@ try/catch/else/finally
     alert!/String
         "document.append/<Element> completed another iteration, for better or worse."
 ; -> DOM-Event
+
+
+
+;
+; [esperanton]
+;
+
+;
+; Logoio; aŭ,
+; "Universala (Homa) Gramatiko por Commentary Logical, Mathematical & Editorial"
+;
+
+;
+; En antaŭfiksita linio de Logoi,
+; la punktokomo (;) markas
+; eblan malkontinuecon inter
+; logika kaj eksterlogika semantiko.
+;
+; Traduko: Redakcia komento komenciĝas per punktokomo (;).
+;
+
+%
+% En antaŭfiksita linio de Logoi,
+% la percentilo (%) markas
+% eblan malkontinuecon inter
+% la lambda kaj predikataj kalkuloj.
+%
+% Traduko: Logika komento komenciĝas per percentilo (%).
+%
+
+;
+; Funkciigistoj, Ekzemplataj
+;
+
+; Ĉi tio estas ignorata. ; (Redakcia)
+
+% Ĉi tio estas tradukita al Prologo. ; (Logika)
+
+Ĉi-tio-estas-tradukita-al-Lisp. ; (Matematika)
+
+;
+; Operatoraj Antaŭecoj, Ekzemplataj
+;
+
+; Redakcia:
+
+; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorita. Ĉi-tiu-estas-ignorita.
+
+; Ĉi tiu frazo estas ignorata. Ĉi-tiu-estas-ignorita.  % Ĉi tiu frazo estas ignorita.
+
+; Logika:
+
+% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
+%   Ĉi tiu frazo estas tradukita al ProLog.
+%   Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
+%       Ĉi tiu frazo estas tradukita al ProLog.
+%   Ĉi tiu frazo estas tradukita al ProLog. Ĉi tiu frazo estas tradukita al ProLog.
+
+% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.  Ĉi-tiu-estas-ignorita.
+% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al ProLog. Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al ProLog. Ĉi-tiu-estas-tradukita-al-ProLog. ; Ĉi tiu frazo estas ignorata.
+
+; Matematika:
+
+Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata.
+    Ĉi-tio-estas-tradukita-al-LisP.
+    Ĉi-tio-estas-tradukita-al-LisP. % Ĉi tiu frazo estas tradukita al ProLog.
+        Ĉi-tio-estas-tradukita-al-LisP.
+            Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata.
+
+Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata. Ĉi-tiu-estas-ignorita.
+Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata..
+Ĉi-tio-estas-tradukita-al-LisP. % Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
+Ĉi-tio-estas-tradukita-al-LisP. Ĉi-tio-kaŭzas-eraron-pri-formatado. ; (1 Atomo per Linio)
+
+;
+; "Saluton, Mondo!", Difinita
+;
+
+; Mallongigita:
+
+Nomo/Valoro
+    saluton!/Ŝnuro
+    Funkcio/1
+        kiu
+        atentigu!/Ŝnuro
+            kunigu/Ŝnuroj
+                "Saluton, "
+                kiu
+                "!"
+
+saluton!/Ŝnuro
+    "Mondo"
+; -> "Saluton, Mondo!" (RetumilaAtentigo)
+
+; Nemallongigita:
+
+Nomo/Valoro                 ; Nomo/Valoro estas MetaFunkcio de valento: 2.
+saluton!/Ŝnuro              ; saluton! estas MalpuraFunkcio de domajno: Ŝnuro.
+    Funkcio/1               ; Funkcio/1 estas MetaFunkcio de valento: 1.
+        kiu                 ; kiu estas Parametro::??, kie: ?? = #TajpuSubsignaindekso#.
+        atentigu!/Ŝnuro     ; atentigi! estas MalpuraFunkcio de domajno: Ŝnuro.
+            kunigu/Ŝnuroj   ; kunigi estas VariadaFunkcio de domajno: Ŝnuroj.
+                "Saluton, " ; "Saluton, " estas Ŝnuro.
+                kiu         ; kiu estas Parametro::??, kie: ?? = #TajpuSubsignaindekso#.
+                "!"         ; "!" estas Signo::Ŝnuro.
+
+saluton!/Ŝnuro ; saluton! estas MalpuraFunkcio de domajno: Ŝnuro.
+    "Mondo"    ; "Mondo" estas Vorto::Ŝnuro.
+; -> "Saluton, Mondo!" (RetumilaAtentigo)
+
+;
+; Abstraktado Operatoroj, Abstraktita
+;
+
+Nomo/Valoro
+    {nomo::Atomo}
+    {valoro::Esprimo}
+
+Nomoj/Valoro
+    {nomo1::Atomo}
+        {valoro1::Esprimo}
+    {nomoN::Atomo}
+        {valoroN::Esprimo}
+    {valoro::Esprimo}
+
+Funkcio/1
+    {parametro1::Atomo}
+    {korpo::Esprimo}
+
+Funkcio/2
+    {parametro1::Atomo}
+    {parametro2::Atomo}
+    {korpo::Esprimo}
+
+se/vera/malvera
+    {kondiĉa::BuleaEsprimo}
+    {vero-kazo::Esprimo}
+    {malvero-kazo::Esprimo}
+    
+se/jes/ne
+    {kondiĉa::BuleaEsprimo}
+    {vero-kazo::Esprimo}
+    {malvero-kazo::Esprimo}
+    
+provu/kaptu/alie/fine
+    {provo::Esprimo}
+    {eraro1::EraraTipo}
+        {prizorganto1::Esprimo}
+    {eraroN::EraraTipo}
+        {prizorgantoN::Esprimo}
+    {ne-eraro::Esprimo}
+    {ĉiuj-kazoj::Esprimo}
+
+;
+; celsio->farenhejt/Racia
+; estas Funkcio kiu transformas Racian temperaturon de Celsio al Farenhejt.
+;
+
+; Mallongigita:
+
+Nomo/Valoro
+    celsio->farenhejt/Racia
+    Funkcio/1
+        C
+        +
+            32
+            *
+                C
+                /
+                    9
+                    5
+
+celsio->farenhejt/Racia
+    100
+; -> 212
+
+; Nemallongigita:
+
+Nomo/Valoro                 ; Nomo/Valoro estas MetaFunkcio de valento: 2.
+    celsio->farenhejt/Racio ; celsio->farenhejt estas Funkcio de domajno: Racio.
+    Funkcio/1               ; Funkcio/1 estas MetaFunkcio de valento: 1.
+        C                   ; C estas Parametro::??, kie: ?? = #TajpuSubsignaindekso#.
+        +                   ; + estas VariadaFunkcio de domajno: Nombroj.
+            32              ; 32 estas Para::Tuta
+            *               ; * estas VariadaFunkcio de domajno: Nombroj.
+                C           ; C estas Parametro::??, kie: ?? = #TajpuSubsignaindekso#.
+                /           ; / estas VariadaFunkcio de domajno: Nombroj? (kun esceptoj)
+                    9       ; 9 estas Nepara::Tuta
+                    5       ; 5 estas Primo::Tuta
+
+celsio->farenhejt/Racia ; celsio->farenhejt estas Funkcio de domajn: Racia.
+    100                 ; 100 estas Para::Tuta
+; -> 212
+
+;
+; atentigu!/Ŝnuro
+; estas Malpura Funkcio/1 kiu montras Ŝnuron en la ŝprucfenestro/atentigo/DialogokestaRetumilo.
+;
+
+atentigu!/Ŝnuro
+    kunigu/Alfanombraj
+        "0 celsiogradoj estas "
+        celsio->farenhejt/Racia
+            0
+        " farenhejtgradoj."
+; -> "0 celsiogradoj estas 32 farenhejtgradoj." (RetumilaAtentigo)
+
+;
+; "Lasu-Amplekso" Ligoj
+;
+
+Nomoj/Valoro
+    C
+        0
+    F
+        celsio->farenhejt/Racia
+            C
+    atentigu!/Ŝnuro
+        kunigu/Ŝnuroj
+            ŝnuro/Racia
+                C
+            " celsiogradoj estas "
+            ŝnuro/Racia
+                F
+            " farenhejtgradoj."
+; -> "0 celsiogradoj estas 32 farenhejtgradoj." (RetumilaAtentigo)
+
+;
+; egala?/Tuta/Tuta
+; estas Funkcio/2 kiu determinas la egalecon de du tutaj nombroj.
+;
+
+Nomo/Valoro
+    egala?/Tuta/Tuta
+    Funkcio/2
+        X
+        Y
+        Nomoj/Valoro
+            diferenco
+                -
+                    X ; Minuendo
+                    Y ; Subtrahendo
+            ne/Bulea
+                aŭ/Buleaj
+                    pozitiva?/Entjero
+                        diferenco
+                    negativa?/Entjero
+                        diferenco
+
+egala?/Tuta/Tuta
+    1
+    2
+; -> malvera
+
+;
+; Sokrato-estas-viro.
+; X estas Bulea valoro derivita de la egaleco de 0 kaj 0.
+;
+
+Nomo/Valoro
+    Sokrato-estas-viro.
+    egala?/Tuta/Tuta
+        0
+        0
+
+se/jes/ne
+    Sokrato-estas-viro.
+    konzolo.ensaluti!/Ŝnuro
+        "Sokrato estas senpluma dupiedulo."
+    konzolo.ensaluti!/Ŝnuro
+        "Sokrato estas mortema."
+; -> "Socrates estas senpluma dupiedulo." (RetumilaAtentigo)
+
+```
+[[Neante la Antaŭulon](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
+```
+
+;
+; HTML-Elementaj Konstruiloj
+;
+
+Nomo/Valoro
+    <elemento/etikedo::Ŝnuro>
+    Funkcio/1
+        etikedo
+        dokumento.kreiElementon/Ŝnuro
+            etikedo
+
+Nomo/Valoro
+    <div>
+    <elemento/etikedo::Ŝnuro>
+        "div"
+
+Nomo/Valoro
+    <div/Enhavo>
+    Funkcio/1
+        enhavo
+        .internaHTML/Elemento/Enhavo
+            <div>
+            enhavo
+
+Nomo/Valoro
+    <div/id::Ŝnuro/Enhavo>
+    Funkcio/2
+        id
+        enhavo
+        .stariguAtributon/Elemento/Ŝnuro/Ŝnuro
+            <div/Enhavo>
+                enhavo
+            "id"
+            id
+
+Nomo/Valoro
+    dokumento.append/Elemento
+    Funkcio/1
+        <elemento>
+        dokumento.aldonu/Elemento
+            <elemento>
+
+;
+; Pritraktado de Eraroj
+;
+
+provu/kaptu/alie/fine
+    dokumento.aldonu/Elemento
+        <div/id::Ŝnuro/Enhavo>
+            "elektita"
+            <div/Enhavo>
+                42
+    TajpaEraro
+        konzolo.ensaluti!/Ŝnuro
+            "Nula <Elemento> renkontita?"
+    Eraro
+        konzolo.ensaluti!/Ŝnuro
+            "Io, ie, estas rompita."
+    konzolo.ensaluti!/Ŝnuro
+        "<Elemento> sukcese aldonita al dokumento."
+    atentigu!/Ŝnuro
+        "dokumento.aldonu/Elemento kompletigita alia ripeto, por pli bone aŭ malbone."
+; -> DOM-Evento
 
 ```
 
