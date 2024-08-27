@@ -16,6 +16,22 @@ This is the current* "source code repository" for the Logoi:
 
 *(2024/08)
 
+Roadmap of Human Dialects:
+- JavaScript (Browser)
+- Prolog (Done)
+- Lisp (Done)
+- HTML (Done)
+- CSS (Done)
+- English (Done)
+- Esperanto (Done)
+- Español ()
+- Deutsch ()
+- ελληνικά ()
+- Latinum ()
+- Dansk ()
+- 汉语 ()
+- 日本語 ()
+
 <hr>
 
 [What is Logoi?](https://logoi.website/tweedle)
