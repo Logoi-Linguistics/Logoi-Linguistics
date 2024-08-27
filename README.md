@@ -442,7 +442,9 @@ try/catch/else/finally
 ; -> DOM-Event
 
 ```
+
 <hr>
+
 ```
 
 ;
