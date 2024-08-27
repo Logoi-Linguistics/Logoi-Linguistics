@@ -10,7 +10,7 @@ Logoi = Prolog ∧ Lisp
 
 <hr>
 
-Logoi is the Second Tower of Babel.
+<b>Logoi is the Second Tower of Babel.</b>
 
 Roadmap:
 - JavaScript (Browser)
