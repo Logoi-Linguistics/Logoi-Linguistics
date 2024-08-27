@@ -829,11 +829,11 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ```
 
 ;
-; Esperanto
+; esperanto
 ;
 
-% Prologo estas ŝablono por frazoj.
-; -> '{1} estas {2} por {3}.'('Prologo', 'ŝablono', 'frazoj').
+% ProLog estas ŝablono por frazoj.
+; -> '{1} estas {2} por {3}.'('ProLog', 'ŝablono', 'frazoj').
 
 % "λόγοι" estas la greka vorto por "vortoj".
 ; -> '"{1}" estas la {2} vorto por "{3}".'('λόγοι', 'greka', 'vortoj').
