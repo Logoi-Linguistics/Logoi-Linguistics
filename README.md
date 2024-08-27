@@ -10,13 +10,9 @@ Logoi = Prolog ∧ Lisp
 
 <hr>
 
-This is the current* "source code repository" for the Logoi:
-- natural programming language, and
-- hyperextensible text editor.
+<em>"Logoi is the Second Tower of Babel."</em>
 
-*(2024/08)
-
-Roadmap of Human Dialects:
+Roadmap:
 - JavaScript (Browser)
 - Prolog (Done)
 - Lisp (Done)
