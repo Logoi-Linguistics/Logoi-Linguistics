@@ -418,6 +418,19 @@ Name/Value
             <element>
 
 ;
+; CSS Set Theory
+;
+
+Name/Value
+
+
+;
+; JavaScript Built-ins
+;
+
+
+
+;
 ; Error Handling
 ;
 
@@ -936,7 +949,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> ναι
 
 ;
-; Latin
+; Latinum
 ;
 
 % Prolog est exemplum sententias.
@@ -964,7 +977,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> sic
 
 ;
-; Danish
+; Dansk
 ;
 
 % Prolog er en skabelon til sætninger.
@@ -990,6 +1003,16 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} er en {2}.'('Sokrates', X),
 ;    '{1} af {2} er {3}.'('Flertal', X, Y).
 ; -> ja
+
+;
+; 汉语
+;
+
+% 道可道，非恆道；
+% 名可名，非恆名。
+
+% 無名，天地之始；
+% 有名，萬物之母。
 
 ```
 # Conjunction Junction
