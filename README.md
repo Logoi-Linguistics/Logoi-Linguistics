@@ -8,8 +8,6 @@ Logoi = Prolog ∧ Lisp
 
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
-Meta-Prequest: Please excuse my insufferable sense of humor; I self-identify as a recovering poet.
-
 <hr>
 
 Roadmap:
