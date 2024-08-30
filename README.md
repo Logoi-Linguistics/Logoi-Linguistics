@@ -11,12 +11,12 @@ Logoi = Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- JavaScript: (Browser!)
-- Prolog: Done.
-- Lisp: (Staged)
+- JavaScript: (browser!)
+- Prolog: done.
+- Lisp: (done?)
 - HTML: &lt;done&gt;
 - CSS: .done
-- English: Done!
+- English: done!
 - esperanto (kompleta!)
 - Español ()
 - Deutsch ()
