@@ -111,7 +111,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 ;
 ; In a given line of Logoi,
 ;   the semicolon (;) marks
-;   a potential discontinuity between
+;   a potential discontinuity between its
 ;   logical and extralogical semantics.
 ;
 ; Translation: Editorial commentary begins with a semicolon (;).
