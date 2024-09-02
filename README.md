@@ -25,6 +25,7 @@ Roadmap:
 - Dansk ()
 - 汉语 ()
 - 日本語 ()
+- WebAssembly ()
 
 <hr>
 
