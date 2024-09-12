@@ -9,3 +9,27 @@ for (let i = 0; i <= 1; i++) {
     pane_div.classList.add("half");
     editor.appendChild(pane_div);
 }
+
+// Editor (Input)
+
+let editor_rows = 25;
+let editor_columns = 100;
+
+let ide = document.createElement("table");
+let ide_body = document.createElement("tbody");
+
+for (let i = 0; i < editor_rows; i++) {
+    let row = document.createElement("tr");
+    for (let j = 0; j < editor_columns; j++) {
+        let column = document.createElement("td");
+        column.classList.add("character");
+        row.appendChild(column);
+    }
+    ide_body.appendChild(row);
+}
+
+ide.appendChild(ide_body);
+
+// Spreadsheet (Output)
+
+let rows = 100;
