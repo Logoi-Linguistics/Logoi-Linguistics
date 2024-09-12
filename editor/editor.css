@@ -8,7 +8,6 @@ body {
 .pane {
     position: absolute;
     top: 1vh;
-    left: 1vw;
     height: 98vh;
     border: 1px solid white;
 }
@@ -18,7 +17,7 @@ body {
 }
 
 #left {
-    left: 0;
+    left: 1vw;
 }
 
 #right {
