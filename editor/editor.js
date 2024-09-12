@@ -26,8 +26,9 @@ for (let i = 0; i < editor_rows; i++) {
             let line_number = (i < 10) ? "0".concat(String(i)) : String(i);
             column.appendChild(document.createTextNode(line_number));
             column.classList.add("gutter");
+        } else {
+            column.classList.add("character");
         }
-        column.classList.add("character");
         row.appendChild(column);
     }
     ide_body.appendChild(row);

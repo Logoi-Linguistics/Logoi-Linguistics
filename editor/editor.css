@@ -15,7 +15,7 @@ body {
     top: 1vh;
     height: 98vh;
     border: 1px solid white;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 #left {
@@ -35,7 +35,7 @@ body {
     font-size: 20px;
     color: #87CEEB;
     max-height: fit-content;
-    max-width: fit-content;
+    width: 10px;
 }
 
 .gutter {
