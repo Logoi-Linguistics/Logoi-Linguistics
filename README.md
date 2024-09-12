@@ -415,7 +415,7 @@ Name/Value
     document.append/Element
     Function/1
         <element>
-        document.append/Element
+        document.appendChild
             <element>
 
 ;
