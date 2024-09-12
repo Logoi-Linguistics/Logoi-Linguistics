@@ -13,13 +13,13 @@ body {
 }
 
 .half {
-    width: 48vw;
+    width: 49vw;
 }
 
 #left {
-    left: 1vw;
+    left: 0.5vw;
 }
 
 #right {
-    left: 51vw;
+    left: 50.5vw;
 }
