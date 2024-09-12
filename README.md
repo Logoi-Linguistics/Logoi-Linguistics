@@ -471,18 +471,18 @@ try/catch/else/finally
 ; En antaŭfiksita linio de Logoi,
 ; la punktokomo (;) markas
 ; eblan malkontinuecon inter
-; logika kaj eksterlogika semantiko.
+; logikaj kaj eksterlogikaj semantikoj.
 ;
-; Traduko: Redakcia komento komenciĝas per punktokomo (;).
+; Traduko: Redakciaj komentoj komenciĝas per punktokomo (;).
 ;
 
 %
 % En antaŭfiksita linio de Logoi,
 % la percentilo (%) markas
 % eblan malkontinuecon inter
-% la lambda kaj predikataj kalkuloj.
+% la lambdaj kaj predikataj kalkuloj.
 %
-% Traduko: Logika komento komenciĝas per percentilo (%).
+% Traduko: Logikaj komentoj komenciĝas per percentilo (%).
 %
 
 ;
