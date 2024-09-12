@@ -59,11 +59,18 @@ body {
 
 .gutter {
     text-align: right;
-    border-right: 1px dotted rgba(255, 255, 255, 0.5); /* Gray */
+    border-right: 1px dashed rgba(255, 255, 255, 0.5); /* Gray */
     color: rgba(255, 255, 255, 0.5); /* Gray */
 }
 
+@keyframes blink {
+    50% {
+        border-right: 1px solid rgba(10, 6, 18, 1);
+    }
+}
+
 .current-character {
+    animation: blink;
     border-left: 1px solid white!important;
 }
 
