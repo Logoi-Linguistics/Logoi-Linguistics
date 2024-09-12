@@ -12,7 +12,7 @@ for (let i = 0; i <= 1; i++) {
 
 // Editor (Input)
 
-let editor_rows = 25;
+let editor_rows = 200;
 let editor_columns = 100;
 
 let ide = document.createElement("table");
