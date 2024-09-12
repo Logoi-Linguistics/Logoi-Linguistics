@@ -30,6 +30,8 @@ body {
 
 .character {
     border: none;
+    padding: 0;
+    border-spacing: 0;
     font-size: 20px;
     color: #87CEEB;
     max-height: fit-content;
