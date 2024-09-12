@@ -12,14 +12,12 @@ body {
     border: 1px solid white;
 }
 
-.half {
-    width: 49vw;
-}
-
 #left {
     left: 0.5vw;
+    width: 40vw;
 }
 
 #right {
     left: 50.5vw;
+    width: 58vw;
 }
