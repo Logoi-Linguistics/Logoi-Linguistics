@@ -23,10 +23,11 @@ for (let i = 0; i < editor_rows; i++) {
     for (let j = 0; j < editor_columns; j++) {
         let column = document.createElement("td");
         if (j == 0) {
-            column.appendChild(document.createTextNode(String(i)));
             column.classList.add("gutter");
+            column.appendChild(document.createTextNode(String(i)));
         } else {
             column.classList.add("character");
+            column.appendChild(document.createTextNode(String(i)));
         }
         row.appendChild(column);
     }

@@ -50,7 +50,7 @@ body {
     border-spacing: 0;
     font-size: 20px;
     max-height: fit-content;
-    width: 10px;
+    min-width: 10px;
 }
 
 .gutter {
