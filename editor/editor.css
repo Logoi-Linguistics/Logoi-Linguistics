@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+* {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #87CEEB;
+}
+
 html,
 body {
     margin: 0;
@@ -33,7 +47,6 @@ body {
     padding: 0;
     border-spacing: 0;
     font-size: 20px;
-    color: #87CEEB;
     max-height: fit-content;
     width: 10px;
 }
@@ -41,4 +54,5 @@ body {
 .gutter {
     text-align: right;
     border-right: 1px solid white;
+    color: #87CEEB;
 }
