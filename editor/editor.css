@@ -62,3 +62,11 @@ body {
     border-right: 1px dotted rgba(255, 255, 255, 0.5); /* Gray */
     color: rgba(255, 255, 255, 0.5); /* Gray */
 }
+
+.current-character {
+    border-left: 1px solid white!important;
+}
+
+.active-row {
+    color: #87CEEB!important;
+}

@@ -18,17 +18,18 @@ let editor_columns = 100;
 let ide = document.createElement("table");
 let ide_body = document.createElement("tbody");
 
-for (let i = 0; i < editor_rows; i++) {
+for (let r = 0; r < editor_rows; r++) {
     let row = document.createElement("tr");
-    for (let j = 0; j < editor_columns; j++) {
+    for (let c = 0; c < editor_columns; c++) {
         let column = document.createElement("td");
-        if (j == 0) {
+        if (c == 0) {
             column.classList.add("gutter");
-            column.appendChild(document.createTextNode(String(i)));
+            column.appendChild(document.createTextNode(String(r)));
         } else {
             column.classList.add("character");
             column.appendChild(document.createTextNode("λ"));
         }
+        column.setAttribute("id", String(r).concat("-", String(c)));
         row.appendChild(column);
     }
     ide_body.appendChild(row);
@@ -36,6 +37,9 @@ for (let i = 0; i < editor_rows; i++) {
 
 ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
+
+document.getElementById("1-0").classList.add("active-row");
+document.getElementById("1-1").classList.add("current-character");
 
 // Spreadsheet (Output)
 
