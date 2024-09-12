@@ -29,6 +29,7 @@ for (let i = 0; i < editor_rows; i++) {
 }
 
 ide.appendChild(ide_body);
+document.getElementById("left").appendChild(ide);
 
 // Spreadsheet (Output)
 
