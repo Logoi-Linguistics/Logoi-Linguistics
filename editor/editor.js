@@ -22,6 +22,7 @@ for (let i = 0; i < editor_rows; i++) {
     let row = document.createElement("tr");
     for (let j = 0; j < editor_columns; j++) {
         let column = document.createElement("td");
+        column.appendChild(document.createTextNode("λ"));
         column.classList.add("character");
         row.appendChild(column);
     }
