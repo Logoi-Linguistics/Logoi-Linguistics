@@ -27,7 +27,7 @@ for (let i = 0; i < editor_rows; i++) {
             column.appendChild(document.createTextNode(String(i)));
         } else {
             column.classList.add("character");
-            column.appendChild(document.createTextNode(" "));
+            column.appendChild(document.createTextNode("λ"));
         }
         row.appendChild(column);
     }
