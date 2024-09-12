@@ -30,6 +30,8 @@ body {
     height: 98vh;
     border: 1px solid white;
     overflow: scroll;
+    padding: 0;
+    margin: 0;
 }
 
 #left {

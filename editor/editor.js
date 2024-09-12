@@ -24,8 +24,12 @@ for (let i = 0; i < editor_rows; i++) {
         let column = document.createElement("td");
         if (j == 0) {
             let line_number = "";
-            if (i < 100) { line_number.concat("0"); }
-            if (i < 10) { line_number.concat("0"); }
+            if (i < 100) {
+                line_number.concat("0");
+            }
+            if (i < 10) {
+                line_number.concat("0");
+            }
             line_number.concat(String(i));
             column.appendChild(document.createTextNode(line_number));
             column.classList.add("gutter");
