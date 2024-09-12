@@ -3,14 +3,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    padding-top: 1vh;
-    padding-left: 1vw;
 }
 
 .pane {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 1vh;
+    left: 1vw;
     height: 98vh;
     border: 1px solid white;
 }
@@ -24,5 +22,5 @@ body {
 }
 
 #right {
-    left: 50vw;
+    left: 51vw;
 }
