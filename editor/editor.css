@@ -8,10 +8,12 @@
 
 ::-webkit-scrollbar {
     width: 0;
+    height: 0;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #87CEEB;
+    width: 0;
+    height: 0;
 }
 
 html,
