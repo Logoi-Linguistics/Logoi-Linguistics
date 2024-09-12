@@ -23,7 +23,10 @@ for (let i = 0; i < editor_rows; i++) {
     for (let j = 0; j < editor_columns; j++) {
         let column = document.createElement("td");
         if (j == 0) {
-            let line_number = (i < 10) ? "0".concat(String(i)) : String(i);
+            let line_number = "";
+            if (i < 100) { line_number.concat("0"); }
+            if (i < 10) { line_number.concat("0"); }
+            line_number.concat(String(i));
             column.appendChild(document.createTextNode(line_number));
             column.classList.add("gutter");
         } else {
@@ -40,3 +43,4 @@ document.getElementById("left").appendChild(ide);
 // Spreadsheet (Output)
 
 let rows = 100;
+let columns = 26;
