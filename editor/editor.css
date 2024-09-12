@@ -70,7 +70,8 @@ body {
 }
 
 .current-character {
-    animation: blink;
+    animation: blink 1s;
+    animation-iteration-count: infinite;
     border-left: 1px solid white!important;
 }
 
