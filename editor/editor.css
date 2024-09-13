@@ -23,7 +23,7 @@ body {
     border: 0;
     overflow: hidden;
     font-family: 'Fira Code', monospace;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .pane {
@@ -51,17 +51,18 @@ body {
     border: none;
     padding: 0;
     border-spacing: 0;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     max-height: fit-content;
     width: 10px;
     color: rgba(10, 6, 18, 1); /* Dark Plum */
+    border-left: 1px solid rgba(10, 6, 18, 1);
 }
 
 .gutter {
     text-align: right;
     border-right: 1px solid rgba(255, 255, 255, 0.5); /* Gray */
     color: rgba(255, 255, 255, 0.5); /* Gray */
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 @keyframes blink {
