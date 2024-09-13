@@ -38,20 +38,6 @@ for (let r = 0; r < editor_rows; r++) {
 ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
 
-let ide_keydown = (event) => {
-    console.table(event);
-}
-
-let ide_keyup = (event) => {
-    console.table(event);
-}
-
-ide.addEventListener("keydown", ide_keydown);
-ide.addEventListener("keyup", ide_keyup);
-
-document.getElementById("2-0").classList.add("active-row");
-document.getElementById("2-1").classList.add("current-character");
-
 document.getElementById("0-1").innerHTML = "%";
 document.getElementById("0-2").innerHTML = "&nbsp;";
 document.getElementById("0-3").innerHTML = "E";
@@ -72,6 +58,22 @@ document.getElementById("0-7").classList.add("variable");
 document.getElementById("0-8").classList.add("variable");
 document.getElementById("0-9").classList.add("variable");
 document.getElementById("0-10").classList.add("constant");
+
+let ide_keydown = (event) => {
+    alert(event);
+}
+
+let ide_keyup = (event) => {
+    alert(event);
+}
+
+ide.addEventListener("keydown", ide_keydown);
+ide.addEventListener("keyup", ide_keyup);
+
+document.getElementById("2-0").classList.add("active-row");
+document.getElementById("2-1").classList.add("current-character");
+
+document.getElementById("2-1").focus();
 
 // Spreadsheet (Output)
 
