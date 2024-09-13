@@ -30,7 +30,6 @@ body {
     position: absolute;
     top: 1vh;
     height: 98vh;
-    border: 1px solid rgba(255, 255, 255, 0.5);
     overflow: scroll;
     padding: 0;
     margin: 0;
@@ -39,12 +38,13 @@ body {
 #left {
     left: 0.5vw;
     width: 40vw;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 #right {
     left: 41.5vw;
     width: 58vw;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
 .character {
@@ -59,7 +59,7 @@ body {
 
 .gutter {
     text-align: right;
-    border-right: 1px dashed rgba(255, 255, 255, 0.5); /* Gray */
+    border-right: 1px solid rgba(255, 255, 255, 0.5); /* Gray */
     color: rgba(255, 255, 255, 0.5); /* Gray */
     font-size: 0.9rem;
 }
