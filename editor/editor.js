@@ -38,8 +38,19 @@ for (let r = 0; r < editor_rows; r++) {
 ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
 
-document.getElementById("1-0").classList.add("active-row");
-document.getElementById("1-1").classList.add("current-character");
+ide.addEventListener("keydown", ide_keydown);
+ide.addEventListener("keyup", ide_keyup);
+
+let ide_keydown = (event) => {
+    console.table(event);
+}
+
+let ide_keyup = (event) => {
+    console.table(event);
+}
+
+document.getElementById("2-0").classList.add("active-row");
+document.getElementById("2-1").classList.add("current-character");
 
 document.getElementById("0-1").innerHTML = "%";
 document.getElementById("0-2").innerHTML = "&nbsp;";
