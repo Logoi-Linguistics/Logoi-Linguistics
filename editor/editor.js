@@ -74,8 +74,8 @@ if (window.innerWidth < 500) {
         let current_col = parseInt(ACTIVE_CELL.substring(ACTIVE_CELL.indexOf("-") + 1));
         if (event.keyCode == 37) {
             // Left arrow
-            if (current_col > 0) {
-                let next_row = current_row - 1;
+            if (current_col <= 1) {
+                let next_row = max(0, current_row - 1);
                 document.getElementById(ACTIVE_CELL).classList.remove("current-character");
                 document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
                 ACTIVE_CELL = String(next_row).concat("-", "1");
@@ -91,7 +91,7 @@ if (window.innerWidth < 500) {
         if (event.keyCode == 38) {
             // Up arrow
             if (current_row > 0) {
-                let next_row = current_row - 1;
+                let next_row = max(0, current_row - 1);
                 document.getElementById(ACTIVE_CELL).classList.remove("current-character");
                 document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
                 ACTIVE_CELL = String(next_row).concat("-", current_col);
