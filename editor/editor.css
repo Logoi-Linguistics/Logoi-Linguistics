@@ -65,13 +65,13 @@ body {
 
 @keyframes blink {
     0% {
-        border-left: 1px solid rgba(10, 6, 18, 1);
-    }
-    50% {
         border-left: 1px solid white;
     }
-    100% {
+    50% {
         border-left: 1px solid rgba(10, 6, 18, 1);
+    }
+    100% {
+        border-left: 1px solid white;
     }
 }
 
