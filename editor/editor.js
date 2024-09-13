@@ -38,9 +38,6 @@ for (let r = 0; r < editor_rows; r++) {
 ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
 
-ide.addEventListener("keydown", ide_keydown);
-ide.addEventListener("keyup", ide_keyup);
-
 let ide_keydown = (event) => {
     console.table(event);
 }
@@ -48,6 +45,9 @@ let ide_keydown = (event) => {
 let ide_keyup = (event) => {
     console.table(event);
 }
+
+ide.addEventListener("keydown", ide_keydown);
+ide.addEventListener("keyup", ide_keyup);
 
 document.getElementById("2-0").classList.add("active-row");
 document.getElementById("2-1").classList.add("current-character");
