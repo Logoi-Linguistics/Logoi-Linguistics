@@ -23,7 +23,7 @@ body {
     border: 0;
     overflow: hidden;
     font-family: 'Fira Code', monospace;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .pane {
@@ -51,7 +51,7 @@ body {
     border: none;
     padding: 0;
     border-spacing: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
     max-height: fit-content;
     width: 10px;
     color: rgba(10, 6, 18, 1); /* Dark Plum */
@@ -61,6 +61,7 @@ body {
     text-align: right;
     border-right: 1px dashed rgba(255, 255, 255, 0.5); /* Gray */
     color: rgba(255, 255, 255, 0.5); /* Gray */
+    font-size: 0.9rem;
 }
 
 @keyframes blink {
