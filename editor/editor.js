@@ -97,10 +97,31 @@ let editor_keydown = (event) => {
         }
     }
     if (event.keyCode == 39) {
-        alert("Right arrow");
+        // Right arrow
+        if (current_col > 99) {
+            let next_row = current_row + 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", "1");
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+            document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
+        } else {
+            let next_col = current_col + 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+        }
     }
     if (event.keyCode == 40) {
-        alert("Down arrow");
+        // Down arrow
+        if (current_row < 199) {
+            let next_row = current_row + 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", current_col);
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+            document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
+        }
     }
 }
 
