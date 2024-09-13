@@ -50,7 +50,7 @@ document.getElementById("0-6").innerHTML = "l";
 document.getElementById("0-7").innerHTML = "i";
 document.getElementById("0-8").innerHTML = "s";
 document.getElementById("0-9").innerHTML = "h";
-document.getElementById("0-9").innerHTML = ".";
+document.getElementById("0-10").innerHTML = ".";
 
 document.getElementById("0-1").classList.add("function");
 document.getElementById("0-3").classList.add("variable");
@@ -60,7 +60,7 @@ document.getElementById("0-6").classList.add("variable");
 document.getElementById("0-7").classList.add("variable");
 document.getElementById("0-8").classList.add("variable");
 document.getElementById("0-9").classList.add("variable");
-document.getElementById("0-9").classList.add("constant");
+document.getElementById("0-10").classList.add("constant");
 
 // Spreadsheet (Output)
 

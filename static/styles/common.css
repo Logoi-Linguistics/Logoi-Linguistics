@@ -36,13 +36,13 @@ a {
 }
 
 .function {
-    color: #B9A5E2; /* Salmon: #ff8fab; Lavender: #B9A5E2 */
+    color: #B9A5E2!important; /* Salmon: #ff8fab; Lavender: #B9A5E2 */
 }
 
 .variable {
-    color: #FFF; /* White */
+    color: #FFF!important; /* White */
 }
 
 .constant {
-    color: #87CEEB; /* Sky Blue */
+    color: #87CEEB!important; /* Sky Blue */
 }
