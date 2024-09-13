@@ -67,11 +67,11 @@ document.getElementById("0-9").classList.add("variable");
 document.getElementById("0-10").classList.add("constant");
 
 let editor_keydown = (event) => {
-    alert(event);
+    alert(event.keyCode);
 }
 
 let editor_keyup = (event) => {
-    alert(event);
+    alert(event.keyCode);
 }
 
 editor.addEventListener("keydown", editor_keydown);
