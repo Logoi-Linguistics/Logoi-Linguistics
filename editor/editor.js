@@ -67,11 +67,34 @@ document.getElementById("0-9").classList.add("variable");
 document.getElementById("0-10").classList.add("constant");
 
 let editor_keydown = (event) => {
+    let current_row = parseInt(ACTIVE_CELL.substring(0, ACTIVE_CELL.indexOf("-")));
+    let current_col = parseInt(ACTIVE_CELL.substring(ACTIVE_CELL.indexOf("-") + 1));
     if (event.keyCode == 37) {
-        alert("Left arrow");
+        // Left arrow
+        if (current_col <= 1) {
+            let next_row = current_row - 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", "1");
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+            document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
+        } else {
+            let next_col = current_col - 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+        }
     }
     if (event.keyCode == 38) {
-        alert("Up arrow");
+        // Up arrow
+        if (current_row > 1) {
+            let next_row = current_row - 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", current_col);
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+            document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
+        }
     }
     if (event.keyCode == 39) {
         alert("Right arrow");
