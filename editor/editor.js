@@ -7,7 +7,6 @@ let editor = document.getElementById("editor");
 
 let hook = document.createElement("input");
 hook.setAttribute("id", "hook");
-hook.setAttribute("display", "none");
 editor.appendChild(hook);
 
 let halves = ["left", "right"];
@@ -81,7 +80,7 @@ editor.addEventListener("keyup", editor_keyup);
 document.getElementById("2-0").classList.add("active-row");
 document.getElementById("2-1").classList.add("current-character");
 
-document.getElementById(hook).focus();
+document.getElementById("hook").focus();
 
 // Spreadsheet (Output)
 
