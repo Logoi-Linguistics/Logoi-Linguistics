@@ -1,4 +1,14 @@
+let ACTIVE_PANE = "left";
+let ACTIVE_CELL = "2-1";
+
+// Editor (Input)
+
 let editor = document.getElementById("editor");
+
+let hook = document.createElement("input");
+hook.setAttribute("id", "hook");
+hook.setAttribute("display", "none");
+editor.appendChild(hook);
 
 let halves = ["left", "right"];
 
@@ -9,8 +19,6 @@ for (let i = 0; i <= 1; i++) {
     pane_div.classList.add("half");
     editor.appendChild(pane_div);
 }
-
-// Editor (Input)
 
 let editor_rows = 200;
 let editor_columns = 100;
@@ -59,21 +67,21 @@ document.getElementById("0-8").classList.add("variable");
 document.getElementById("0-9").classList.add("variable");
 document.getElementById("0-10").classList.add("constant");
 
-let ide_keydown = (event) => {
+let editor_keydown = (event) => {
     alert(event);
 }
 
-let ide_keyup = (event) => {
+let editor_keyup = (event) => {
     alert(event);
 }
 
-ide.addEventListener("keydown", ide_keydown);
-ide.addEventListener("keyup", ide_keyup);
+editor.addEventListener("keydown", editor_keydown);
+editor.addEventListener("keyup", editor_keyup);
 
 document.getElementById("2-0").classList.add("active-row");
 document.getElementById("2-1").classList.add("current-character");
 
-document.getElementById("2-1").focus();
+document.getElementById(hook).focus();
 
 // Spreadsheet (Output)
 
