@@ -67,11 +67,22 @@ document.getElementById("0-9").classList.add("variable");
 document.getElementById("0-10").classList.add("constant");
 
 let editor_keydown = (event) => {
-    alert(event.keyCode);
+    if (event.keyCode == 37) {
+        alert("Left arrow");
+    }
+    if (event.keyCode == 38) {
+        alert("Up arrow");
+    }
+    if (event.keyCode == 39) {
+        alert("Right arrow");
+    }
+    if (event.keyCode == 40) {
+        alert("Down arrow");
+    }
 }
 
 let editor_keyup = (event) => {
-    alert(event.keyCode);
+    console.log("Editor keydown");
 }
 
 editor.addEventListener("keydown", editor_keydown);
