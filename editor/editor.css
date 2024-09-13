@@ -65,20 +65,19 @@ body {
 
 @keyframes blink {
     0% {
-        border-right: 1px dashed rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(10, 6, 18, 1);
     }
     50% {
-        border-right: 1px solid rgba(10, 6, 18, 1);
+        border-left: 1px solid white;
     }
     100% {
-        border-right: 1px dashed rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(10, 6, 18, 1);
     }
 }
 
 .current-character {
     animation: blink 1s;
     animation-iteration-count: infinite;
-    border-left: 1px solid white!important;
 }
 
 .active-row {
