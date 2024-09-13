@@ -41,16 +41,16 @@ document.getElementById("left").appendChild(ide);
 document.getElementById("1-0").classList.add("active-row");
 document.getElementById("1-1").classList.add("current-character");
 
-document.getElementById("0-1").innerHTML("%");
-document.getElementById("0-2").innerHTML("&nbsp");
-document.getElementById("0-3").innerHTML("E");
-document.getElementById("0-4").innerHTML("n");
-document.getElementById("0-5").innerHTML("g");
-document.getElementById("0-6").innerHTML("l");
-document.getElementById("0-7").innerHTML("i");
-document.getElementById("0-8").innerHTML("s");
-document.getElementById("0-9").innerHTML("h");
-document.getElementById("0-9").innerHTML(".");
+document.getElementById("0-1").innerHTML = "%";
+document.getElementById("0-2").innerHTML = "&nbsp;";
+document.getElementById("0-3").innerHTML = "E";
+document.getElementById("0-4").innerHTML = "n";
+document.getElementById("0-5").innerHTML = "g";
+document.getElementById("0-6").innerHTML = "l";
+document.getElementById("0-7").innerHTML = "i";
+document.getElementById("0-8").innerHTML = "s";
+document.getElementById("0-9").innerHTML = "h";
+document.getElementById("0-9").innerHTML = ".";
 
 document.getElementById("0-1").classList.add("function");
 document.getElementById("0-3").classList.add("variable");
