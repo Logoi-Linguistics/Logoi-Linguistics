@@ -11,21 +11,21 @@ Logoi = Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- JavaScript: (browser!)
+- JavaScript: browser/vanilla
 - Prolog: done.
-- Lisp: (done?)
+- Lisp: done?
 - HTML: &lt;done&gt;
 - CSS: .done
 - English: done!
-- esperanto (kompleta!)
-- Español ()
-- Deutsch ()
-- ελληνικά ()
-- Latinum ()
-- Dansk ()
-- 汉语 ()
-- 日本語 ()
-- WebAssembly ()
+- esperanto: kompleta!
+- Español:
+- Deutsch:
+- ελληνικά:
+- Latinum:
+- Dansk:
+- 汉语:
+- 日本語:
+- WebAssembly:
 
 <hr>
 
