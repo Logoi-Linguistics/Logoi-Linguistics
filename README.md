@@ -46,18 +46,18 @@ at once.
 ;
 
 MetaFunction/2
-    hello/String
+    hello!/String
     MetaFunction/1
         Variable
-        Function/1
+        Function!/1
             Function/N
                 Constant
                 Variable
                 Constant
 
-hello/String
+hello!/String
     String
-; -> BrowserEvent
+; -> BrowserEvent! (side-effective indicator: !)
 
 %
 % '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
