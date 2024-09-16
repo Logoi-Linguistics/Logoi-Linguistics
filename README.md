@@ -11,7 +11,7 @@ Logoi = Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- JavaScript: browser/vanilla
+- JavaScript: Vanilla
 - Prolog: done.
 - Lisp: done?
 - HTML: &lt;done&gt;
