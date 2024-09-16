@@ -35,7 +35,7 @@ Roadmap:
 
 <b>Logoi</b> is a:
 - *minimalist superdialect* (of JavaScript/Prolog/Lisp) and
-- *mouseless editor* (of itself, in itself, and, eventually, by itself)
+- *hyperexstensible/mouseless editor* (of itself, in itself, and, eventually, by itself)
 
 at once.
 
