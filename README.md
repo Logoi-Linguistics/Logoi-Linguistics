@@ -59,15 +59,21 @@ hello!/String
     String
 ; -> BrowserEvent! (side-effective indicator: !)
 
-%
-% '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
-%
+;
+; Natural/Declarative Constraints
+;
+
+% Prolog is a template for sentences.
+; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
 % λόγοι is the Greek word for "words".
+; -> '{1} is the {2} word for "{3}".'('λόγοι', 'Greek', 'words').
 
 % Daedalus was the father of Icarus.
+; -> '{1} was the {2} of {3}.'('Daedalus', 'father', 'Icarus').
 
 % Socrates was ugly.
+; -> '{1} was {2}.'('Socrates', 'ugly').
 
 % Socrates is a man.
 % All men are mortal.
@@ -99,9 +105,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 
 ```
 
-;
-; [English]
-;
+% English.
 
 ;
 ; Logoi; or,
