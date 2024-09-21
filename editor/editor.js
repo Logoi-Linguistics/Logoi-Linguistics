@@ -70,6 +70,7 @@ if (window.innerWidth < 500) {
     document.getElementById("0-10").classList.add("constant");
 
     let editor_keydown = (event) => {
+        console.table("KeyCode:", event.keyCode);
         let current_row = parseInt(ACTIVE_CELL.substring(0, ACTIVE_CELL.indexOf("-")));
         let current_col = parseInt(ACTIVE_CELL.substring(ACTIVE_CELL.indexOf("-") + 1));
         if (event.keyCode == 37) {
