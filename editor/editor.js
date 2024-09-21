@@ -37,7 +37,7 @@ if (window.innerWidth < 500) {
                 column.appendChild(document.createTextNode(String(r)));
             } else {
                 column.classList.add("character");
-                column.appendChild(document.createTextNode("&nbsp;"));
+                column.appendChild(document.createTextNode(""));
             }
             column.setAttribute("id", String(r).concat("-", String(c)));
             row.appendChild(column);
