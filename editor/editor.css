@@ -55,7 +55,7 @@ body {
     max-height: fit-content;
     width: 10px;
     color: rgba(10, 6, 18, 1) !important; /* Dark Plum */
-    border-left: 1px solid rgba(10, 6, 18, 1);
+    /* border-left: 1px solid rgba(10, 6, 18, 1); */
 }
 
 .gutter {
