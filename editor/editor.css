@@ -54,7 +54,7 @@ body {
     font-size: 1rem;
     max-height: fit-content;
     width: 10px;
-    color: rgba(10, 6, 18, 1); /* Dark Plum */
+    color: rgba(10, 6, 18, 0); /* Dark Plum */
     border-left: 1px solid rgba(10, 6, 18, 0.1);
 }
 
