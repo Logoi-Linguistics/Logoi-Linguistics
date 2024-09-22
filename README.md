@@ -423,18 +423,6 @@ Name/Value
             <element>
 
 ;
-; CSS Set Theory
-;
-
-; TODO: Examples
-
-;
-; JavaScript Built-ins
-;
-
-; TODO: Examples
-
-;
 ; Error Handling
 ;
 
