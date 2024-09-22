@@ -67,22 +67,20 @@ body {
 
 @keyframes blink {
     0% {
-        border-left: 1px solid rgba(10, 6, 18, 0);
+        border-left: 1px solid rgba(135, 206, 235, 1);
     }
     50% {
-        border-left: 1px solid #87CEEB;
+        border-left: 1px solid rgba(10, 6, 18, 0);
     }
     100% {
-        border-left: 1px solid rgba(10, 6, 18, 0);
+        border-left: 1px solid rgba(135, 206, 235, 1);
     }
 }
 
 .current-character {
-    /*
     animation: blink 1s;
     animation-iteration-count: infinite;
-    */
-    border-left: 1px solid #87CEEB;
+    /* border-left: 1px solid rgba(135, 206, 235, 1); */
 }
 
 .active-row {
