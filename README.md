@@ -451,28 +451,28 @@ try/catch/else/finally
 ```
 
 ;
-; [esperanton]
+; esperanto.
 ;
 
 ;
-; Logoio; aŭ,
-; "Universala (Homa) Gramatiko por Commentary Logical, Mathematical & Editorial"
+; logoj; aŭ,
+; "Universala (Homa) Gramatiko por Komentario Logika, Matematika & Redakcia"
 ;
 
 ;
-; En antaŭfiksita linio de Logoi,
-; la punktokomo (;) markas
-; eblan malkontinuecon inter
-; logikaj kaj eksterlogikaj semantikoj.
+; En antaŭfiksita linio de logoj,
+;   la punktokomo (;) markas
+;   eblan malkontinuecon inter
+;   logikaj kaj eksterlogikaj semantikoj.
 ;
 ; Traduko: Redakciaj komentoj komenciĝas per punktokomo (;).
 ;
 
 %
-% En antaŭfiksita linio de Logoi,
-% la percentilo (%) markas
-% eblan malkontinuecon inter
-% la lambdaj kaj predikataj kalkuloj.
+% En antaŭfiksita linio de logoj,
+%   la percentilo (%) markas
+%   eblan malkontinuecon inter
+%   la lambdaj kaj predikataj kalkuloj.
 %
 % Traduko: Logikaj komentoj komenciĝas per percentilo (%).
 %
@@ -483,9 +483,9 @@ try/catch/else/finally
 
 ; Ĉi tio estas ignorata. ; (Redakcia)
 
-% Ĉi tio estas tradukita al Prologo. ; (Logika)
+% Ĉi tio estas tradukita al prologo. ; (Logika)
 
-Ĉi-tio-estas-tradukita-al-Lisp. ; (Matematika)
+Ĉi-tio-estas-tradukita-al-lispo. ; (Matematika)
 
 ;
 ; Operatoraj Antaŭecoj, Ekzemplataj
@@ -499,30 +499,30 @@ try/catch/else/finally
 
 ; Logika:
 
-% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
-%   Ĉi tiu frazo estas tradukita al ProLog.
-%   Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
-%       Ĉi tiu frazo estas tradukita al ProLog.
-%   Ĉi tiu frazo estas tradukita al ProLog. Ĉi tiu frazo estas tradukita al ProLog.
+% Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.
+%   Ĉi tiu frazo estas tradukita al prologo.
+%   Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.
+%       Ĉi tiu frazo estas tradukita al prologo.
+%   Ĉi tiu frazo estas tradukita al prologo. Ĉi tiu frazo estas tradukita al prologo.
 
-% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
-% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.  Ĉi-tiu-estas-ignorita.
-% Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata.
-% Ĉi tiu frazo estas tradukita al ProLog. Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
-% Ĉi tiu frazo estas tradukita al ProLog. Ĉi-tiu-estas-tradukita-al-ProLog. ; Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.  Ĉi-tiu-estas-ignorita.
+% Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al prologo. Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.
+% Ĉi tiu frazo estas tradukita al prologo. Ĉi-tiu-estas-tradukita-al-prologo. ; Ĉi tiu frazo estas ignorata.
 
 ; Matematika:
 
-Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata.
-    Ĉi-tio-estas-tradukita-al-LisP.
-    Ĉi-tio-estas-tradukita-al-LisP. % Ĉi tiu frazo estas tradukita al ProLog.
-        Ĉi-tio-estas-tradukita-al-LisP.
-            Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata.
+Ĉi-tio-estas-tradukita-al-lispo. ; Ĉi tiu frazo estas ignorata.
+    Ĉi-tio-estas-tradukita-al-lispo.
+    Ĉi-tio-estas-tradukita-al-lispo. % Ĉi tiu frazo estas tradukita al prologo.
+        Ĉi-tio-estas-tradukita-al-lispo.
+            Ĉi-tio-estas-tradukita-al-lispo. ; Ĉi tiu frazo estas ignorata.
 
-Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata. Ĉi-tiu-estas-ignorita.
-Ĉi-tio-estas-tradukita-al-LisP. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata..
-Ĉi-tio-estas-tradukita-al-LisP. % Ĉi tiu frazo estas tradukita al ProLog. ; Ĉi tiu frazo estas ignorata.
-Ĉi-tio-estas-tradukita-al-LisP. Ĉi-tio-kaŭzas-eraron-pri-formatado. ; (1 Atomo per Linio)
+Ĉi-tio-estas-tradukita-al-lispo. ; Ĉi tiu frazo estas ignorata. Ĉi-tiu-estas-ignorita.
+Ĉi-tio-estas-tradukita-al-lispo. ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorata..
+Ĉi-tio-estas-tradukita-al-lispo. % Ĉi tiu frazo estas tradukita al prologo. ; Ĉi tiu frazo estas ignorata.
+Ĉi-tio-estas-tradukita-al-lispo. Ĉi-tio-kaŭzas-eraron-pri-formatado. ; (1 Atomo per Linio)
 
 ;
 ; "Saluton, Mondo!", Difinita
@@ -797,7 +797,7 @@ provu/kaptu/alie/fine
 
 The logic programming paradigm has long been shrouded by dint of a daunting syntax.
 
-In response to this puzzle pedagogical, Logoi translates "logical" sentences into Prolog code for you:
+In response to this puzzle pedagogical, Logoi translates "logical" sentences (truth-value statements) into Prolog terms/code for you:
 
 ```
 
@@ -831,9 +831,9 @@ In response to this puzzle pedagogical, Logoi translates "logical" sentences int
 English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
 
-;
-; esperanto
-;
+
+% esperanto.
+
 
 % ProLog estas ŝablono por frazoj.
 ; -> '{1} estas {2} por {3}.'('ProLog', 'ŝablono', 'frazoj').
@@ -856,9 +856,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
 ; -> jes.
 
-;
-; Español
-;
+
+% Español.
+
 
 % Prolog es una plantilla para oraciones.
 ; -> '{1} es una {2} para {3}.'('Prolog', 'plantilla', 'oraciones').
@@ -884,9 +884,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'El {1} de {2} es {3}.'('plural', X, Y).
 ; -> sí.
 
-;
-; Deutsch
-;
+
+% Deutsch.
+
 
 % Prolog ist eine Vorlage für Sätze.
 ; -> '{1} ist eine {2} für {3}.'('Prolog', 'Vorlage', 'Sätze').
@@ -912,9 +912,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'Der {1} von {2} ist {3}.'('Plural', X, Y).
 ; -> ja.
 
-;
-; ελληνικά
-;
+
+% ελληνικά.
+
 
 % Το Prolog είναι ένα πρότυπο για προτάσεις.
 ; -> 'Το {1} είναι ένα {2} για {3}.'('Prolog', 'πρότυπο', 'προτάσεις').
@@ -940,9 +940,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'Ο {1} του {2} είναι {3}.'('πληθυντικός', X, Y).
 ; -> ναι.
 
-;
-; Latinum
-;
+
+% Latinum.
+
 
 % Prolog est exemplum sententias.
 ; -> '{1} est {2} {3}.'('Prolog', 'exemplum', 'sententias').
@@ -968,9 +968,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} {2} est {3}.'('Pluralis', X, Y).
 ; -> sic.
 
-;
-; Dansk
-;
+
+% Dansk.
+
 
 % Prolog er en skabelon til sætninger.
 ; -> '{1} er en {2} til {3}.'('Prolog', 'skabelon', 'sætninger').
@@ -996,9 +996,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} af {2} er {3}.'('Flertal', X, Y).
 ; -> ja.
 
-;
-; 汉语
-;
+
+% 汉语.
+
 
 % 道可道，非恆道；
 % 名可名，非恆名。
@@ -1009,7 +1009,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ```
 # Conjunction Junction
 
-!!!This area is closed to the general public!!!
+!!!This area is closed to the (general) public!!!
 
 Abandon all hope, and grab a hard hat, ye who enter here:
 ```
@@ -1036,7 +1036,7 @@ yes?/Question
 ; -> '{1} is a {2}.'('Socrates', 'man').
 ;    'All {1} are {2}.'('men', 'mortal').
 ;    'The {1} of {2} is {3}.'('plural', 'man', 'men').
-; -> yes.
+; -> true
 
 ; Term::String
 
