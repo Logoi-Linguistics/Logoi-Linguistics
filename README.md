@@ -75,6 +75,9 @@ hello!/String
 % Socrates was ugly.
 ; -> '{1} was {2}.'('Socrates', 'ugly').
 
+% Alan Turing did nothing wrong.
+; -> '{1} did {2}.'('Alan Turing', 'nothing wrong').
+
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
