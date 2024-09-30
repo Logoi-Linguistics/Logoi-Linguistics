@@ -37,7 +37,7 @@ for (let r = 0; r < editor_rows; r++) {
             column.classList.add("gutter");
             column.appendChild(document.createTextNode(String(r)));
         } else {
-            column.classList.add("character");
+            column.classList.add("invisible");
             column.appendChild(document.createTextNode("λ"));
         }
         column.setAttribute("id", String(r).concat("-", String(c)));
@@ -139,6 +139,8 @@ let editor_keydown = (event) => {
         if (event.shiftKey) { capitalized = true; }
         // Lowercase letter event
         document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
+        document.getElementById(ACTIVE_CELL).classList.add("variable");
+        document.getElementById(ACTIVE_CELL).classList.remove("invisible");
         // Move cursor to next cell
         let next_col = current_col + 1;
         document.getElementById(ACTIVE_CELL).classList.remove("current-character");
