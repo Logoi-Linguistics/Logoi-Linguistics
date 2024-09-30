@@ -72,7 +72,7 @@ document.getElementById("0-10").classList.add("constant");
 
 let editor_keydown = (event) => {
     console.table("KeyCode:", event.keyCode);
-    
+
     let current_row = parseInt(ACTIVE_CELL.substring(0, ACTIVE_CELL.indexOf("-")));
     let current_col = parseInt(ACTIVE_CELL.substring(ACTIVE_CELL.indexOf("-") + 1));
     
@@ -135,8 +135,10 @@ let editor_keydown = (event) => {
     }
 
     if (event.keyCode >= 65 && event.keyCode <= 90) {
+        let capitalized = false;
+        if (event.shiftKey) { capitalized = true; }
         // Lowercase letter event
-        document.getElementById(ACTIVE_CELL).innerHTML = String.fromCharCode(event.keyCode);
+        document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
         // Move cursor to next cell
         let next_col = current_col + 1;
         document.getElementById(ACTIVE_CELL).classList.remove("current-character");
