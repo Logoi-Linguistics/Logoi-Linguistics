@@ -137,15 +137,18 @@ let editor_keydown = (event) => {
     if (event.keyCode >= 65 && event.keyCode <= 90) {
         let capitalized = false;
         if (event.shiftKey) { capitalized = true; }
-        // Lowercase letter event
-        document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
-        document.getElementById(ACTIVE_CELL).classList.add("variable");
-        document.getElementById(ACTIVE_CELL).classList.remove("invisible");
-        // Move cursor to next cell
-        let next_col = current_col + 1;
-        document.getElementById(ACTIVE_CELL).classList.remove("current-character");
-        ACTIVE_CELL = String(current_row).concat("-", String(next_col));
-        document.getElementById(ACTIVE_CELL).classList.add("current-character");
+
+        if (!event.ctrlKey) {
+            // Lowercase letter event
+            document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
+            document.getElementById(ACTIVE_CELL).classList.add("variable");
+            document.getElementById(ACTIVE_CELL).classList.remove("invisible");
+            // Move cursor to next cell
+            let next_col = current_col + 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+        }
     }
 
 }
