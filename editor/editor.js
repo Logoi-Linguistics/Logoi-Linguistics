@@ -196,9 +196,14 @@ let editor_keydown = (event) => {
     if (event.keyCode == 20) {
         if (ACTIVE_PANE == "left") {
             alert("Switching active pane from left to right...");
+            document.getElementById("left").classList.remove("active-pane");
+            document.getElementById("right").classList.add("active-pane");
             ACTIVE_PANE = "right";
+
         } else {
             alert("Switching active pane from right to left...");
+            document.getElementById("right").classList.remove("active-pane");
+            document.getElementById("left").classList.add("active-pane");
             ACTIVE_PANE = "left";
         }
     }

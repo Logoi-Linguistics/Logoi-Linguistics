@@ -33,18 +33,21 @@ body {
     overflow: scroll;
     padding: 0;
     margin: 0;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.active-pane {
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 #left {
     left: 0.5vw;
     width: 40vw;
-    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 #right {
     left: 41.5vw;
     width: 58vw;
-    border: 1px dashed rgba(255, 255, 255, 0.5);
 }
 
 .invisible {
