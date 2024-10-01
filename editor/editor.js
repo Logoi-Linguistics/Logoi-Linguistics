@@ -156,20 +156,20 @@ let editor_keydown = (event) => {
         if (current_col <= 1) {
             let next_row = Math.max(0, current_row - 1);
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", "1");
             document.getElementById(ACTIVE_CELL).classList.add("invisible");
             document.getElementById(ACTIVE_CELL).classList.remove("variable");
             document.getElementById(ACTIVE_CELL).innerHTML = "λ";
-            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
-            ACTIVE_CELL = String(next_row).concat("-", "1");
             document.getElementById(ACTIVE_CELL).classList.add("current-character");
             document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
         } else {
             let next_col = Math.max(1, current_col - 1);
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
             document.getElementById(ACTIVE_CELL).classList.add("invisible");
             document.getElementById(ACTIVE_CELL).classList.remove("variable");
             document.getElementById(ACTIVE_CELL).innerHTML = "λ";
-            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
             document.getElementById(ACTIVE_CELL).classList.add("current-character");
         }
     }
