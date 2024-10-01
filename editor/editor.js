@@ -76,8 +76,8 @@ let editor_keydown = (event) => {
     let current_row = parseInt(ACTIVE_CELL.substring(0, ACTIVE_CELL.indexOf("-")));
     let current_col = parseInt(ACTIVE_CELL.substring(ACTIVE_CELL.indexOf("-") + 1));
     
+    // Left arrow event
     if (event.keyCode == 37) {
-        // Left arrow event
         if (current_col <= 1) {
             let next_row = Math.max(0, current_row - 1);
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
@@ -93,8 +93,8 @@ let editor_keydown = (event) => {
         }
     }
 
+    // Up arrow event
     if (event.keyCode == 38) {
-        // Up arrow event
         if (current_row > 0) {
             let next_row = Math.max(0, current_row - 1);
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
@@ -105,8 +105,8 @@ let editor_keydown = (event) => {
         }
     }
 
+    // Right arrow event
     if (event.keyCode == 39) {
-        // Right arrow event
         if (current_col > 99) {
             let next_row = current_row + 1;
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
@@ -122,8 +122,8 @@ let editor_keydown = (event) => {
         }
     }
 
+    // Down arrow event
     if (event.keyCode == 40) {
-        // Down arrow event
         if (current_row < 199) {
             let next_row = current_row + 1;
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
@@ -134,15 +134,21 @@ let editor_keydown = (event) => {
         }
     }
 
-    if (event.keyCode >= 65 && event.keyCode <= 90) {
-        let capitalized = false;
-        if (event.shiftKey) { capitalized = true; }
-
+    // Alphabetical (+spacebar) event
+    if ((event.keyCode >= 65 && event.keyCode <= 90) || event.keyCode == 32) {
         if (!event.ctrlKey) {
-            // Lowercase letter event
-            document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
-            document.getElementById(ACTIVE_CELL).classList.add("variable");
-            document.getElementById(ACTIVE_CELL).classList.remove("invisible");
+            let capitalized = false;
+            if (event.shiftKey) { capitalized = true; }
+            // De/capitalization
+            if (event.keyCode == 32) {
+                document.getElementById(ACTIVE_CELL).classList.add("invisible");
+                document.getElementById(ACTIVE_CELL).classList.remove("variable");
+                document.getElementById(ACTIVE_CELL).innerHTML = "λ";
+            } else {
+                document.getElementById(ACTIVE_CELL).innerHTML = (capitalized) ? String.fromCharCode(event.keyCode) : String.fromCharCode(event.keyCode).toLowerCase();
+                document.getElementById(ACTIVE_CELL).classList.add("variable");
+                document.getElementById(ACTIVE_CELL).classList.remove("invisible");
+            }
             // Move cursor to next cell
             let next_col = current_col + 1;
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
@@ -151,8 +157,8 @@ let editor_keydown = (event) => {
         }
     }
 
+    // Backspace event
     if (event.keyCode == 8) {
-        // Backspace event
         if (current_col <= 1) {
             let next_row = Math.max(0, current_row - 1);
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
