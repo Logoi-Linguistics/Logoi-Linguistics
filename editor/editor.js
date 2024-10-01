@@ -180,6 +180,11 @@ let editor_keydown = (event) => {
         }
     }
 
+    // Enter event
+    if (event.keyCode == 13) {
+
+    }
+
 }
 
 let editor_keyup = (event) => {
@@ -195,6 +200,28 @@ document.getElementById("2-1").classList.add("current-character");
 document.getElementById("hook").focus();
 
 // Spreadsheet (Output)
+let grid_rows = 100;
+let grid_columns = 26;
 
-let rows = 100;
-let columns = 26;
+let grid = document.createElement("table");
+let grid_body = document.createElement("tbody");
+
+for (let r = 0; r < grid_rows; r++) {
+    let row = document.createElement("tr");
+    for (let c = 0; c < grid_columns; c++) {
+        let column = document.createElement("td");
+        if (c == 0) {
+            column.classList.add("gutter");
+            column.appendChild(document.createTextNode(String(r)));
+        } else {
+            column.classList.add("invisible");
+            column.appendChild(document.createTextNode("λ"));
+        }
+        column.setAttribute("id", String(r).concat("-", String(c)));
+        row.appendChild(column);
+    }
+    grid_body.appendChild(row);
+}
+
+grid.appendChild(grid_body);
+document.getElementById("right").appendChild(grid);
