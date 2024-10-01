@@ -192,16 +192,14 @@ let editor_keydown = (event) => {
         }
     }
 
-    // Escape event
-    if (event.keyCode == 27) {
-        if (event.altKey) {
-            if (ACTIVE_PANE == "left") {
-                alert("Switching active pane from left to right...");
-                ACTIVE_PANE = "right";
-            } else {
-                alert("Switching active pane from right to left...");
-                ACTIVE_PANE = "left";
-            }
+    // CAPS LOCK event
+    if (event.keyCode == 20) {
+        if (ACTIVE_PANE == "left") {
+            alert("Switching active pane from left to right...");
+            ACTIVE_PANE = "right";
+        } else {
+            alert("Switching active pane from right to left...");
+            ACTIVE_PANE = "left";
         }
     }
 
