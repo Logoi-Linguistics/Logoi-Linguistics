@@ -224,7 +224,7 @@ document.getElementById("hook").focus();
 
 // Spreadsheet (Output)
 let grid_rows = 100;
-let grid_columns = 26;
+let grid_columns = 27;
 
 let grid = document.createElement("table");
 let grid_body = document.createElement("tbody");
@@ -233,6 +233,12 @@ for (let r = 0; r < grid_rows; r++) {
     let row = document.createElement("tr");
     for (let c = 0; c < grid_columns; c++) {
         let column = document.createElement("td");
+
+        if (r == 0 && c != 0) {
+            let column_letter = String.fromCharCode(Math.sum(96, c));
+            document.getElementById(ACTIVE_CELL).innerHTML = column_letter;
+        }
+
         if (c == 0) {
             column.classList.add("gutter");
             column.appendChild(document.createTextNode(String(r)));
