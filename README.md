@@ -11,13 +11,14 @@ Logoi = Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- JavaScript: vanilla
-- Prolog: done.
-- Lisp: done?
+- JavaScript: Vanilla.
+- Prolog: SWI-PL.
+- Lisp: LIPS.
 - HTML: &lt;done&gt;
 - CSS: .done
 - English: done!
 - esperanto: kompleta!
+- WebAssembly: (local.set $done (i32.const 0))
 - Español:
 - Deutsch:
 - ελληνικά:
@@ -25,7 +26,6 @@ Roadmap:
 - Dansk:
 - 汉语:
 - 日本語:
-- WebAssembly:
 
 <hr>
 
