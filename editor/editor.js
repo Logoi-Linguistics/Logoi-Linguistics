@@ -233,18 +233,17 @@ for (let r = 0; r < grid_rows; r++) {
     let row = document.createElement("tr");
     for (let c = 0; c < grid_columns; c++) {
         let column = document.createElement("td");
-
-        if (r == 0 && c != 0) {
-            let column_letter = String.fromCharCode(Math.sum(96, c));
-            document.getElementById(ACTIVE_CELL).innerHTML = column_letter;
-        }
-
         if (c == 0) {
             column.classList.add("gutter");
             column.appendChild(document.createTextNode(String(r)));
         } else {
             column.classList.add("invisible");
-            column.appendChild(document.createTextNode("λ"));
+            if (r == 0) {
+                let column_letter = String.fromCharCode(Math.sum(96, c));
+                column.innerHTML = column_letter;
+            } else {
+                column.appendChild(document.createTextNode("λ"));
+            }
         }
         column.setAttribute("id", String(r).concat("-", String(c)));
         row.appendChild(column);
