@@ -211,6 +211,23 @@ let editor_keydown = (event) => {
             ACTIVE_PANE = "left";
         }
     }
+
+    // Tab event
+    if (event.keyCode == 9) {
+        if (current_col > 98) {
+            let next_row = current_row + 1;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
+            ACTIVE_CELL = String(next_row).concat("-", "1");
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+            document.getElementById(String(next_row).concat("-", "0")).classList.add("active-row");
+        } else {
+            let next_col = current_col + 2;
+            document.getElementById(ACTIVE_CELL).classList.remove("current-character");
+            ACTIVE_CELL = String(current_row).concat("-", String(next_col));
+            document.getElementById(ACTIVE_CELL).classList.add("current-character");
+        }
+    }
 }
 
 let editor_keyup = (event) => {
