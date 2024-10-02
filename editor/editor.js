@@ -183,7 +183,11 @@ let editor_keydown = (event) => {
 
     // Enter event
     if (event.keyCode == 13) {
-        if (current_row < 199) {
+        if (event.shiftKey) {
+            alert("Running line/scope...");
+        } else if (event.ctrlKey) {
+            alert("Running file...");
+        } else if (current_row < 199) {
             let next_row = current_row + 1;
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
             document.getElementById(String(current_row).concat("-", "0")).classList.remove("active-row");
@@ -207,7 +211,6 @@ let editor_keydown = (event) => {
             ACTIVE_PANE = "left";
         }
     }
-
 }
 
 let editor_keyup = (event) => {
