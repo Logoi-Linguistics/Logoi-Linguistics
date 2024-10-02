@@ -214,6 +214,7 @@ let editor_keydown = (event) => {
 
     // Tab event
     if (event.keyCode == 9) {
+        event.preventDefault(); // Blasphemous, but entirely pragmatic.
         if (current_col > 98) {
             let next_row = current_row + 1;
             document.getElementById(ACTIVE_CELL).classList.remove("current-character");
