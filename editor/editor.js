@@ -48,6 +48,7 @@ for (let r = 0; r < editor_rows; r++) {
 
 ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
+document.getElementById("left").classList.add("active-pane");
 
 document.getElementById("0-1").innerHTML = "%";
 document.getElementById("0-2").innerHTML = "&nbsp;";
@@ -195,13 +196,12 @@ let editor_keydown = (event) => {
     // CAPS LOCK event
     if (event.keyCode == 20) {
         if (ACTIVE_PANE == "left") {
-            alert("Switching active pane from left to right...");
+            // alert("Switching active pane from left to right...");
             document.getElementById("left").classList.remove("active-pane");
             document.getElementById("right").classList.add("active-pane");
             ACTIVE_PANE = "right";
-
         } else {
-            alert("Switching active pane from right to left...");
+            // alert("Switching active pane from right to left...");
             document.getElementById("right").classList.remove("active-pane");
             document.getElementById("left").classList.add("active-pane");
             ACTIVE_PANE = "left";
