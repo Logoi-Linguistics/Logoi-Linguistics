@@ -20,6 +20,8 @@ Roadmap:
 - esperanto: kompleta!
 - WebAssembly: (local.set $done (i32.const 0)).
 - Every language except Hebrew & Greek (handicap).
+- Hebrew
+- Greek
 
 <hr>
 
