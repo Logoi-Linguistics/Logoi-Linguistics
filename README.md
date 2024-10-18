@@ -18,7 +18,7 @@ Roadmap:
 - CSS: .done
 - English: done!
 - esperanto: kompleta!
-- WebAssembly: (local.set $done (i32.const 0))
+- WebAssembly: (local.set $done (i32.const 0)).
 - Every language except Hebrew & Greek (handicap).
 
 <hr>
