@@ -19,13 +19,7 @@ Roadmap:
 - English: done!
 - esperanto: kompleta!
 - WebAssembly: (local.set $done (i32.const 0))
-- Español:
-- Deutsch:
-- ελληνικά:
-- Latinum:
-- Dansk:
-- 汉语:
-- 日本語:
+- Every language except Hebrew & Greek (handicap).
 
 <hr>
 
