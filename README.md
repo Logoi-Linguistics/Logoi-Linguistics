@@ -11,17 +11,16 @@ Logoi ≡ Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- JavaScript: Vanilla.
 - Prolog: SWI-PL.
-- Lisp: LIPS.
-- HTML: &lt;done&gt;
-- CSS: .done
-- English: done!
+- Lisp: (WASM)
+- HTML: &lt;5&gt;
+- CSS: .three
+- English: complete!
 - esperanto: kompleta!
-- WebAssembly: (local.set $done (i32.const 0)).
-- Every language except Hebrew & Greek (handicap).
-- Hebrew
-- Greek
+- WebAssembly: (local.set $complete (i32.const 0)).
+- Every language except Hebrew & Greek (handicap):
+- Hebrew:
+- Greek:
 
 <hr>
 
