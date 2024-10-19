@@ -21,6 +21,7 @@ Roadmap:
 - Every language except Hebrew & Greek (handicap):
 - Hebrew:
 - Greek:
+- logOS:
 
 <hr>
 
