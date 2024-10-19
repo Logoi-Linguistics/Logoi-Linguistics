@@ -1,6 +1,6 @@
 # Logoi (λόγοι)
 
-Logoi = Prolog ∧ Lisp
+Logoi ≡ Prolog ∧ Lisp
 
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
