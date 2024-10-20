@@ -12,12 +12,11 @@ Logoi ≡ Prolog ∧ Lisp
 
 Roadmap:
 - Prolog: SWI-PL.
-- Lisp: (WASM)
+- Lisp: (local.set $complete (i32.const 0))
 - HTML: &lt;5&gt;
 - CSS: .three
 - English: complete!
 - esperanto: kompleta!
-- WebAssembly: (local.set $complete (i32.const 0)).
 - Every language except Hebrew & Greek (handicap):
 - Hebrew:
 - Greek:
