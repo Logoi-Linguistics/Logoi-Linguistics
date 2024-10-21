@@ -17,7 +17,8 @@ Roadmap:
 - CSS: .three
 - English: complete!
 - esperanto: kompleta!
-- Every language except Hebrew & Greek (handicap):
+- Every language, excepting Latin, Hebrew & Greek (handicap):
+- Latin:
 - Hebrew:
 - Greek:
 - logOS:
