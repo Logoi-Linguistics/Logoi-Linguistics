@@ -11,7 +11,7 @@ Logoi ≡ Prolog ∧ Lisp
 <hr>
 
 Roadmap:
-- Prolog: SWI-PL.
+- Prolog: Deux.
 - Lisp: (local.set $complete (i32.const 0))
 - HTML: &lt;5&gt;
 - CSS: .three
