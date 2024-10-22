@@ -21,7 +21,7 @@ Roadmap:
 - Latin:
 - Hebrew:
 - Greek:
-- logOS:
+- logOS (WASM WAM):
 
 Acknowledgement of Gratitude
 
