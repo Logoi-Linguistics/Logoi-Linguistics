@@ -34,7 +34,7 @@ Logoi would not exist without (and is therefore infinitely indebted to) Victoria
 <b>λόγοι</b> is the Greek word for "words".
 
 <b>Logoi</b> is a:
-- *minimalist superdialect* (of JavaScript/Prolog/Lisp) and
+- *minimalist superdialect* of Prolog & Lisp and
 - *hyperexstensible/mouseless editor* (of itself, in itself, and, eventually, by itself)
 
 at once.
