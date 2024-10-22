@@ -804,6 +804,15 @@ In response to this puzzle pedagogical, Logoi translates "logical" sentences (tr
 
 ```
 
+A Decluttered Didactic re Deux:
+
+; Comments
+! Commands
+? Queries
+% Qualia
+
+Two(+) Terms:
+
 % Prolog is a template for sentences.
 ; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
@@ -812,6 +821,9 @@ In response to this puzzle pedagogical, Logoi translates "logical" sentences (tr
 
 % Daedalus was the father of Icarus.
 ; -> '{1} was the {2} of {3}.'('Daedalus', 'father', 'Icarus').
+
+% Alan Turing did nothing wrong.
+; -> '{1} did {2}.'('Alan Turing', 'nothing wrong').
 
 % Socrates is a man.
 ; -> '{1} is a {2}.'('Socrates', 'man').
