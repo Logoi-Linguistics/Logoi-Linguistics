@@ -24,6 +24,7 @@ Roadmap:
 - logOS:
 
 Acknowledgement of Gratitude
+
 Logoi would not exist without (and is therefore infinitely indebted to) Victoria. She held my hand and walked through Hell beside me at a time when the rest of the world all but forgot I even existed.
 
 <hr>
