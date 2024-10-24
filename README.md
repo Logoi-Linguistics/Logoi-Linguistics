@@ -60,7 +60,7 @@ hello!/String
 ; -> BrowserEvent! (side-effective!)
 
 ;
-; Natural/Declarative Constraints
+; Natural/Declarative Qualia
 ;
 
 % Prolog is a template for sentences.
