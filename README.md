@@ -57,7 +57,7 @@ MetaFunction/2
 
 hello!/String
     String
-; -> BrowserEvent! (side-effective indicator: !)
+; -> BrowserEvent! (side-effective!)
 
 ;
 ; Natural/Declarative Constraints
