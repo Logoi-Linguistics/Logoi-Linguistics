@@ -453,9 +453,7 @@ try/catch/else/finally
 
 ```
 
-;
-; esperanto.
-;
+% esperanto.
 
 ;
 ; logoj; aŭ,
