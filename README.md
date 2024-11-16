@@ -31,7 +31,7 @@ Software:
 - Meno [Event Scheduler]:
 - Zeno [Route Scheduler]:
 - Atomo [Autonomous IRC Audits]:
-- Dissoi [Autonomous Therapy]:
+- Dissos [Autonomous Therapy]:
 
 Hardware:
 - Sightless Keyball
