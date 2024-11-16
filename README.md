@@ -26,6 +26,7 @@ Software:
 - Ελληνικά:
 - Every other natural language:
 - logOS [WASM WAM]:
+- Mitochondrion [Spreadsheet]:
 
 Hardware:
 - Sightless Keyball
