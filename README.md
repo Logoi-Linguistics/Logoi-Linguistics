@@ -28,6 +28,8 @@ Software:
 - Mitochondrion [Spreadsheet]:
 - Pierrot [Game Engine]:
 - Sisyphus [Generative Synthesizer]:
+- Meno [Event Scheduler]:
+- Zeno [Route Scheduler]:
 
 Hardware:
 - Sightless Keyball
