@@ -29,6 +29,7 @@ Software:
 
 Hardware:
 - Sightless Keyball
+- Sightless Clavier
 - Artificial Cats
 - Conversational Tombstones
 - Autonomous Audits (IRC)
