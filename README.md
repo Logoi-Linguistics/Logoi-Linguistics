@@ -30,7 +30,7 @@ Software:
 - Sisyphus [Generative Synthesizer]:
 - Meno [Event Scheduler]:
 - Zeno [Route Scheduler]:
-- Atomo [Autonomous Audits]:
+- Atomo [Autonomous IRC Audits]:
 - Dissoi [Autonomous Therapy]:
 
 Hardware:
