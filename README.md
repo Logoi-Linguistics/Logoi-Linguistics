@@ -30,13 +30,14 @@ Software:
 - Sisyphus [Generative Synthesizer]:
 - Meno [Event Scheduler]:
 - Zeno [Route Scheduler]:
+- Atomo [Autonomous Audits]:
+- Dissoi [Autonomous Therapy]:
 
 Hardware:
 - Sightless Keyball
 - Sightless Clavier
 - Artificial Cats
 - Conversational Tombstones
-- Autonomous Audits (IRC)
 
 Acknowledgement of Gratitude
 
