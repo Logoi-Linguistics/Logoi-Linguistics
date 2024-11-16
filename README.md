@@ -17,12 +17,12 @@ Roadmap:
 - CSS: .three
 - English: complete!
 - esperanto: kompleta!
-- Spanish: probando...
-- Danish:
-- Hebrew:
-- Japanese:
+- Español: probando...
+- Dansk: kommende...
+- עִבְרִית:
+- 日本語:
 - Every other natural language:
-- logOS (WASM WAM):
+- logOS [WASM WAM]:
 
 Acknowledgement of Gratitude
 
