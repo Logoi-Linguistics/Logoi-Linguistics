@@ -17,6 +17,7 @@ Software:
 - Lisp: (local.set $complete (i32.const 0))
 - HTML: &lt;five&gt;
 - CSS: .three
+
 - English: complete!
 - esperanto: kompleta!
 - Español: probando...
@@ -24,8 +25,10 @@ Software:
 - עִבְרִית:
 - 日本語:
 - Ελληνικά:
+
 - logOS [WASM WAM]:
 - Mitochondrion [Spreadsheet]:
+- Pierrot [Game Engine]:
 
 Hardware:
 - Sightless Keyball
