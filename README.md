@@ -23,6 +23,7 @@ Software:
 - Dansk: kommende...
 - עִבְרִית:
 - 日本語:
+- Ελληνικά:
 - Every other natural language:
 - logOS [WASM WAM]:
 
