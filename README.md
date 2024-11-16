@@ -10,7 +10,9 @@ Logoi ≡ Prolog ∧ Lisp
 
 <hr>
 
-Roadmap:
+Product Roadmap
+
+Software:
 - Prolog: Deux.
 - Lisp: (local.set $complete (i32.const 0))
 - HTML: &lt;five&gt;
@@ -23,6 +25,12 @@ Roadmap:
 - 日本語:
 - Every other natural language:
 - logOS [WASM WAM]:
+
+Hardware:
+- Sightless Keyball
+- Artificial Cats
+- Conversational Tombstones
+- Autonomous Audits (IRC)
 
 Acknowledgement of Gratitude
 
