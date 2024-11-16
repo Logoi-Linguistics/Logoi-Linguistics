@@ -13,7 +13,7 @@ Logoi ≡ Prolog ∧ Lisp
 Roadmap:
 - Prolog: Deux.
 - Lisp: (local.set $complete (i32.const 0))
-- HTML: &lt;5&gt;
+- HTML: &lt;five&gt;
 - CSS: .three
 - English: complete!
 - esperanto: kompleta!
