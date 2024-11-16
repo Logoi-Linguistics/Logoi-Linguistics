@@ -17,10 +17,11 @@ Roadmap:
 - CSS: .three
 - English: complete!
 - esperanto: kompleta!
-- Every language, excepting Latin, Hebrew & Greek (handicap):
-- Latin:
+- Spanish: probando...
+- Danish:
 - Hebrew:
-- Greek:
+- Japanese:
+- Every other natural language:
 - logOS (WASM WAM):
 
 Acknowledgement of Gratitude
