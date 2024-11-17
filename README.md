@@ -1027,13 +1027,4 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ; -> ja.
 
 
-% 汉语.
-
-
-% 道可道，非恆道；
-% 名可名，非恆名。
-
-% 無名，天地之始；
-% 有名，萬物之母。
-
 ```
