@@ -26,7 +26,7 @@ Software:
 - Ελληνικά:
 - logOS [WASM WAM]:
 - Mitochondrion [Spreadsheet]:
-- Pierrot [Game Engine]:
+- Pierrot [2D Game Engine]:
 - Tartarus [Generative Synthesizer]:
 - Meno [Event Scheduler]:
 - Zeno [Route Scheduler]:
