@@ -14,11 +14,11 @@ Product Roadmap
 
 Software:
 - Prolog: Deux.
-- Lisp: (local.set $complete (i32.const 0))
+- Lisp: (local.set $ready (i32.const 0))
 - HTML: &lt;five&gt;
 - CSS: .three
-- English: complete!
-- esperanto: kompleta!
+- English: ready!
+- esperanto: preta!
 - Español: probando...
 - Dansk: kommende...
 - עִבְרִית:
