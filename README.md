@@ -37,8 +37,8 @@ Hardware:
 - Sightless Keyball
 - Sightless Keyglove
 - Sightless Clavier
-- Artificial Cats
-- Conversational Tombstones
+- Buskin [Artificial Cat]
+- Libra [Conversational Tombstones]
 
 Acknowledgement of Gratitude
 
