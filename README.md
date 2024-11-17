@@ -35,6 +35,7 @@ Software:
 
 Hardware:
 - Sightless Keyball
+- Sightless Keyglove
 - Sightless Clavier
 - Artificial Cats
 - Conversational Tombstones
