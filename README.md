@@ -27,9 +27,9 @@ Software:
 - logOS [WASM WAM]:
 - Mitochondrion [Spreadsheet]:
 - Pierrot [2D Game Engine]:
-- Tartarus [Generative Synthesizer]:
 - Meno [Event Scheduler]:
 - Zeno [Route Scheduler]:
+- Tartarus [Generative Synthesizer]:
 - Atomo [Autonomous IRC Audits]:
 - Dissos [Autonomous Therapy]:
 
