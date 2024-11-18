@@ -15,8 +15,8 @@ Product Roadmap
 Software:
 - Lisp: (local.set $ready (i32.const 0))
 - Prolog: Deux.
+- CSS: #three
 - HTML: &lt;five&gt;
-- CSS: .three
 - English: ready!
 - esperanto: preta!
 - Español: probando...
