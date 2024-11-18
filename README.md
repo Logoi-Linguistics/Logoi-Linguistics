@@ -13,8 +13,8 @@ Logoi ≡ Prolog ∧ Lisp
 Product Roadmap
 
 Software:
-- Prolog: Deux.
 - Lisp: (local.set $ready (i32.const 0))
+- Prolog: Deux.
 - HTML: &lt;five&gt;
 - CSS: .three
 - English: ready!
