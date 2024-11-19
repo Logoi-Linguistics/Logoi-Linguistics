@@ -5,7 +5,6 @@ Logoi ≡ Prolog ∧ Lisp
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
 <em>"The principal difficulty to overcome in designing a universal language is to render the study of the language so easy as to make its acquisition mere play to the learner."</em>
-
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
 <hr>
@@ -109,6 +108,9 @@ hello!/String
 <b>Logoi is the Second Tower of Babel.</b>
 
 # Linguistic Preliminaries
+
+<em>"But although all our knowledge begins <b>with</b> experience, it does not follow that it arises <b>from</b> experience."</em>
+- Immanuel Kant, <em>Critique of Pure Reason</em>
 
 Logoi was inspired by a daydream about using spoken languages as logic/functional programming languages.
 
