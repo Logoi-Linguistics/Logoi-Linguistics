@@ -12,25 +12,16 @@ Logoi ≡ Prolog ∧ Lisp
 Product Roadmap
 
 Software:
-- Lisp: (local.set $ready (i32.const 0))
-- Prolog: Deux.
-- CSS: #three
-- HTML: &lt;five&gt;
-- English: ready!
-- esperanto: preta!
-- Español: probando...
-- Dansk: kommende...
-- עִבְרִית:
-- 日本語:
-- Ελληνικά:
-- logOS [WASM WAM]:
-- Mitochondrion [Spreadsheet]:
-- Pierrot [2D Game Engine]:
-- Meno [Event Scheduler]:
-- Zeno [Route Scheduler]:
-- Tartarus [Generative Synthesizer]:
-- Atomo [Autonomous IRC Audits]:
-- Dissos [Autonomous Therapy]:
+- Logoi Editor [JavaScript 🤢]: December 24, 2024
+- Logoi Editor [WASM 🤩]: ASAP, 2025
+- logOS [WASM WAM 🧐]:
+- Mitochondrion [Spreadsheet 🤓]:
+- Pierrot [2D Game Engine 🤡]:
+- Meno [Event Scheduler 🤔]:
+- Zeno [Route Scheduler 😮‍💨]:
+- Tartarus [Generative Synthesizer 🤩]:
+- Atomo [Autonomous IRC Audits 😉]:
+- Dissos [Autonomous Therapy 🥹]:
 
 Hardware:
 - Sightless Keyball
