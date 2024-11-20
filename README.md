@@ -21,7 +21,7 @@ Software:
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
 - Tartarus [Generative Synthesizer 🤩]:
-- Atomo [Autonomous Audits 😉]:
+- Atomo [Autonomous Auditor 😉]:
 - Dissos [Autonomous Therapy 🥹]:
 
 Hardware:
