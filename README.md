@@ -14,7 +14,7 @@ Product Roadmap
 Software:
 - α Logoi Editor [JavaScript 🤢]: 12/24/24
 - β Logoi Editor [WASM 🤩]: ASAP, 2025
-- logOS [WASM WAM 🧐]:
+- logOS [WASM WAM 🧐]: 12/25/25
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
