@@ -20,7 +20,7 @@ Software:
 - Pierrot [2D Game Engine 🤡]:
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
-- Tartarus [Generative Synthesizer 🤩]:
+- Tartarus [Generative Synthesizer 🥳]:
 - Atomo [Autonomous Auditor 😉]:
 - Dissos [Autonomous Therapy 🥹]:
 
