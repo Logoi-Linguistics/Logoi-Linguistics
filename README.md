@@ -15,6 +15,7 @@ Software:
 - α Logoi Editor [JavaScript 🤢]: 12/24/24
 - β Logoi Editor [WASM 🤩]: ASAP, 2025
 - logOS [WASM WAM 🧐]:
+- Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
 - Meno [Event Scheduler 🤔]:
