@@ -12,7 +12,7 @@ Logoi ≡ Prolog ∧ Lisp
 Product Roadmap
 
 Software:
-- α Logoi Editor [JavaScript 🤢]: Dec. 24, 2024
+- α Logoi Editor [JavaScript 🤢]: 12/24/24
 - β Logoi Editor [WASM 🤩]: ASAP, 2025
 - logOS [WASM WAM 🧐]:
 - Mitochondrion [Spreadsheet 🤓]:
