@@ -22,7 +22,8 @@ Software:
 - Zeno [Route Scheduler 😮‍💨]:
 - Tartarus [Generative Synthesizer 🥳]:
 - Atomo [Autonomous Auditor 😉]:
-- Dissos [Artificial Therapist 🧠]:
+- Dissos [Artificial Therapist 🥲]:
+- Euthyphro [Unbiased Barrister 😇]:
 
 Hardware:
 - Sightless Keyball
