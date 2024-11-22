@@ -94,7 +94,7 @@ hello!/String
 % All men are mortal.
 % The plural of man is men.
 
-% Is Socrates mortal?
+? Is Socrates mortal
 ; -> yes.
 
 ```
@@ -850,7 +850,7 @@ Two(+) Terms:
 % The plural of man is men.
 ; -> 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
-% Is Socrates mortal?
+? Is Socrates mortal
 ; -> 'All {1} are {2}.'(Y, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', X),
 ;    'The {1} of {2} is {3}.'('plural', X, Y).
