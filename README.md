@@ -881,7 +881,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Ĉiuj viroj estas mortemaj.
 ; -> 'Ĉiuj {1} estas {2}.'('viroj', 'mortemaj').
 
-% Ĉu Sokrato estas mortema?
+? Ĉu Sokrato estas mortema
 ; -> 'Ĉiuj {1} estas {2}.'(Y, 'mortemaj'),
 ;    '{1} estas {2}.'('Socrates', X),
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
@@ -909,7 +909,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % El plural de hombre es hombres.
 ; -> 'El {1} de {2} es {3}.'('plural', 'hombre', 'hombres').
 
-% ¿Es Sócrates mortal?
+¿ Es Sócrates mortal
 ; -> 'Todos los {1} son {2}.'(Y, 'mortales'),
 ;    '{1} es un {2}.'('Sócrates', X),
 ;    'El {1} de {2} es {3}.'('plural', X, Y).
@@ -937,7 +937,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Der Plural von Mann ist Menschen.
 ; -> 'Der {1} von {2} ist {3}.'('Plural', 'Mann', 'Menschen').
 
-% Ist Sokrates sterblich?
+? Ist Sokrates sterblich
 ; -> 'Alle {1} sind {2}.'(Y, 'sterblich'),
 ;    '{1} ist ein {2}.'('Sokrates', X),
 ;    'Der {1} von {2} ist {3}.'('Plural', X, Y).
@@ -965,7 +965,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Ο πληθυντικός του άνθρωπος είναι άνδρες.
 ; -> 'Ο {1} του {2} είναι {3}.'('πληθυντικός', 'άνθρωπος', 'άνδρες').
 
-% Είναι θνητός ο Σωκράτης;
+? Είναι θνητός ο Σωκράτης
 ; -> 'Όλοι {1} είναι {2}.'(Y, 'θνητοί'),
 ;    'Ο {1} είναι ένας {2}.'('Σωκράτης', X),
 ;    'Ο {1} του {2} είναι {3}.'('πληθυντικός', X, Y).
@@ -993,7 +993,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Pluralis homo est homines.
 ; -> '{1} {2} est {3}.'('Pluralis', 'homo', 'homines').
 
-% Estne Socrates mortalis?
+? Estne Socrates mortalis
 ; -> 'Omnes {1} {2}.'(Y, 'mortales'),
 ;    '{1} est {2}.'('Socrates', X),
 ;    '{1} {2} est {3}.'('Pluralis', X, Y).
@@ -1021,7 +1021,7 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 % Flertal af mand er mennesker.
 ; -> '{1} af {2} er {3}.'('Flertal', 'mand', 'mennesker').
 
-% Er Sokrates dødelig?
+? Er Sokrates dødelig
 ; -> 'Alle {1} er {2}.'(Y, 'dødelige'),
 ;    '{1} er en {2}.'('Sokrates', X),
 ;    '{1} af {2} er {3}.'('Flertal', X, Y).
