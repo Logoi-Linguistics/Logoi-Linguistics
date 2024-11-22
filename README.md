@@ -811,6 +811,9 @@ provu/kaptu/alie/fine
 
 # Logic: Quinean Sentential Schemata (QSS) [WAM]
 
+<em>"Language is conceived in sin and science is its redemption."</em>
+- W. V. O. Quine
+
 The logic programming paradigm has long been shrouded by dint of a daunting syntax.
 
 In response to this puzzle pedagogical, Logoi translates "logical" sentences (truth-value statements) into Prolog terms/code for you:
