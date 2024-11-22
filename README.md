@@ -121,6 +121,9 @@ Logoi file formatting follows two distinct aesthetic dicta:
 
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
+<em>"We think only in signs."</em>
+- Charles Sanders Peirce
+
 ```
 
 % English.
