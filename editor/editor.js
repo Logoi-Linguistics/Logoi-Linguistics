@@ -50,7 +50,7 @@ ide.appendChild(ide_body);
 document.getElementById("left").appendChild(ide);
 document.getElementById("left").classList.add("active-pane");
 
-document.getElementById("0-1").innerHTML = "%";
+document.getElementById("0-1").innerHTML = "!";
 document.getElementById("0-2").innerHTML = "&nbsp;";
 document.getElementById("0-3").innerHTML = "E";
 document.getElementById("0-4").innerHTML = "n";
@@ -59,7 +59,6 @@ document.getElementById("0-6").innerHTML = "l";
 document.getElementById("0-7").innerHTML = "i";
 document.getElementById("0-8").innerHTML = "s";
 document.getElementById("0-9").innerHTML = "h";
-document.getElementById("0-10").innerHTML = ".";
 
 document.getElementById("0-1").classList.add("function");
 document.getElementById("0-3").classList.add("variable");
