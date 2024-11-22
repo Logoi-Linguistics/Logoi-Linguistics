@@ -29,8 +29,8 @@ Hardware:
 - Sightless Keyball
 - Sightless Keyglove
 - Sightless Clavier
-- Buskin [Artificial Cat]
-- Libra [Conversational Tombstones]
+- Buskin [Feline Robot 🐈]
+- Libra [Conversational Tombstone 🪦]
 
 Acknowledgement of Gratitude
 
