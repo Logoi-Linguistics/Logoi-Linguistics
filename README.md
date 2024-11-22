@@ -153,9 +153,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 ;
 
 ; This is ignored. ; (Editorial)
-
 % This is translated to Prolog. ; (Logical)
-
 This-is-translated-to-Lisp. ; (Mathematical)
 
 ;
@@ -165,7 +163,6 @@ This-is-translated-to-Lisp. ; (Mathematical)
 ; Editorial:
 
 ; This sentence is ignored. % This sentence is ignored. This-is-ignored.
-
 ; This sentence is ignored. This-is-ignored. % This sentence is ignored.
 
 ; Logical:
