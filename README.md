@@ -73,6 +73,7 @@ hello!/String
 
 ;
 ; Natural/Declarative Qualia
+; (Trailing periods (.) are optional.)
 ;
 
 % Prolog is a template for sentences.
@@ -126,7 +127,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 
 ```
 
-% English.
+! English
 
 ;
 ; Logoi; or,
@@ -468,7 +469,7 @@ try/catch/else/finally
 
 ```
 
-% esperanto.
+! esperanto
 
 ;
 ; logoj; aŭ,
@@ -510,7 +511,6 @@ try/catch/else/finally
 ; Redakcia:
 
 ; Ĉi tiu frazo estas ignorata. % Ĉi tiu frazo estas ignorita. Ĉi-tiu-estas-ignorita.
-
 ; Ĉi tiu frazo estas ignorata. Ĉi-tiu-estas-ignorita.  % Ĉi tiu frazo estas ignorita.
 
 ; Logika:
@@ -829,6 +829,8 @@ A Decluttered Didactic re Deux:
 
 Two(+) Terms:
 
+! English
+
 % Prolog is a template for sentences.
 ; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
@@ -862,9 +864,9 @@ Two(+) Terms:
 English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
 
-
-% esperanto.
-
+!
+! esperanto
+!
 
 % ProLog estas ŝablono por frazoj.
 ; -> '{1} estas {2} por {3}.'('ProLog', 'ŝablono', 'frazoj').
@@ -887,9 +889,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} = {2} + {3}.'(Y, X, 'j').
 ; -> jes.
 
-
-% Español.
-
+!
+! Español
+!
 
 % Prolog es una plantilla para oraciones.
 ; -> '{1} es una {2} para {3}.'('Prolog', 'plantilla', 'oraciones').
@@ -915,9 +917,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'El {1} de {2} es {3}.'('plural', X, Y).
 ; -> sí.
 
-
-% Deutsch.
-
+!
+! Deutsch
+!
 
 % Prolog ist eine Vorlage für Sätze.
 ; -> '{1} ist eine {2} für {3}.'('Prolog', 'Vorlage', 'Sätze').
@@ -943,9 +945,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'Der {1} von {2} ist {3}.'('Plural', X, Y).
 ; -> ja.
 
-
-% ελληνικά.
-
+!
+! ελληνικά
+!
 
 % Το Prolog είναι ένα πρότυπο για προτάσεις.
 ; -> 'Το {1} είναι ένα {2} για {3}.'('Prolog', 'πρότυπο', 'προτάσεις').
@@ -971,9 +973,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    'Ο {1} του {2} είναι {3}.'('πληθυντικός', X, Y).
 ; -> ναι.
 
-
-% Latinum.
-
+!
+! Latinum
+!
 
 % Prolog est exemplum sententias.
 ; -> '{1} est {2} {3}.'('Prolog', 'exemplum', 'sententias').
@@ -999,9 +1001,9 @@ English is but one of [many other languages on the roadmap](https://en.wikipedia
 ;    '{1} {2} est {3}.'('Pluralis', X, Y).
 ; -> sic.
 
-
-% Dansk.
-
+!
+! Dansk
+!
 
 % Prolog er en skabelon til sætninger.
 ; -> '{1} er en {2} til {3}.'('Prolog', 'skabelon', 'sætninger').
