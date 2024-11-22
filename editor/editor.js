@@ -68,7 +68,6 @@ document.getElementById("0-6").classList.add("variable");
 document.getElementById("0-7").classList.add("variable");
 document.getElementById("0-8").classList.add("variable");
 document.getElementById("0-9").classList.add("variable");
-document.getElementById("0-10").classList.add("constant");
 
 let editor_keydown = (event) => {
     console.table("KeyCode:", event.keyCode);
