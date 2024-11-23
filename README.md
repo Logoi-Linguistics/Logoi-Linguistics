@@ -50,7 +50,7 @@ Logoi would not exist without—and is therefore infinitely indebted to—Victor
 
 at once.
 
-Whereas generative LLMs analogize the proverbial "right hemisphere" of artificial thought (e.g., creative faculties), Logoi represents a step toward a complementary "left hemisphere" of artificial thought (e.g., rational faculties).
+Whereas generative LLMs analogize the proverbial "right hemisphere" of artificial thought (e.g., creative faculties), Logoi represents a step toward a complementary "left hemisphere" of artificial thought (e.g., rational faculties) by way of a declarative SLM (small language model).
 
 ```
 
