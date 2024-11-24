@@ -70,7 +70,7 @@ MetaFunction/2
 
 hello!/String
     String
-; -> BrowserEvent! (side-effective!)
+; -> BrowserEvent! (side-effective)
 
 ;
 ; (Natural Language) Declarative Qualia
