@@ -133,8 +133,9 @@ Metalinguistic Miscellany
 - Official Motto: _"Pensu pli granda."_
 
 > [!IMPORTANT]
-> Logoi is not for sale.
-> Logoi, the language, and logOS, the operating system, shall henceforth be FOSS forever (and ever, and ever, et cetera).
+> Logoi is not for sale, at any price.
+> Logoi, the language, and logOS, the operating system, shall henceforth be FOSS, forever (and ever, and ever, et cetera).
+> logOS applications, however, may be monetized.
 
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
