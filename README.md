@@ -123,6 +123,12 @@ Logoi file formatting follows two distinct aesthetic dicta:
 - Logic: Quinean Sentential Schemata (QSS)
 - Humor: being extralogical, is precluded *a priori*.
 
+Metalinguistic Miscellany
+
+- Official Mascot: [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)
+- Official Soundtrack: [I'll Make a Man Out of You](https://www.youtube.com/watch?v=vGfJeW_CcFY)
+- Official Address: [@33.556269,-117.7168871; 23807 Aliso Creek Road, Suite 100, Lab #125, Laguna Niguel, California, USA, 92677](https://www.google.com/maps/place/23807+Aliso+Creek+Rd+Suite+100,+Laguna+Niguel,+CA+92677/@33.556269,-117.7168871,16z/data=!3m1!4b1!4m6!3m5!1s0x80dcef6ba80dba3b:0x36fe78bc86cf59d2!8m2!3d33.556269!4d-117.7168871!16s%2Fg%2F11q_648v38)
+
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
 <em>"We think only in signs."</em>
