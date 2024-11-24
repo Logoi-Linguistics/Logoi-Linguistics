@@ -55,7 +55,7 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 ```
 
 ;
-; "Hello, World!", Abstracted
+; "Hello, World!" (Abstracted)
 ;
 
 MetaFunction/2
@@ -73,8 +73,7 @@ hello!/String
 ; -> BrowserEvent! (side-effective!)
 
 ;
-; Natural/Declarative Qualia
-; (Trailing periods (.) are optional.)
+; (Natural Language) Declarative Qualia
 ;
 
 % Prolog is a template for sentences.
