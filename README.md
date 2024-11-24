@@ -135,7 +135,7 @@ Metalinguistic Miscellany
 > [!IMPORTANT]
 > Logoi is not for sale, at any price.
 > Logoi, the language/editor, and logOS, the artificial operating system, shall henceforth be FOSS, forever (and ever, and ever, et cetera).
-> logOS applications, however, may be monetized ad hoc.
+> logOS applications, however, may be monetized, ad hoc, if only to patronize their respective developmental endeavours.
 
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
