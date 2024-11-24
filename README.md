@@ -103,7 +103,7 @@ hello!/String
 
 ```
 
-(<b>Logoi is the Second Tower of Babel.</b>)
+<b>Logoi is the Second [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel).</b>
 
 # Linguistic Preliminaries
 
