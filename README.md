@@ -132,6 +132,10 @@ Metalinguistic Miscellany
 - Official Predecessor: [Spreadsheet Lisp](https://github.com/microsoft/Excel-Labs/blob/main/advanced-formula-environment/examples/SpreadsheetLisp.ts)
 - Official Motto: _"Pensu pli granda."_
 
+> [!IMPORTANT]
+> Logoi is not for sale.
+> Logoi, the language, and logOS, the operating system, shall henceforth be FOSS forever (and ever, and ever, et cetera).
+
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
 <em>"We think only in signs."</em>
