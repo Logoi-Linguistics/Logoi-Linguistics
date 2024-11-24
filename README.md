@@ -403,8 +403,7 @@ if/yes/no
     console.log!/String
         "Socrates is not mortal."
 ; -> "Socrates is a featherless biped." (BrowserAlert)
-
-[[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
+; https://en.wikipedia.org/wiki/Denying_the_antecedent
 
 ;
 ; HTML Element Constructors
