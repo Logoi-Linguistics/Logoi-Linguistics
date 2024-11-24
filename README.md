@@ -404,9 +404,7 @@ if/yes/no
         "Socrates is not mortal."
 ; -> "Socrates is a featherless biped." (BrowserAlert)
 
-```
 [[Denying the Antecedent](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
-```
 
 ;
 ; HTML Element Constructors
