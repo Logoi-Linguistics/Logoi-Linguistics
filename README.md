@@ -119,9 +119,9 @@ Logoi is the curious offspring of two years spent blissfully contemplating the w
 
 Logoi file formatting follows two distinct aesthetic dicta:
 
-- Math: "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
-- Logic: Quinean Sentential Schemata (QSS)
-- Humor: being extralogical, is precluded *a priori*.
+- [x] Math: "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
+- [x] Logic: Quinean Sentential Schemata (QSS)
+- [ ] Humor: being extralogical, is precluded *a priori*.
 
 Metalinguistic Miscellany
 
