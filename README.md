@@ -153,8 +153,7 @@ Metalinguistic Miscellany
 - Unofficial Predecessor: [Socrates](https://en.m.wikipedia.org/wiki/Socrates)
 
 - Official Motto: _"Pensu pli granda."_
-- Unofficial Motto: _"Carpe diem, carpe nocte
-, et carpe vinum!"_
+- Unofficial Motto: _"Carpe diem, carpe noctem, et carpe vinum!"_
 
 > [!IMPORTANT]
 > Logoi is not for sale, at any price.
