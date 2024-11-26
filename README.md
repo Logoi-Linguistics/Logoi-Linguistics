@@ -145,7 +145,7 @@ Metalinguistic Miscellany
 <hr>
 
 - Official Soundtrack: [Fragments](https://www.youtube.com/live/8V71sATDTqs)
-- Unofficial Soundtrack: [Auf und Auf voll Lebenslust](https://youtu.be/oZwo-ui37rQ)
+- Unofficial Soundtrack: [Auf und auf voll Lebenslust](https://youtu.be/oZwo-ui37rQ)
 
 <hr>
 
