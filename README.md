@@ -144,8 +144,8 @@ Metalinguistic Miscellany
 
 <hr>
 
-- Official Soundtrack: [I'll Make a Man Out of You](https://www.youtube.com/watch?v=vGfJeW_CcFY)
-- Unofficial Soundtrack: [Fragments](https://www.youtube.com/live/8V71sATDTqs)
+- Official Soundtrack: [Fragments](https://www.youtube.com/live/8V71sATDTqs)
+- Unofficial Soundtrack: [I'll Make a Man Out of You](https://www.youtube.com/watch?v=vGfJeW_CcFY)
 
 <hr>
     
