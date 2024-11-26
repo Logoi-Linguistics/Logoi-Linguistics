@@ -140,17 +140,27 @@ Metalinguistic Miscellany
 - Official Mascot: [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)
 - Unofficial Mascot: [Søren Aabye Kierkegaard](https://en.m.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
 
+<hr>
+
 - Official Soundtrack: [I'll Make a Man Out of You](https://www.youtube.com/watch?v=vGfJeW_CcFY)
 - Unofficial Soundtrack: [Fragments](https://www.youtube.com/live/8V71sATDTqs)
 
+<hr>
+    
 - Official Address: [23807 Aliso Creek Road, Suite 100, Lab #125, Laguna Niguel, California, USA, 92677](https://www.google.com/maps/place/23807+Aliso+Creek+Rd+Suite+100,+Laguna+Niguel,+CA+92677/@33.556269,-117.7168871,16z/data=!3m1!4b1!4m6!3m5!1s0x80dcef6ba80dba3b:0x36fe78bc86cf59d2!8m2!3d33.556269!4d-117.7168871!16s%2Fg%2F11q_648v38)
 - Unofficial Address: [California City Branch Library](https://maps.app.goo.gl/rix612spagMJ63fU7)
 
+<hr>
+    
 - Official Charity: [United States Holocaust Memorial Museum](https://www.ushmm.org/support)
 - Unofficial Charity: [National Alliance on Mental Illness](https://donate.nami.org/give/197406)
 
+<hr>
+
 - Official Predecessor: [Spreadsheet Lisp](https://github.com/microsoft/Excel-Labs/blob/main/advanced-formula-environment/examples/SpreadsheetLisp.ts)
 - Unofficial Predecessor: [Socrates](https://en.m.wikipedia.org/wiki/Socrates)
+
+<hr>
 
 - Official Motto: _"Pensu pli granda."_
 - Unofficial Motto: _"Carpe diem, carpe noctem, et carpe vinum!"_
