@@ -137,6 +137,8 @@ Logoi file formatting follows two distinct aesthetic dicta:
 
 Metalinguistic Miscellany
 
+<hr>
+
 - Official Mascot: [Immanuel Kant](https://en.wikipedia.org/wiki/Immanuel_Kant)
 - Unofficial Mascot: [Søren Aabye Kierkegaard](https://en.m.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
 
