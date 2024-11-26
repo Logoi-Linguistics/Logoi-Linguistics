@@ -9,7 +9,7 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 <hr>
 
-An Attempt at an Ethos of an Annoying Author
+An Attempt at a Pathetic Ethos of an Annoying Author
 
 - 1994-XXXX: English
 - 2006-2007: Français
