@@ -9,8 +9,11 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 <hr>
 
-An Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
+# List-oriented Preamble
 
+### An Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
+
+A Brief History of Attempted Acquisitions:
 - 1994-20XX: English
 - 2006-2007: Français
 - 2007-2013: Español & Русский
@@ -21,9 +24,9 @@ An Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
 - 2022-2024: Lisp & Prolog
 - 2025-20XX: Logoi & Ἑλληνική
 
-Product Roadmap
+### A Tentative, Possibly-Asynchronous Roadmap
 
-Software:
+Software (Mohs hardness of 0):
 - α Logoi Editor [JavaScript 🤢]: 12/24/24
 - β Logoi Editor [WASM 🤩]: ASAP, 2025
 - logOS [WASM WAM 🧐]: 12/25/25
@@ -37,20 +40,27 @@ Software:
 - Dissos [Artificial Therapist 😭]:
 - Euthyphro [Unbiased Barrister 😇]:
 
-Hardware:
+Hardware (Mohs hardness of >0):
 - Sightless Keyball
 - Sightless Keyglove
 - Sightless Clavier
 - Buskin [Feline Robot 🐈]
 - Libra [Conversational Tombstone 🪦]
 
-Acknowledgement of Gratitude
+### Acknowledgement of Overdue Gratitude
 
 Logoi would not exist without—and is therefore infinitely indebted to—Victoria. She held my hand and walked through Hell beside me at a time when the rest of the world treated me as they would a party clown.
+
+### An Ounce, or so, of Comedic Relief
 
 <a target="_blank" href="https://youtu.be/s-mOy8VUEBk">A Brief Comedy Sketch Concerning the Concept of Dansk, or "An Ode Vicarious to Language-in-Itself"</a>
 
 <hr>
+
+# A Litany of Linguistic Preliminaries
+
+<em>"But although all our knowledge begins <b>with</b> experience, it does not follow that it arises <b>from</b> experience."</em>
+- Immanuel Kant, <em>Critique of Pure Reason</em>
 
 [What is Logoi?](https://logoi.website/tweedle)
 
@@ -65,7 +75,9 @@ at once.
 Whereas generative LLMs analogize the proverbial "right hemisphere" of artificial thought (e.g., creative faculties), Logoi represents a step toward a complementary "left hemisphere" of artificial thought (e.g., rational faculties) by way of a declarative SLM (small language model).
 
 > [!NOTE]
-> As of November 2024: Logoi's construction has been 100% mouseless. There is neither sound nor sane reason for this design decision, but inertia stubbornly remains, as is commonly known, a pervasive property of all matter in the cosmos, micro- & macro-, massive & otherwise.
+> As of November 2024: Logoi's construction has been 100% mouseless. There is neither sound nor sane reason for this design decision, but inertia stubbornly remains, as is commonly known, a pervasive property of all matter in the cosmos (micro- & macro-), massive & otherwise.
+
+### Logoi, Literally
 
 ```
 
@@ -111,16 +123,14 @@ hello!/String
 % The plural of man is men.
 
 ? Is Socrates mortal
+; -> 'All {1} are {2}.'(Y, 'mortal'),
+;    '{1} is a {2}.'('Socrates', X),
+;    'The {1} of {2} is {3}.'('plural', X, Y).
 ; -> yes.
 
 ```
 
-<b>Logoi is the Second [Tower of Babel](https://en.wikipedia.org/wiki/Tower_of_Babel).</b>
-
-# Linguistic Preliminaries
-
-<em>"But although all our knowledge begins <b>with</b> experience, it does not follow that it arises <b>from</b> experience."</em>
-- Immanuel Kant, <em>Critique of Pure Reason</em>
+### Logoi, Metaphorically
 
 Logoi was inspired by a daydream about using spoken languages as logic/functional programming languages.
 
@@ -135,7 +145,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 - [x] Logic: Quinean Sentential Schemata (QSS)
 - [ ] Humor: being extralogical, is precluded *a priori*.
 
-Metalinguistic Miscellany
+### Metalinguistic Miscellany
 
 <hr>
 
