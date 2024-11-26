@@ -145,7 +145,7 @@ Metalinguistic Miscellany
 <hr>
 
 - Official Soundtrack: [Fragments](https://www.youtube.com/live/8V71sATDTqs)
-- Unofficial Soundtrack: [I'll Make a Man Out of You](https://www.youtube.com/watch?v=vGfJeW_CcFY)
+- Unofficial Soundtrack: [Auf und Auf voll Lebenslust](https://youtu.be/oZwo-ui37rQ)
 
 <hr>
 
