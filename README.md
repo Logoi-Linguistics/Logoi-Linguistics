@@ -130,7 +130,7 @@ hello!/String
 
 ```
 
-### Logoi, Metaphorically
+### Logoi, Figuratively
 
 Logoi was inspired by a daydream about using spoken languages as logic/functional programming languages.
 
