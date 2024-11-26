@@ -11,7 +11,7 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 An Attempt at a Pathetic Ethos of an Annoying Author
 
-- 1994-XXXX: English
+- 1994-20XX: English
 - 2006-2007: Français
 - 2007-2013: Español & Русский
 - 2013-2014: Deutsch & JavaScript
@@ -19,7 +19,7 @@ An Attempt at a Pathetic Ethos of an Annoying Author
 - 2016-2020: VBA & SQL
 - 2020-2022: Lisp & esperanto
 - 2022-2024: Lisp & Prolog
-- 2025-XXXX: Logoi & Ἑλληνική
+- 2025-20XX: Logoi & Ἑλληνική
 
 Product Roadmap
 
