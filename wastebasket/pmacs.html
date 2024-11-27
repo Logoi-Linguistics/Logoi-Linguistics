@@ -1,0 +1,208 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+    </style>
+
+    <style>
+
+        body, #buffer {
+            background-color: black;
+            color: white;
+        }
+
+        #buffer {
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+
+        .cli-div {
+            width: 100%;
+            border-left: 1px solid gray;
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            vertical-align: top;
+            border: none;
+            outline: none;
+        }
+
+        .cli-div {
+            margin-top: 30px;
+        }
+
+        .cli-prefix {
+            width: 50px;
+            height: 50px;
+        }
+
+        .cli-div:active {
+            border: 1px solid white;
+        }
+
+        .cli-textarea {
+            width: calc(100% - 100px);
+            height: fit-content;
+            background-color: transparent;
+            overflow: hidden;
+        }
+
+        .cli-textarea,
+        .cli-prefix,
+        .cli-result {
+            font-size: 1.75em;
+            font-family: "Source Code Pro", monospace;
+            font-weight: 420;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+
+        .cli-result {
+            color: #DFC5FE;
+            margin-left: 50px;
+        }
+    </style>
+    <body>
+        <div id="buffer">
+            <div class="cli-div">
+                <div class="cli-prefix">?-</div>
+                <textarea
+                    type="text"
+                    placeholder="[Enter] for newline, [Control + Enter] to evaluate&#10;h or help for list of commands"
+                    class="cli-textarea cli-active"
+                    id="1"
+                    spellcheck="false"></textarea>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+
+        var swipl;
+
+        var command_counter = 0;
+
+        (async () => {
+            const { SWIPL } = await import("https://SWI-Prolog.github.io/npm-swipl-wasm/latest/dynamic-import.js");
+            swipl = await SWIPL({ arguments: ["-q"] });
+            // const query = "member(X, [c, b, a]).";
+            // const solutionElement = document.getElementById("solution");
+            // const firstSolution = swipl.prolog.query(query).once().X;
+            // solutionElement.textContent = firstSolution;
+        })();
+
+        window.onload = (event) => {
+            console.log("Document loaded.");
+            let toplevel = document.getElementById("1");
+            toplevel.focus();
+            toplevel.select();
+            resize();
+            toplevel.addEventListener("keydown", cli_handler);
+
+            document.getElementById("buffer").addEventListener("keydown", resize);
+            document.getElementById("buffer").addEventListener("keyup", resize);
+        };
+
+        let cli_handler = (e) => {
+            if (e.ctrlKey && e.key === 'Enter') {
+                let command_count = command_counter + 1;
+                let command_count_str = String(command_count);
+                let command_str = document.getElementById(command_count_str).value;
+                let cli_output = "Command: '".concat(command_str, "'");
+                
+                window.alert(cli_output);
+                const query = command_str.trim();
+                
+                solutions = [];
+                
+                const response = swipl.prolog.forEach(query, (solution) => {
+                    solutions.push(solution);
+                })
+
+                console.log("Solutions: ", solutions.length);
+                var buffer = document.getElementById("buffer");
+
+                result_html = "";
+                solutions.forEach((solution) => {
+                    console.log(solution["X"]);
+                    var new_result = document.createElement('div');
+                    new_result.classList.add("cli-result");
+                    new_result.innerHTML = "X = ".concat(solution["X"]);
+                    buffer.appendChild(new_result);
+                });
+                
+                command_counter += 1
+                add_row(e);
+            }
+        };
+
+        let add_row = () => {
+            let old_command_count = command_counter;
+            let old_command_count_str = String(old_command_count);
+
+            let new_command_count = old_command_count + 1;
+            let new_command_count_str = String(new_command_count)
+
+            window.alert("Old command count: ".concat(old_command_count_str, "; New command count: ", new_command_count_str));
+            
+            current_line = document.getElementById(old_command_count_str);
+            current_line.classList.remove("current");
+            
+            var new_line = document.createElement('div');
+            new_line.classList.add("cli-div");
+
+            var new_prefix = document.createElement('div');
+            new_prefix.classList.add("cli-prefix");
+            new_prefix.innerHTML = "?-";
+
+            var new_textarea = document.createElement('textarea');
+            new_textarea.type = "text";
+            new_textarea.classList.add("cli-textarea");
+            new_textarea.classList.add("cli-active");
+            new_textarea.setAttribute("id", new_command_count_str);
+            new_textarea.setAttribute("spellcheck", "false");
+            new_textarea.setAttribute("placeholder", "h or help for list of commands");
+
+            new_line.appendChild(new_prefix);
+            new_line.appendChild(new_textarea);
+            
+            var buffer = document.getElementById("buffer");
+            buffer.appendChild(new_line);
+
+            let new_toplevel = document.getElementById(new_command_count_str);
+            new_toplevel.focus();
+            new_toplevel.select();
+            new_toplevel.addEventListener("keyup", cli_handler);
+            new_toplevel.addEventListener("keydown", cli_handler);
+        };
+
+        let resize = () => {
+            const active_textarea = document.activeElement;
+            active_textarea.style.height = "auto";
+            let scrollHeight = 25 + active_textarea.scrollHeight;
+            active_textarea.style.height = String(scrollHeight).concat("px");
+        }
+
+    </script>
+</html>
+
+<!--
+
+% arrow(point, point).
+arrow(g, h).
+arrow(g, d).
+arrow(e, d).
+arrow(h, f).
+arrow(e, f).
+arrow(a, e).
+arrow(a, b).
+arrow(b, f).
+arrow(b, c).
+arrow(f, c).
+
+path(PointA, PointA).
+path(PointA, PointB) :-
+    arrow(A, B),
+    arrow(B, C).
+
+-->

@@ -1,0 +1,1144 @@
+<html>
+<head>
+<title>Sophistry.io</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Sono:wght@200..800&display=swap');
+
+::selection {
+    background-color: rgba(255, 209, 220, 0.25)!important;
+}
+
+* {
+    position: absolute;
+    top:0;
+    left:0;
+    border:0;
+    margin:0;
+
+}
+
+body {
+    background-color: black;
+    overflow:hidden;
+}
+
+body .ace_scrollbar {
+    display: none;
+}
+
+.ace_selection {
+    background-color: rgba(255, 209, 220, 0.25)!important;
+}
+
+.ace_gutter,
+.ace_scroller {
+    background-color: black!important;
+}
+
+.ace_editor {
+    opacity: 0.5;
+    position:absolute!important;
+    top: 0!important;
+    width: 32vw;
+    height: 48vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding: 40px;
+    font-size: 1rem;
+    border-top: 2px dashed rgba(255, 209, 220, 1);
+    border-left: 2px dashed rgba(255, 209, 220, 1);
+    caret-color: rgba(255, 209, 220, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    filter: brightness(300%);
+    font-weight: 200!important;
+    color: rgba(255, 209, 220, 1);
+    z-index: 100;
+}
+
+.ace_focus {
+    border: 2px solid white!important;
+    filter: brightness(300%);
+    opacity: 1;
+}
+
+.ace_gutter-active-line {
+    background-color: rgba(248, 200, 220, 0.3)!important;
+}
+
+.invisible {
+    z-index: 0!important;
+    display: none!important;
+}
+
+#cli {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: "Sono", monospace!important;
+    font-weight: 200;
+    filter: brightness(200%);
+    z-index: 200;
+    overflow: hidden;
+}
+
+.command-line {
+    font-size: 1.2rem;
+    font-family: "Sono", monospace!important;
+    font-weight: 200!important;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    width: 96vw;
+    height:fit-content;
+    display: block;
+    padding: 20px;
+    margin-top: 2vh;
+    margin-left: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    filter: brightness(500%);
+    color: rgba(255, 255, 255, 1);
+    caret-color: gba(255, 209, 220, 1);
+    text-align: center;
+}
+/*
+.command-line:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,0,0,0.7);
+    box-shadow: inset 0 1px 1px rgba(0,255,255,0.7);
+}*/
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+#splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:100vh;
+    overflow: hidden;
+    z-index: 9001;
+    background-color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 2.5rem;
+    font-family: "Fira Mono", monospace!important;
+
+    animation: fadeOut 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    color: rgba(255, 209, 220, 1)
+}
+
+.ace_layer {
+    color: rgba(255, 255, 255, 0.5)important;
+    font-weight: 100!important;
+}
+
+.ace_active-layer {
+    color: white!important;
+    /* background-color: rgba(248, 200, 220, 0.3)!important; */
+}
+
+.ace_bracket {
+    background-color: rgba(248, 200, 220, 0.3)!important;
+}
+
+
+
+
+.north {
+    top: 0vh!important;
+}
+
+.south {
+    top: 49vh!important;
+}
+
+.east {
+    left: 66vw!important;
+}
+
+.west {
+    left: 0!important;
+}
+
+.central {
+    left: 33vw!important;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ace-builds@1.35.2/css/ace.min.css">
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<div id="splash">Loading...</div>
+
+
+
+
+
+
+
+
+
+<div id="cli" class="invisible">
+    <input
+        id="0"
+        class="command-line"
+        spellcheck="false"
+        placeholder="W.V.O.Q. 4.0.0" />
+</div>
+
+
+
+
+
+<div class="one-third north west" id="top_left"></div>
+
+<div class="one-third south west" id="bottom_left"></div>
+
+<div class="one-third north central" id="top_middle"></div>
+
+<div class="one-third south central" id="bottom_middle"></div>
+
+<div class="one-third north east" id="top_right"></div>
+
+<div class="one-third south east" id="bottom_right"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- Prolog (Left Pane)-->
+
+
+<!--
+
+Old Content
+
+% PrologKnowledgebase.pl<br>
+<br>
+:- use_module(library(clpz)).<br>
+:- use_module(library(lists)).<br>
+:- use_module(library(format)).<br>
+:- use_module(library(dcgs)).<br>
+:- use_module(library(freeze)).<br>
+:- use_module(library(charsio)).<br>
+<br>
+sudoku(Rows) :-<br>
+  length(Rows,9),<br>
+  maplist(same_length(Rows),Rows),<br>
+  append(Rows,Vs),<br>
+  <br>
+  Vs ins 1..9,<br>
+  <br>
+  maplist(all_distinct, Rows),<br>
+  transpose(Rows, Columns),<br>
+  maplist(all_distinct, Columns),<br>
+  <br>
+  Rows = [As,Bs,Cs,Ds,Es,Fs,Gs,Hs,Is],<br>
+  <br> 
+  blocks(As,Bs,Cs),<br>
+  blocks(Ds,Es,Fs),<br>
+  blocks(Gs,Hs,Is).<br>
+  <br>
+blocks([],[],[]).<br>
+<br>
+blocks(<br>
+  [N1,N2,N3|Ns1],<br>
+  [N4,N5,N6|Ns2],<br>
+  [N7,N8,N9|Ns3]) :-<br>
+    all_distinct([N1,N2,N3,N4,N5,N6,N7,N8,N9]),<br>
+    blocks(Ns1,Ns2,Ns3).<br>
+    <br>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Output (Center Pane)-->
+
+
+<!--
+
+Old Content
+
+
+/* Output / CSS */<br>
+<br>
+::selection {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background: rgba(87, 254, 255, 0.5);<br>
+}<br>
+<br>
+* {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;position: absolute;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;top:0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;left:0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: 31vw;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;height: 98vh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;background-color: #000;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;color: #fff;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;border:0;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;margin:0;<br>
+}<br>
+<br>
+textarea {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;margin-left: 1vw;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;margin-right: 1vw;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;margin-top: 1vh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;margin-bottom: 1vh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;padding: 40px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;font-size: 1rem;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;font-family: "Source Code Pro", monospace;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;font-weight: lighter;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;border: 3px solid rgba(87, 254, 255, 1);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;caret-color: rgba(87, 254, 255, 1);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;white-space: nowrap;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;overflow: hidden;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;filter: brightness(200%);<br>
+}<br>
+<br>
+<br>
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- LIPS (Scheme) / JavaScript (Right Pane)-->
+
+
+
+<!--
+
+Old Content
+
+;; Scheme Console
+(alert "Sophistry.io")
+
+<br>
+
+-->
+
+
+<!--
+<script>
+    /*
+(consult "PrologKnowledgebase.pl")<br>
+
+(let ((selector "[class*=\"colorModeToggle\"] button"))<br>
+  (document.querySelector selector)
+  (click)))<br>
+*/
+</body>script>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+<!-- Ajax.org Cloud9 Editors (Ace) -->
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.35.2/ace.js"
+    integrity="sha512-MhhgjhTjy8gf0TeS/nBSTJtNrXAlawcIcTfdPiNQbIdCEmvgZSARRKSlsb8+IdAMn8f+FMCVAqCjNAIkPSPUWw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+
+</script>
+
+
+<!-- LIPS (Scheme) -->
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@jcubic/lips@beta/dist/lips.min.js"></script>
+
+
+<!-- SWI-Prolog (WASM) -->
+
+
+<script type="text/javascript">
+    (async () => {
+        const { SWIPL } = await import("https://SWI-Prolog.github.io/npm-swipl-wasm/latest/dynamic-import.js");
+        window.swipl = await SWIPL({ arguments: ["-q"] });
+        window.prolog = await SWIPL();
+        // const query = "member(X, [c, b, a]).";
+        // const solutionElement = document.getElementById("solution");
+        // const firstSolution = swipl.prolog.query(query).once().X;
+        // solutionElement.textContent = firstSolution;
+    })();
+</script>
+
+
+
+<!-- Keyboard Event Handling -->
+
+
+<script type="text/javascript">
+
+    // Helper Functions    
+
+    window.append_lines = (editor, lines_of_code) => {
+        window.insert_lines_at(editor, lines_of_code, editor.session.getLength());
+    }
+
+    window.insert_lines_at = (editor, lines_of_code, row = (-1)) => {
+        let next_row = (row < 0) ? editor.session.getLength() : row;
+
+        for (let i = 0; i < lines_of_code.length; i++) {
+            editor.session.insert({row: next_row, column: 0}, String(lines_of_code[i]));
+            editor.session.insert({row: next_row + 1, column: 0}, "\n");
+            next_row += 1;
+        }
+    }
+
+    window.send_to_output = (line_of_text) => {
+        try {
+            var output_editor = ace.edit("top_middle");
+
+            output_editor.session.insert({row: output_editor.session.getLength(), column: 0}, "\n");
+            let timestamp = (Date.now()/1000).toFixed(3);
+            let quote = (line_of_text.toString().substring(0, 1) == "(") ? "'" : "";
+            var output_string = '[' + timestamp + '] -> ' + quote + String(line_of_text);
+            output_editor.session.insert({row: output_editor.session.getLength(), column: 0}, output_string);
+
+            output_editor.renderer.scrollToLine(output_editor.session.getLength());
+        } catch (e) {
+            console.log(e);
+        }
+        
+    }
+    // Top-level values
+    
+    let cli_activated = false;
+    let standard_font_size = "18px";
+    let standard_font_family = "Sono";
+
+    // Editor Initializations
+
+    // First Row
+    
+    let top_left_editor = ace.edit("top_left");
+    top_left_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    top_left_editor.commands.removeCommand(top_left_editor.commands.byName.indent);
+    top_left_editor.commands.removeCommand(top_left_editor.commands.byName.outdent);
+    top_left_editor.commands.bindKey("ctrl-l", null);
+
+
+    let top_middle_editor = ace.edit("top_middle");
+    top_middle_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    top_middle_editor.commands.removeCommand(top_middle_editor.commands.byName.indent);
+    top_middle_editor.commands.removeCommand(top_middle_editor.commands.byName.outdent);
+    top_middle_editor.commands.bindKey("ctrl-l", null);
+    
+
+    var top_right_editor = ace.edit("top_right");
+    top_right_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    top_right_editor.commands.removeCommand(top_right_editor.commands.byName.indent);
+    top_right_editor.commands.removeCommand(top_right_editor.commands.byName.outdent);
+    top_right_editor.commands.bindKey("ctrl-l", null);
+
+
+    // Second Row
+    
+    
+    var bottom_left_editor = ace.edit("bottom_left");
+    bottom_left_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    bottom_left_editor.commands.removeCommand(bottom_left_editor.commands.byName.indent);
+    bottom_left_editor.commands.removeCommand(bottom_left_editor.commands.byName.outdent);
+    bottom_left_editor.commands.bindKey("ctrl-l", null);
+
+
+    var bottom_middle_editor = ace.edit("bottom_middle");
+    bottom_middle_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    bottom_middle_editor.commands.removeCommand(bottom_middle_editor.commands.byName.indent);
+    bottom_middle_editor.commands.removeCommand(bottom_middle_editor.commands.byName.outdent);
+    bottom_middle_editor.commands.bindKey("ctrl-l", null);
+    
+
+    var bottom_right_editor = ace.edit("bottom_right");
+    bottom_right_editor.setOptions({
+        "fontSize": standard_font_size,
+        "fontFamily": standard_font_family,
+    });
+    bottom_right_editor.commands.removeCommand(bottom_right_editor.commands.byName.indent);
+    bottom_right_editor.commands.removeCommand(bottom_right_editor.commands.byName.outdent);
+    bottom_right_editor.commands.bindKey("ctrl-l", null);
+
+
+    document.getElementById("top_left").firstChild.focus();
+
+    // const TAB_KEYCODE = 9;
+    // const ENTER_KEYCODE = 13;
+    // const SHIFT_KEYCODE = 16;
+    // const CONTROL_KEYCODE = 17;
+    // const ALT_KEYCODE = 18;
+    // const ESCAPE_KEYCODE = 27;
+    // const SPACE_KEYCODE = 32;
+
+    let top_left_keydown = (event) => {
+        console.table("North West Keydown:", event);
+        var top_left_editor = ace.edit("top_left");
+
+        if (event.shiftKey && event.key === 'Enter') {
+            event.preventDefault();
+            
+            let selection_range = top_left_editor.selection.getRange();
+            
+            let selection_start = selection_range["start"];
+            let starting_row = selection_start["row"];
+            let starting_column = selection_start["column"];
+            
+            let selection_end = selection_range["end"];
+            let ending_row = selection_end["row"];
+            let ending_column = selection_end["column"];
+            
+            console.log("Selection:");
+            console.log("Starting Row:", starting_row);
+            console.log("Starting Column:", starting_column);
+            console.log("Ending Row::", ending_row);
+            console.log("Ending Column:", ending_column);
+
+            let selected_lines_of_code = [];
+            for (let i = starting_row; i <= ending_row; i++ ) {
+                selected_lines_of_code.push(top_left_editor.session.getLine(i))
+            }
+            console.table(selected_lines_of_code);
+
+            if (starting_row == ending_row) {
+                let line_text = top_left_editor.session.getLine(starting_row);
+                // alert("[" + line_text.substring(0, 1) + "] Running: " + line_text);
+                let new_script = document.createElement("script");
+                let timestamp = (Date.now()/1000).toFixed(3);
+
+                new_script.setAttribute("type", "text/javascript");
+                new_script.setAttribute("id", timestamp);
+                
+                var code_block = `
+                var {exec} = lips;
+
+                var line = String('${line_text.replace("'", "\\'")}');
+                exec(line).then((results) => {
+                    results.forEach((result) => {
+                        try{
+                            console.log("Programmatically run", line, ":", result.toString());
+                            window.send_to_output(result);
+                        } catch (e) {
+                            console.log("No results:", e);
+                        } 
+                    });
+                });
+                `
+                console.log(code_block);
+                new_script.innerHTML = code_block;
+                document.body.appendChild(new_script);
+                document.getElementById(timestamp).remove();
+            } else {
+                var lines = [];
+                for (let i = starting_row; i <= ending_row; i++) {
+                    let line = top_left_editor.session.getLine(i).trim();
+                    if (line.length > 0) lines.push(line.replace("'", "\\'"));
+                }
+                // alert("Running selected lines of SchemeScript...");
+                let new_script = document.createElement("script");
+                let timestamp = (Date.now()/1000).toFixed(3);
+
+                new_script.setAttribute("type", "text/javascript");
+                new_script.setAttribute("id", timestamp);
+                
+                let code_block = `
+                var {exec} = lips;
+
+                var line = String('${lines.join(" ")}');
+                exec(line).then((results) => {
+                    results.forEach((result) => {
+                        try{
+                            console.log("Programmatically run", line, ":", result.toString());
+                            window.send_to_output(result);
+                        } catch (e) {
+                            console.log("No results:", e);
+                        }
+                    });
+                });
+                `
+                console.log(code_block);
+                new_script.innerHTML = code_block;
+                document.body.appendChild(new_script);
+                document.getElementById(timestamp).remove();
+            }
+        } else if (event.ctrlKey && event.key === 'Enter') {
+            var lines = [];
+            for (let i = 0; i < top_left_editor.session.getLength(); i++) {
+                let line = top_left_editor.session.getLine(i).trim();
+                let line_without_comments = line.indexOf(";") >= 0 ? line.substring(0, line.indexOf(";")) : line;
+                if (line_without_comments.length > 0) lines.push(line_without_comments.replace("'", "\\'"));
+            }
+            // alert("Running selected lines of SchemeScript...");
+            let new_script = document.createElement("script");
+            let timestamp = (Date.now()/1000).toFixed(3);
+
+            new_script.setAttribute("type", "text/javascript");
+            new_script.setAttribute("id", timestamp);
+            
+            let code_block = `
+            var {exec} = lips;
+
+            var line = String('${lines.join(" ")}');
+            exec(line).then((results) => {
+                results.forEach((result) => {
+                    try{
+                        console.log("Programmatically run", line, ":", result.toString());
+                        window.send_to_output(result);
+                    } catch (e) {
+                        console.log("No results:", e);
+                    } 
+                });
+            });
+            `
+            console.log(code_block);
+            new_script.innerHTML = code_block;
+            document.body.appendChild(new_script);
+            document.getElementById(timestamp).remove();
+        }
+    }
+    
+    let top_left_keyup = (event) => {
+        console.table("North West Keyup:", event);
+    }
+    
+    let top_middle_keydown = (event) => {
+        console.table("North Central Keydown:", event);
+
+        if (event.shiftKey && event.key === 'Enter') {
+            event.preventDefault();
+            let selection_start = document.getElementById("center").selectionStart;
+            let selection_end = document.getElementById("center").selectionEnd;
+
+            if (selection_start == selection_end) {
+                alert("???");
+            } else {
+                alert("???");
+            }
+        } else if (event.ctrlKey && event.key === 'Enter') {
+            alert("??????????????");
+        }
+    }
+    
+    let top_middle_keyup = (event) => {
+        console.table("North Central Keyup:", event);
+    }
+    
+    let top_right_keydown = (event) => {
+        console.table("North East Keydown:", event);
+        
+        if (event.shiftKey && event.key === 'Enter') {
+            event.preventDefault();
+            let selection_start = document.getElementById("right").selectionStart;
+            let selection_end = document.getElementById("right").selectionEnd;
+
+            if (selection_start == selection_end) {
+                alert("Running line of PrologScript...");
+            } else {
+                alert("Running selected lines of PrologScript...");
+            }
+        } else if (event.ctrlKey && event.key === 'Enter') {
+            alert("Running PrologScript file...");
+        }
+    }
+    
+    let top_right_keyup = (event) => {
+        console.table("North East Keyup Keyup:", event);
+    }
+
+    
+    let bottom_left_keydown = (event) => {
+        console.table("South West Keydown:", event);
+        var bottom_left_editor = ace.edit("bottom_left");
+
+        if (event.shiftKey && event.key === 'Enter') {
+            event.preventDefault();
+            
+            let selection_range = bottom_left_editor.selection.getRange();
+            
+            let selection_start = selection_range["start"];
+            let starting_row = selection_start["row"];
+            let starting_column = selection_start["column"];
+            
+            let selection_end = selection_range["end"];
+            let ending_row = selection_end["row"];
+            let ending_column = selection_end["column"];
+            
+            console.log("Selection:");
+            console.log("Starting Row:", starting_row);
+            console.log("Starting Column:", starting_column);
+            console.log("Ending Row::", ending_row);
+            console.log("Ending Column:", ending_column);
+
+            let selected_lines_of_code = [];
+            for (let i = starting_row; i <= ending_row; i++ ) {
+                selected_lines_of_code.push(bottom_left_editor.session.getLine(i))
+            }
+            console.table(selected_lines_of_code);
+
+            if (starting_row == ending_row) {
+                let line_text = bottom_left_editor.session.getLine(starting_row);
+                // alert("[" + line_text.substring(0, 1) + "] Running: " + line_text);
+                let new_script = document.createElement("script");
+                let timestamp = (Date.now()/1000).toFixed(3);
+
+                new_script.setAttribute("type", "text/javascript");
+                new_script.setAttribute("id", timestamp);
+                
+                var code_block = `
+                let line = String('${line_text.replace("'", "\\'")}');
+                lips.exec(line).then((results) => {
+                    results.forEach((result) => {
+                        try{
+                            console.log("Programmatically run", line, ":", result.toString());
+                            window.send_to_output(result);
+                        } catch (e) {
+                            console.log("No results:", e);
+                        } 
+                    });
+                });
+                `
+                console.log(code_block);
+                new_script.innerHTML = code_block;
+                document.body.appendChild(new_script);
+                document.getElementById(timestamp).remove();
+            } else {
+                var lines = [];
+                for (let i = starting_row; i <= ending_row; i++) {
+                    let line = bottom_left_editor.session.getLine(i).trim();
+                    if (line.length > 0) lines.push(line.replace("'", "\\'"));
+                }
+                // alert("Running selected lines of SchemeScript...");
+                let new_script = document.createElement("script");
+                let timestamp = (Date.now()/1000).toFixed(3);
+
+                new_script.setAttribute("type", "text/javascript");
+                new_script.setAttribute("id", timestamp);
+                
+                let code_block = `
+                let line = String('${lines.join(" ")}');
+                lips.exec(line).then((results) => {
+                    results.forEach((result) => {
+                        try{
+                            console.log("Programmatically run", line, ":", result.toString());
+                            window.send_to_output(result);
+                        } catch (e) {
+                            console.log("No results:", e);
+                        }
+                    });
+                });
+                `
+                console.log(code_block);
+                new_script.innerHTML = code_block;
+                document.body.appendChild(new_script);
+                document.getElementById(timestamp).remove();
+            }
+        } else if (event.ctrlKey && event.key === 'Enter') {
+            var lines = [];
+            for (let i = 0; i < bottom_left_editor.session.getLength(); i++) {
+                let line = bottom_left_editor.session.getLine(i).trim();
+                let line_without_comments = line.indexOf(";") >= 0 ? line.substring(0, line.indexOf(";")) : line;
+                if (line_without_comments.length > 0) lines.push(line_without_comments.replace("'", "\\'"));
+            }
+            // alert("Running selected lines of SchemeScript...");
+            let new_script = document.createElement("script");
+            let timestamp = (Date.now()/1000).toFixed(3);
+
+            new_script.setAttribute("type", "text/javascript");
+            new_script.setAttribute("id", timestamp);
+            
+            let code_block = `
+            let line = String('${lines.join(" ")}');
+            lips.exec(line).then((results) => {
+                results.forEach((result) => {
+                    try{
+                        console.log("Programmatically run", line, ":", result.toString());
+                        window.send_to_output(result);
+                    } catch (e) {
+                        console.log("No results:", e);
+                    } 
+                });
+            });
+            `
+            console.log(code_block);
+            new_script.innerHTML = code_block;
+            document.body.appendChild(new_script);
+            document.getElementById(timestamp).remove();
+        }
+    }
+
+    let global_keydown = (event) => {
+        console.table("Global Keydown:", event);
+
+        if (event.ctrlKey && event.code === 'KeyL') {
+            event.preventDefault();
+            event.stopPropagation();
+            alert("Ctrl + L Keydown");
+        }
+
+        if (event.key === 'Escape') {
+            let cli = document.getElementById("cli");
+
+            if (cli_activated) {
+                console.log("HIDING CLI");
+                console.log("HIDING CLI");
+                console.log("HIDING CLI");
+                cli.classList.add("invisible");
+                cli_activated = false;
+                document.getElementById("left").firstChild.focus();
+            } else {
+                console.log("SHOWING CLI");
+                console.log("SHOWING CLI");
+                console.log("SHOWING CLI");
+                cli.classList.remove("invisible");
+                cli_activated = true;
+                document.getElementById("0").focus();
+            }
+        }
+    }
+
+    let global_keyup = (event) => {
+        console.table("Global Keyup:", event);
+    }
+
+    document.getElementById("top_left").addEventListener("keydown", top_left_keydown);
+    document.getElementById("top_left").addEventListener("keyup", top_left_keyup);
+    
+    document.getElementById("top_middle").addEventListener("keydown", top_middle_keydown);
+    document.getElementById("top_middle").addEventListener("keyup", top_middle_keydown);
+
+    document.getElementById("top_right").addEventListener("keydown", top_right_keydown);
+    document.getElementById("top_right").addEventListener("keyup", top_right_keydown);
+
+    document.addEventListener("keydown", global_keydown);
+    document.addEventListener("keyup", global_keyup);
+
+</script>
+
+
+
+
+
+<!-- LIPS Scheme -->
+
+<script type="text/javascript">
+    var {exec} = lips;
+    exec("(+ 1 2 3)").then((results) => {
+        results.forEach((result) => {
+            console.log("Programmatically running (+ 1 2 3):", result.toString());
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    let new_script = document.createElement("script");
+
+    new_script.setAttribute("type", "text/x-scheme");
+
+    new_script.innerHTML = '(console.log "Programmatically inserting SchemeScript!")';
+
+    document.body.appendChild(new_script);
+</script>
+
+<script type="text/x-scheme">
+
+    (console.log "Math in SchemeScript:");
+
+    (console.log "1 + 2 + 3 =" (+ 1 2 3))
+    (console.log "4 + 5 + 6 =" (+ 4 5 6))
+    (console.log "7 + 8 + 9 =" (+ 7 8 9)) ; comment
+
+</script> 
+
+<!--
+<script type="text/javascript">
+    window.onload = (event) => {
+        let scheme_script = document.createElement('script');
+        scheme_script.setAttribute("type", "text/x-scheme");
+        scheme_script.setAttribute("id", "scheme-script");
+        scheme_script.setAttribute("bootstrap", "https://cdn.jsdelivr.net/npm/@jcubic/lips@beta/dist/std.scm");
+
+        scheme_script.innerHTML = `
+        (console.log "Scheme build: Successful!")
+        `;
+
+        document.body.appendChild(scheme_script);
+    };
+</script>
+-->
+
+<script type="text/javascript">
+    let schemescript = [
+        `; SchemeScript.scm`,
+        `; (LIPS Scheme/JavaScript)`,
+        ``,
+        `(alert "SchemeScript?")`,
+        `(console.log "SchemeScript!")`,
+        ``,
+        `(+ 1 2 3 4 5)`,
+        ``,
+        `(define alias define)`,
+        `(alias function lambda)`,
+        ``,
+        `(alias hello`,
+        `  (function`,
+        `    ()`,
+        `    (output "World!")))`,
+        `(hello)`,
+        ``,
+        `(let`,
+        `  ((obj \`&(:name "LIPS Scheme" :version ,lips.version)))`,
+        `  (print`,
+        `    (string-append obj.name " " obj.version))`,
+        `  (setTimeout`,
+        `    (lambda () (alert (JSON.stringify obj)))`,
+        `    1000)`,
+        `  #void)`,
+        ``,
+        `(define foo_or_bar`,
+        `  (curry filter #/foo|bar/))`,
+        ``,
+        `(output (foo_or_bar '(foo 10 bar 20 baz 30)))`,
+    ]
+    window.insert_lines_at(top_left_editor, schemescript, row=0);
+    top_left_editor.moveCursorTo(top_left_editor.session.getLength() - 1, 0);
+    
+    let introduction = [
+        `-> sentience.cafe`,
+        `-> "the functor factory"`,
+        `-> [Tab] for next cell`,
+        `-> [Shift + Tab] for previous cell`,
+        ``,
+        `-> [Shift + Enter] to run line/s`,
+        `-> [Control + Enter] to run cell`,
+        `-> [Escape] to run macro/s`,
+    ]
+    window.insert_lines_at(top_middle_editor, introduction, row=0);
+    top_middle_editor.moveCursorTo(2, 0);
+
+    /*
+    var center_editor = ace.edit("center");
+    center_editor.session.insert({row: 1, column: 1}, "Sophistry.io");
+    center_editor.session.insert({row: center_editor.session.getLength(), column: 0}, "\n");
+    center_editor.session.insert({row: 2, column: 1}, '"A wise editor knows that it knows nothing."');
+    center_editor.session.insert({row: center_editor.session.getLength(), column: 0}, "\n\n");
+    center_editor.session.insert({row: 4, column: 1}, "[Escape] Help & Run Macro/s");
+    center_editor.session.insert({row: 5, column: 0}, "[Shift + Enter] Run Line/s");
+    center_editor.session.insert({row: center_editor.session.getLength(), column: 0}, "\n");
+    center_editor.session.insert({row: 6, column: 0}, "[Control + Enter] Run File");
+    center_editor.session.insert({row: center_editor.session.getLength(), column: 0}, "\n\n");
+    center_editor.moveCursorTo(center_editor.session.getLength(), 0);
+    */
+    let prologscript = [
+        `% PrologScript.pl`,
+        `% (SWI-Prolog/JavaScript)`,
+        ``,
+        `'Man'('Socrates').`,
+        ``,
+        `'Mortal'(Creature) :-`,
+        `  'Man'(Creature).`,
+        ``,
+        `'Mortal'('Socrates')? % -> Yes.`,
+    ]
+
+    window.insert_lines_at(top_right_editor, prologscript, row=0);
+    top_right_editor.moveCursorTo(top_right_editor.session.getLength() - 1, 0);
+
+
+
+    let grid_one = [
+        `...`,
+    ]
+
+    window.insert_lines_at(bottom_left_editor, grid_one, row=0);
+    bottom_left_editor.moveCursorTo(bottom_left_editor.session.getLength() - 1, 0);
+
+
+    
+
+    let grid_two = [
+        `...`,
+    ]
+
+    window.insert_lines_at(bottom_middle_editor, grid_two, row=1);
+    bottom_middle_editor.moveCursorTo(bottom_middle_editor.session.getLength() - 1, 0);
+
+    
+
+
+
+    let grid_three = [
+        `...`,
+    ]
+
+    window.insert_lines_at(bottom_right_editor, grid_three, row=1);
+    bottom_right_editor.moveCursorTo(bottom_right_editor.session.getLength() - 1, 0);
+
+
+
+    /*
+    var right_editor = ace.edit("right");
+    right_editor.session.insert({row: 1, column: 1}, "% PrologScript");
+    right_editor.session.insert({row: right_editor.session.getLength(), column: 0}, "\n");
+    right_editor.session.insert({row: 2, column: 1}, '% (SWI-Prolog & JavaScript)');
+    right_editor.session.insert({row: right_editor.session.getLength(), column: 0}, "\n");
+    right_editor.moveCursorTo(4, 0);
+    */
+</script>
+
+<script async id="scheme-script" type="text/x-scheme" bootstrap="https://cdn.jsdelivr.net/npm/@jcubic/lips@beta/dist/std.scm">
+
+    (console.table "Scheme is live!")
+
+    (define (output item)
+        (window.send_to_output item))
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- SWI-Prolog -->
+
+
+<script type="text/javascript">
+    /*
+    while (typeof window.swipl === 'undefined') {
+        setInterval(console.log("Waiting for SWI-Prolog..."), 500);
+    }
+        */
+
+    let q = `'Member'(X, ['Alpha', 'Beta', 'Gamma']).`;
+    console.log(q + " ->");
+    // console.log(window.swipl.prolog.query(q).once().X);
+    console.log("Window.swipl =", typeof window.swipl);
+</script>
+
+
+</html> 
