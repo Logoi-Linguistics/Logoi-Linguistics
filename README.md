@@ -13,7 +13,6 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 ### An Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
 
-A Brief History of Attempted Acquisitions:
 - 1994-20XX: English
 - 2006-2007: Français
 - 2007-2013: Español & Русский
@@ -27,6 +26,7 @@ A Brief History of Attempted Acquisitions:
 ### A Tentative, Possibly-Asynchronous Roadmap
 
 Software (Mohs hardness of 0):
+
 - α Logoi Editor [JavaScript 🤢]: 12/24/24
 - β Logoi Editor [WASM 🤩]: ASAP, 2025
 - logOS [WASM WAM 🧐]: 12/25/25
@@ -42,6 +42,7 @@ Software (Mohs hardness of 0):
 - Yeshua [Gnarly Gnostic ]:
 
 Hardware (Mohs hardness of >0):
+
 - Sightless Keyball
 - Sightless Keyglove
 - Sightless Clavier
