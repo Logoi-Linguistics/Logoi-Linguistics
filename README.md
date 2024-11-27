@@ -41,6 +41,7 @@ Software (Mohs hardness of 0):
 - Euthyphro [Unbiased Barrister 😇]:
 - Yeshua [Gnarly Gnostic 🤙]:
 - Elenchus [Life Coach ✌️]:
+- Borges [Universal Translator ]:
 
 Hardware (Mohs hardness of >0):
 
