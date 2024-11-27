@@ -47,7 +47,7 @@ Hardware (Mohs hardness of >0):
 - Sightless Keyglove
 - Sightless Clavier
 - Buskin [Feline Robot 🐈]
-- Libra [Conversational Tombstone 🪦]
+- Libra [Conversational Tombstone ☠️]
 
 ### Acknowledgement of Overdue Gratitude
 
