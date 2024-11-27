@@ -7,9 +7,9 @@ Logoi ≡ (Prolog ∧ Lisp)
 <em>"The principal difficulty to overcome in designing a universal language is to render the study of the language so easy as to make its acquisition mere play to the learner."</em>
 - <a target="_blank" href="https://shawnomancy.com/wp-content/uploads/2019/03/Unua-Libro.pdf">Dr. Esperanto's International Language, Introduction & Complete Grammar por Angloj</a>
 
-<hr>
+<br>
 
-# List-oriented Preamble
+# A List-oriented Preamble
 
 ### An Asinine Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
 
@@ -59,7 +59,7 @@ Logoi would not exist without—and is therefore infinitely indebted to—Victor
 
 <a target="_blank" href="https://youtu.be/s-mOy8VUEBk">A Brief Sketch Concerning the Concept of Dansk, or "An Ode Vicarious to Language-in-Itself"</a>
 
-<hr>
+<br>
 
 # A Litany of Linguistic Preliminaries
 
@@ -235,6 +235,8 @@ Logoi file formatting follows two distinct aesthetic dicta:
 > Logoi is not for sale, at any price.
 > Logoi, the language/editor, and logOS, the artificial operating system, shall henceforth be FOSS, forever (and ever, and ever, et cetera).
 > logOS applications, however, may be monetized, ad hoc, if only to patronize their respective developmental endeavours.
+
+<br>
 
 # Math: "Vertical/Parenless" Polish/Prefix Notation/Lisp (V/PP/PN/L) [WASM]
 
@@ -815,10 +817,7 @@ se/jes/ne
     konzolo.ensaluti!/Ŝnuro
         "Sokrato estas mortema."
 ; -> "Socrates estas senpluma dupiedulo." (RetumilaAtentigo)
-
-```
-[[Neante la Antaŭulon](https://en.wikipedia.org/wiki/Denying_the_antecedent)]
-```
+; https://en.wikipedia.org/wiki/Denying_the_antecedent)]
 
 ;
 ; HTML-Elementaj Konstruiloj
@@ -885,6 +884,8 @@ provu/kaptu/alie/fine
 ; -> DOM-Evento
 
 ```
+
+<br>
 
 # Logic: Quinean Sentential Schemata (QSS) [WAM]
 
