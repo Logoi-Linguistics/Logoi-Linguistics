@@ -158,6 +158,9 @@ hello!/String
 % I like vineyards.
 ; -> '{1} {2} {3}.'('I', 'like', 'vineyards').
 
+% My favorite color is lavender.
+; -> 'My favorite {1} is {2}.'('color', 'lavender').
+
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
