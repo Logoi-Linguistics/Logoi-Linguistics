@@ -11,7 +11,7 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 # List-oriented Preamble
 
-### An Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
+### An Asinine Attempt at a Pathetic Ethos of an Absurdly-Annoying Author
 
 - 1994-20XX: English
 - 2006-2007: Français
