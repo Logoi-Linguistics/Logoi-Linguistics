@@ -92,13 +92,13 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 ;
 
 MetaFunction/2
-    hello!/String
+    alias/Type
     MetaFunction/1
-        Variable
-        Function!/1
-            Function/N
+        Parameter
+        ImpureFunction/1
+            VariadicFunction/N
                 Constant
-                Variable
+                Parameter
                 Constant
 
 ;
@@ -116,8 +116,8 @@ Name/Value                ; Name/Value is a MetaFunction of arity: 2.
                 "!"       ; "!" is a Character::String.
 
 hello!/String
-    String
-; -> BrowserEvent! (side-effective)
+    "World"
+; -> "Hello, World!" (side-effective BrowserEvent)
 
 ;
 ; (Natural Language) Declarative Qualia
