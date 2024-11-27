@@ -121,6 +121,9 @@ hello!/String
 % Alan Turing did nothing wrong.
 ; -> '{1} did {2}.'('Alan Turing', 'nothing wrong').
 
+% I am.
+; -> '{1} {2}.'('I', 'am').
+
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
