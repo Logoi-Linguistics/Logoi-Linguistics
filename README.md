@@ -102,8 +102,22 @@ MetaFunction/2
                 Constant
 
 ;
-; "Hello, World!" (Unabridged)
+; "Hello, World!" (Defined)
 ;
+
+; Abridged:
+
+Name/Value
+    hello!/String
+    Function/1
+        whom
+        alert!/String
+            join/Strings
+                "Hello, "
+                whom
+                "!"
+
+; Unabridged:
 
 Name/Value                ; Name/Value is a MetaFunction of arity: 2.
     hello!/String         ; hello! is an ImpureFunction of domain: String.
@@ -289,42 +303,6 @@ This-is-translated-to-Lisp. ; This sentence is ignored. This-is-ignored.
 This-is-translated-to-Lisp. ; This sentence is ignored. % This sentence is ignored.
 This-is-translated-to-Lisp. % This sentence is translated to Prolog. ; This sentence is ignored.
 This-is-translated-to-Lisp. This-causes-a-formatting-error. ; (1 Atom per Line)
-
-;
-; "Hello, World!", Defined
-;
-
-; Abridged:
-
-Name/Value
-    hello!/String
-    Function/1
-        whom
-        alert!/String
-            join/Strings
-                "Hello, "
-                whom
-                "!"
-
-hello!/String
-    "World"
-; -> "Hello, World!" (BrowserAlert)
-
-; Unabridged:
-
-Name/Value                ; Name/Value is a MetaFunction of arity: 2.
-    hello!/String         ; hello! is an ImpureFunction of domain: String.
-    Function/1            ; Function/1 is a MetaFunction of arity: 1.
-        whom              ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-        alert!/String     ; alert! is an ImpureFunction of domain: String.
-            join/Strings  ; join is a VariadicFunction of domain: Strings.
-                "Hello, " ; "Hello, " is a String.
-                whom      ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"       ; "!" is a Character::String.
-
-hello!/String ; hello! is an ImpureFunction of domain: String.
-    "World"   ; "World" is a Word::String.
-; -> "Hello, World!" (BrowserAlert)
 
 ;
 ; Abstraction Operators, Abstracted
