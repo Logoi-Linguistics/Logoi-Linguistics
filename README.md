@@ -898,16 +898,18 @@ In response to this puzzle pedagogical, Logoi translates "logical" sentences (tr
 
 ```
 
-A Decluttered Didactic re Deux:
+A Decluttered Didactic re (Prolog) Deux:
 
 ; Comments
 ! Commands
 ? Queries
 % Qualia
 
-Two(+) Terms:
+Two, or more, terms (for purposes strictly illustrative):
 
+!
 ! English
+!
 
 % Prolog is a template for sentences.
 ; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
@@ -918,17 +920,24 @@ Two(+) Terms:
 % Daedalus was the father of Icarus.
 ; -> '{1} was the {2} of {3}.'('Daedalus', 'father', 'Icarus').
 
+% Socrates was ugly.
+; -> '{1} was {2}.'('Socrates', 'ugly').
+
 % Alan Turing did nothing wrong.
 ; -> '{1} did {2}.'('Alan Turing', 'nothing wrong').
 
+% I am.
+; -> '{1} {2}.'('I', 'am').
+
+% I like vineyards.
+; -> '{1} {2} {3}.'('I', 'like', 'vineyards').
+
+% My favorite color is lavender.
+; -> 'My favorite {1} is {2}.'('color', 'lavender').
+
 % Socrates is a man.
-; -> '{1} is a {2}.'('Socrates', 'man').
-
 % All men are mortal.
-; -> 'All {1} are {2}.'('men', 'mortal').
-
 % The plural of man is men.
-; -> 'The {1} of {2} is {3}.'('plural', 'man', 'men').
 
 ? Is Socrates mortal
 ; -> 'All {1} are {2}.'(Y, 'mortal'),
