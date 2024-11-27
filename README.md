@@ -182,6 +182,8 @@ Logoi is the curious offspring of two years spent blissfully contemplating the w
 2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
 3. A WebAssembly editor provides (near-)instant access to an "IDE + OS" workflow.
 
+Logoi is like the Tower of Babel penetrating Plato's Cave to conceive a beautiful baby bastard.
+
 Logoi file formatting follows two distinct aesthetic dicta:
 
 - [x] Math: "Vertical/Parenless" [Polish/Prefix Notation](https://en.wikipedia.org/wiki/Polish_notation)/Lisp (V/PP/PN/L)
