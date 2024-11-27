@@ -27,9 +27,9 @@ Logoi ≡ (Prolog ∧ Lisp)
 
 Software (Mohs hardness of 0):
 
-- α Logoi Editor [JavaScript 🤢]: 12/24/24
-- β Logoi Editor [WASM 🤩]: ASAP, 2025
-- logOS [WASM WAM 🧐]: 12/25/25
+- α Logoi Editor [JavaScript 🤢]: 24/12/24
+- β Logoi Editor [WASM 🤩]: 25/4/1
+- logOS [WASM WAM 🧐]: 25/12/25
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
