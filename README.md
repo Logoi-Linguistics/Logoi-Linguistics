@@ -57,7 +57,7 @@ Logoi would not exist without—and is therefore infinitely indebted to—Victor
 
 ### An Ounce, There or Thereabouts, of Necessary Comic Relief
 
-<a target="_blank" href="https://youtu.be/s-mOy8VUEBk">A Brief Comedy Sketch Concerning the Concept of Dansk, or "An Ode Vicarious to Language-in-Itself"</a>
+<a target="_blank" href="https://youtu.be/s-mOy8VUEBk">A Brief Sketch Concerning the Concept of Dansk, or "An Ode Vicarious to Language-in-Itself"</a>
 
 <hr>
 
