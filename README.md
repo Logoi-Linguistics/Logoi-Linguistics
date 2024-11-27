@@ -63,6 +63,8 @@ Logoi would not exist without—and is therefore infinitely indebted to—Victor
 
 # A Litany of Linguistic Preliminaries
 
+<img src="./static/images/kant_bw.jpg" width="250" />
+
 <em>"But although all our knowledge begins <b>with</b> experience, it does not follow that it arises <b>from</b> experience."</em>
 - Immanuel Kant, <em>Critique of Pure Reason</em>
 
