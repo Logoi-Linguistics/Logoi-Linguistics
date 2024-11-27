@@ -948,6 +948,8 @@ Two, or more, terms (for purposes strictly illustrative):
 ```
 (cf. [Existentialization](https://en.wikipedia.org/wiki/Existential_quantification))
 
+<hr>
+
 English is but one of [many other languages on the long-term roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
 
