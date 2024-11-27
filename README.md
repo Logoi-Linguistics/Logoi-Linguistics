@@ -39,7 +39,7 @@ Software (Mohs hardness of 0):
 - Atomo [Autonomous Auditor 😉]:
 - Dissos [Artificial Therapist 😭]:
 - Euthyphro [Unbiased Barrister 😇]:
-- Yeshua [Gnarly Gnostic ]:
+- Yeshua [Gnarly Gnostic 🤙]:
 
 Hardware (Mohs hardness of >0):
 
