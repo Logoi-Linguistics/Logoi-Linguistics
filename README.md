@@ -188,6 +188,8 @@ Logoi file formatting follows two distinct aesthetic dicta:
 - Official Motto: _"Pensu pli granda."_
 - Unofficial Motto: _"Carpe diem, carpe noctem, et carpe vinum!"_
 
+<hr>
+
 > [!IMPORTANT]
 > Logoi is not for sale, at any price.
 > Logoi, the language/editor, and logOS, the artificial operating system, shall henceforth be FOSS, forever (and ever, and ever, et cetera).
