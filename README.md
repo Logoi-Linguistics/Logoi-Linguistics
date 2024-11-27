@@ -127,7 +127,7 @@ Name/Value                ; Name/Value is a MetaFunction of arity: 2.
             join/Strings  ; join is a VariadicFunction of domain: Strings.
                 "Hello, " ; "Hello, " is a String.
                 whom      ; whom is a Parameter::??, where: ?? = #TypeSignatureIndex#.
-                "!"       ; "!" is a Character::String.
+                "!"       ; "!" is a String.
 
 hello!/String
     "World"
