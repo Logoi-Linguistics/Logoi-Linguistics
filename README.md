@@ -164,6 +164,7 @@ hello!/String
 % Socrates is a man.
 % All men are mortal.
 % The plural of man is men.
+
 ? Is Socrates mortal
 ; -> 'All {1} are {2}.'(Y, 'mortal'),
 ;    '{1} is a {2}.'('Socrates', X),
