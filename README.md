@@ -40,6 +40,7 @@ Software (Mohs hardness of 0):
 - Dissos [Artificial Therapist 😭]:
 - Euthyphro [Unbiased Barrister 😇]:
 - Yeshua [Gnarly Gnostic 🤙]:
+- Elenchus [Life Coach 🤙]:
 
 Hardware (Mohs hardness of >0):
 
