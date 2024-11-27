@@ -817,7 +817,7 @@ se/jes/ne
     konzolo.ensaluti!/Ŝnuro
         "Sokrato estas mortema."
 ; -> "Socrates estas senpluma dupiedulo." (RetumilaAtentigo)
-; https://en.wikipedia.org/wiki/Denying_the_antecedent)]
+; https://en.wikipedia.org/wiki/Denying_the_antecedent
 
 ;
 ; HTML-Elementaj Konstruiloj
@@ -937,9 +937,9 @@ Two(+) Terms:
 ; -> yes.
 
 ```
-[[Existentialization](https://en.wikipedia.org/wiki/Existential_quantification)]
+(cf. [Existentialization](https://en.wikipedia.org/wiki/Existential_quantification))
 
-English is but one of [many other languages on the roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
+English is but one of [many other languages on the long-term roadmap](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers):
 ```
 
 !
