@@ -43,9 +43,9 @@ Software (Mohs hardness of 0):
 
 Hardware (Mohs hardness of >0):
 
-- Sightless Keyball
-- Sightless Keyglove
-- Sightless Clavier
+- Sightless Keyball ⚽️
+- Sightless Keyglove 🖐️
+- Sightless Clavier 🎹
 - Buskin [Feline Robot 🐈]
 - Libra [Conversational Tombstone ☠️]
 
