@@ -23,7 +23,7 @@ Logoi ≡ (Prolog ∧ Lisp)
 - 2022-2024: Lisp & Prolog
 - 2025-20XX: Logoi & Ἑλληνική
 
-### A Tentative, Possibly-Asynchronous Roadmap
+### A Tentative, Possibly-Asynchronous Roadmap of Applications
 
 Software (Mohs hardness of 0):
 
@@ -53,7 +53,7 @@ Hardware (Mohs hardness of >0):
 
 Logoi would not exist without—and is therefore infinitely indebted to—Victoria. She held my hand and walked through Hell beside me at a time when the rest of the world treated me as they would a party clown.
 
-### An Ounce, or so, of Comedic Relief
+### An Ounce, or so, of Necessary Comedic Relief
 
 <a target="_blank" href="https://youtu.be/s-mOy8VUEBk">A Brief Comedy Sketch Concerning the Concept of Dansk, or "An Ode Vicarious to Language-in-Itself"</a>
 
