@@ -222,7 +222,7 @@ Logoi file formatting follows two distinct aesthetic dicta:
 <hr>
 
 - Official Predecessor: [Spreadsheet Lisp](https://github.com/microsoft/Excel-Labs/blob/main/advanced-formula-environment/examples/SpreadsheetLisp.ts)
-- Unofficial Predecessor: [Socrates](https://en.m.wikipedia.org/wiki/Socrates)
+- Unofficial Predecessor: [Socrates the Greek](https://en.m.wikipedia.org/wiki/Socrates)
 
 <hr>
 
