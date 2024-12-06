@@ -89,6 +89,18 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 
 ! English
 
+Name/Value
+    language
+    "Logoi"
+
+Name/Value
+    version
+    0
+
+Name/Value
+    known
+    "unknown"
+
 ;
 ; "Hello, World!" (Abstracted)
 ;
