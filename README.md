@@ -192,6 +192,8 @@ Logoi file formatting follows two distinct aesthetic dicta:
 - [x] Logic: Quinean Sentential Schemata (QSS)
 - [ ] Humor: being extralogical, is precluded *a priori*.
 
+From the very beginning, return type annotations were categorically eliminated from function names simply by asking any given Logoi author to restrict the return type of their function to a subset of that function's input types. Type conversion functions are thus employed to explicitly handle type mutations on a separate line so as to reduce Logoi's average line-length.
+
 ### Metalinguistic Miscellany
 
 <hr>
