@@ -91,7 +91,7 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 
 Name/Value
     language
-    "Logoi"
+    'Logoi'
 
 Name/Value
     version
