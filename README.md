@@ -93,12 +93,12 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 ; "Hello, World!" (Abstracted)
 ;
 
-MetaFunction/2
+MetaFunction/{Arity}
     alias/Type
-    MetaFunction/1
+    MetaFunction/{Arity}
         Parameter
-        ImpureFunction/1
-            VariadicFunction/N
+        ImpureFunction/{Arity}
+            VariadicFunction/{Arity}
                 Constant
                 Parameter
                 Constant
