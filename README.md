@@ -136,11 +136,11 @@ Name/Value
 Name/Value                ; Name/Value is a MetaFunction of arity: 2.
     hello!/String         ; hello! is an ImpureFunction of domain: String.
     Function/1            ; Function/1 is a FunctionConstructor of arity: 1.
-        whom              ; whom is a ParameterVariable of type String, as inferred from the type signature.
+        whom              ; whom is a ParameterVariable of type String (inferred from type signature).
         alert!/String     ; alert! is an ImpureFunction of domain: String.
             join/Strings  ; join is a VariadicFunction of domain: Strings.
                 "Hello, " ; "Hello, " is a constant of type String.
-                whom      ; whom is a ParameterVariable of type String, as inferred from the type signature.
+                whom      ; whom is a ParameterVariable of type String (inferred from type signature).
                 "!"       ; "!" is a constant of type String.
 
 hello!/String
