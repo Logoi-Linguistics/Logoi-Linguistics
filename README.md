@@ -91,15 +91,15 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 
 Name/Value
     language
-    'Logoi'
+    'Logoi' ; Atom
 
 Name/Value
     version
-    0
+    0.0 ; Float
 
 Name/Value
     known
-    "unknown"
+    "unknown" ; String
 
 ;
 ; "Hello, World!" (Abstracted)
