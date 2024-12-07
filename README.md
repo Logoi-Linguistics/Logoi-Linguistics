@@ -101,6 +101,10 @@ Name/Value
     known
     "unknown" ; String
 
+Name/Value
+    kamelåså
+    1000 ; Integer
+
 ;
 ; "Hello, World!" (Abstracted)
 ;
