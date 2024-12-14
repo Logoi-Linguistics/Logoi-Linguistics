@@ -193,7 +193,7 @@ hello!/String
 
 ### Logoi, Figuratively
 
-Logoi was inspired by a daydream about using spoken languages as logic/functional programming languages.
+Logoi was inspired by a daydream about using human/spoken languages as logic/functional programming languages.
 
 Logoi is the curious offspring of two years spent blissfully contemplating the written works by <a target="_blank" href="https://plato.stanford.edu/entries/church/">Church</a>, <a target="_blank" href="https://plato.stanford.edu/entries/quine/">Quine</a> & <a target="_blank" href="https://plato.stanford.edu/entries/peirce/">Charles Sanders Peirce</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
