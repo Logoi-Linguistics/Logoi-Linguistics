@@ -1,6 +1,6 @@
-# Logoi (λόγοι)
+# Logoi (<a target="_blank" href="https://en.wiktionary.org/wiki/%CE%BB%CF%8C%CE%B3%CE%BF%CE%B9">λόγοι</a>)
 
-Logoi ≡ (<a target="_blank" href="https://en.m.wikipedia.org/wiki/Prolog">Prolog</a> ∧ <a target="_blank" href="https://en.m.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a>)
+Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog</a> ∧ <a target="_blank" href="https://en.wikipedia.org/wiki/Lisp_(programming_language)">Lisp</a>)
 
 <a target="_blank" href="https://logoi.website/tutorial/"><img src="./static/images/logoi-logo-rectangle.jpg" width="250" /></a>
 
