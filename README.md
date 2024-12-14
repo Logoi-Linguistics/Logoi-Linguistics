@@ -99,7 +99,7 @@ Name/Value
 
 Name/Value
     known
-    "unknown" ; Text
+    "unknown" ; Textual string
 
 Name/Value
     kamelåså
