@@ -95,11 +95,11 @@ Name/Value
 
 Name/Value
     version
-    0.0 ; Float
+    0.0 ; Decimal floating-point
 
 Name/Value
     known
-    "unknown" ; String
+    "unknown" ; Textual string
 
 Name/Value
     kamelåså
