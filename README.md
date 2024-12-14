@@ -78,7 +78,7 @@ Logoi would not exist without—and is therefore infinitely indebted to—Victor
 
 at once.
 
-Whereas generative LLMs analogize the proverbial "right hemisphere" of artificial thought (e.g., creative faculties), Logoi represents a step toward a complementary "left hemisphere" of artificial thought (e.g., rational faculties) by way of a declarative SLM (small language model).
+Whereas generative LLMs analogize the proverbial "right hemisphere" of artificial thought [i.e., creative faculties], Logoi represents a step toward a complementary "left hemisphere" of artificial thought [i.e., rational faculties] by way of a declarative SLM (small language model).
 
 > [!NOTE]
 > As of December 2024: Logoi's construction has been 99.9% mouseless. There is neither sound nor sane reason for this design decision, but inertia stubbornly remains, as is commonly known, a pervasive property of all matter in the cosmos (micro- & macro-), massive & otherwise.
