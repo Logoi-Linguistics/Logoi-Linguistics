@@ -129,7 +129,7 @@ Name/Value
     hello!/String
     Function/1
         whom
-        alert!/String
+        display!/String
             join/Strings
                 "Hello, "
                 whom
@@ -141,7 +141,7 @@ Name/Value                ; Name/Value is a MetaFunction of arity: 2.
     hello!/String         ; hello! is an ImpureFunction of domain: String.
     Function/1            ; Function/1 is a FunctionConstructor of arity: 1.
         whom              ; whom is a ParameterVariable of type String (inferred from type signature).
-        alert!/String     ; alert! is an ImpureFunction of domain: String.
+        display!/String   ; display! is an ImpureFunction of domain: String.
             join/Strings  ; join is a VariadicFunction of domain: Strings.
                 "Hello, " ; "Hello, " is a constant of type String.
                 whom      ; whom is a ParameterVariable of type String (inferred from type signature).
@@ -419,11 +419,11 @@ celsius->fahrenheit/Rational ; celsius->fahrenheit is a Function of domain: Rati
 ; -> 212
 
 ;
-; alert!/String
+; display!/String
 ; is an ImpureFunction/1 that displays a String in the browser's popup/alert/dialogue box.
 ;
 
-alert!/String
+display!/String
     join/Alphanumerics
         "0 degrees Celsius is "
         celsius->fahrenheit/Rational
@@ -441,7 +441,7 @@ Names/Value
     F
         celsius->fahrenheit/Rational
             C
-    alert!/String
+    display!/String
         join/Strings
             string/Rational
                 C
@@ -558,7 +558,7 @@ try/catch/else/finally
             "Something, somewhere, is broken."
     console.log!/String
         "<Element> successfully added to document."
-    alert!/String
+    display!/String
         "document.append/<Element> completed another iteration, for better or worse."
 ; -> DOM-Event
 
