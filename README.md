@@ -155,8 +155,6 @@ hello!/String
 ; (Natural Language) Declarative Qualia
 ;
 
-; Full points are (currently) ignored, but remain ever-pleasing to the naked eye.
-
 % Prolog is a template for sentences.
 ; -> '{1} is a {2} for {3}.'('Prolog', 'template', 'sentences').
 
