@@ -12,7 +12,7 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 # A List-oriented Preamble
 
 ### An Asinine Attempt at a <a target="_blank" href="https://en.wikipedia.org/wiki/Modes_of_persuasion">Pathetic Ethos</a> of an Absurdly-Annoying Author
-(<em>a posteriori</em>)
+(<em>a posteriori</em>, naturally)
 
 - 1994-20XX: English
 - 2006-2007: Français
