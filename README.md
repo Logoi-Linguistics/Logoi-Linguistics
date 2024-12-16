@@ -13,7 +13,7 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 
 ### An Asinine Attempt at a <a target="_blank" href="https://en.wikipedia.org/wiki/Modes_of_persuasion">Pathetic Ethos</a> of an Absurdly-Annoying Author
 
-- 1994-202X: English
+- 1994-20XX: English
 - 2006-2007: Français
 - 2007-2013: Español & Русский
 - 2013-2014: Deutsch & JavaScript
@@ -21,7 +21,7 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 - 2016-2020: VBA & SQL
 - 2020-2022: Lisp & esperanto
 - 2022-2024: Lisp & Prolog
-- 2025-202X: Logoi & Ἑλληνική
+- 2025-20XX: Logoi & Ἑλληνική
 
 ### A Tentative, Possibly-Asynchronous Roadmap of Applications
 
