@@ -100,7 +100,7 @@ Name/Value
 
 Name/Value
     known
-    "unknown" ; Textual string
+    "unknown" ; Textual "string [of characters]"
 
 Name/Value
     kamelåså
@@ -467,9 +467,9 @@ Name/Value
                     Y ; Subtrahend
             not/Boolean
                 or/Booleans
-                    positive?/Integer
+                    positive?/Whole
                         difference
-                    negative?/Integer
+                    negative?/Whole
                         difference
 
 equal?/Whole/Whole
