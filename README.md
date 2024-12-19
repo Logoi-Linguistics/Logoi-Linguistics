@@ -92,7 +92,7 @@ Whereas generative LLMs analogize the proverbial "right hemisphere" of artificia
 
 Name/Value
     language
-    'Logoi' ; Atom
+    'Logoi' ; Atom (Immutable)
 
 Name/Value
     version
@@ -100,7 +100,7 @@ Name/Value
 
 Name/Value
     known
-    "unknown" ; Textual "string [of characters]"
+    "unknown" ; Textual "string [i.e., list of characters]" (Mutable)
 
 Name/Value
     kamelåså
