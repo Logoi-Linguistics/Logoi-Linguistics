@@ -30,7 +30,7 @@ Software (Mohs hardness of 0):
 
 - α Logoi Editor [JavaScript 🤢]: ASAP
 - β Logoi Editor [WASM 😍]:
-- logOS [WAM-in-WASM 🧐]:
+- logOS [WASM WAM 🧐]:
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
