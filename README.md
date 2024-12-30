@@ -38,11 +38,6 @@ Software (Mohs hardness of 0):
 - Zeno [Route Scheduler 😮‍💨]:
 - Tartarus [Generative Synthesizer 🥳]:
 - Atomo [Autonomous Auditor 😉]:
-- Dissos [Artificial Therapist 😭]:
-- Euthyphro [Unbiased Barrister 😇]:
-- Yeshua [Gnarly Gnostic 🤙]:
-- Elenchus [Life Coach ✌️]:
-- Borges [Universal Translator 📖]:
 
 Hardware (Mohs hardness of >0):
 
@@ -50,7 +45,6 @@ Hardware (Mohs hardness of >0):
 - Sightless Keyglove 🖐️
 - Sightless Clavier 🎹
 - Buskin [Feline Robot 🐈]
-- Libra [Conversational Tombstone ☠️]
 
 ### Acknowledgement of Overdue Gratitude
 
