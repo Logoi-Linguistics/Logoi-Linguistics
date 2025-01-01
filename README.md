@@ -36,7 +36,7 @@ Software (Mohs hardness of 0):
 - Pierrot [2D Game Engine 🤡]:
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
-- Tartarus [Generative Synthesizer 🥳]:
+- Clavier [Generative Synthesizer 🥳]:
 - Atomo [Autonomous Auditor 😉]:
 
 Hardware (Mohs hardness of >0):
