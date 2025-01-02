@@ -22,7 +22,7 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 - 2016-2020: VBA & SQL
 - 2020-2022: Lisp & esperanto
 - 2022-2024: Lisp & Prolog
-- 2025-20XX: Logoi & Ἑλληνική
+- 2025-20XX: WASM & Logoi
 
 ### A Tentative, Possibly-Asynchronous Roadmap of Applications
 
