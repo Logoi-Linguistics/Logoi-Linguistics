@@ -192,7 +192,7 @@ Logoi was inspired by a daydream about using human/spoken languages as logic/fun
 Logoi is the curious offspring of two years spent blissfully contemplating the written works by <a target="_blank" href="https://plato.stanford.edu/entries/church/">Church</a>, <a target="_blank" href="https://plato.stanford.edu/entries/quine/">Quine</a> & <a target="_blank" href="https://plato.stanford.edu/entries/peirce/">Charles Sanders Peirce</a>:
 1. Removing the parentheses from Lisp has proven to improve upon the readability of Lisp.
 2. Removing the Prolog from Prolog has proven to improve upon the readability of Prolog.
-3. A WebAssembly editor provides near-instant access to an "IDE + OS" workflow.
+3. A WebAssembly implementation provides near-instant access to an "IDE + OS" workflow.
 
 Logoi is as if the Tower of Babel penetrated Plato's Cave to birth a beautiful baby bastard.
 
