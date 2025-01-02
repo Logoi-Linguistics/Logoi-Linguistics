@@ -28,9 +28,8 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 
 Software (Mohs hardness of 0):
 
-- α Logoi Editor [JavaScript 🤢]: ASAP
-- β Logoi Editor [WASM 😍]:
 - logOS [WASM WAM 🧐]:
+- Logoi Editor [WASM 😍]:
 - Clavier [Generative Synthesizer 🥳]:
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
