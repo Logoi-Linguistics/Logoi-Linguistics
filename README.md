@@ -31,12 +31,12 @@ Software (Mohs hardness of 0):
 - α Logoi Editor [JavaScript 🤢]: ASAP
 - β Logoi Editor [WASM 😍]:
 - logOS [WASM WAM 🧐]:
+- Clavier [Generative Synthesizer 🥳]:
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
-- Clavier [Generative Synthesizer 🥳]:
 - Atomo [Autonomous Auditor 😉]:
 
 Hardware (Mohs hardness of >0):
