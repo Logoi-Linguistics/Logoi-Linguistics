@@ -28,7 +28,7 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 
 Software (Mohs hardness of 0):
 
-- logOS [WASM WAM 🧐]:
+- logOS [WASM WAM 🧐]: 2025
 - Logoi Editor [WASM 😍]:
 - Clavier [Generative Synthesizer 🥳]:
 - Aponia [Reverse Recipes 🤤]:
