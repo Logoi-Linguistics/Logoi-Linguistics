@@ -29,8 +29,8 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 Software (Mohs hardness of 0):
 
 - logOS [WASM WAM 🧐]: 2025
-- Logoi Editor [WASM 😍]:
-- Clavier [Generative Synthesizer 🥳]:
+- Logoi Editor [WASM 😍]: 2026
+- Clavier [Generative Synthesizer 🥳]: 2027
 - Aponia [Reverse Recipes 🤤]:
 - Mitochondrion [Mouseless Spreadsheet 🤓]:
 - Pierrot [2D Game Engine 🤡]:
