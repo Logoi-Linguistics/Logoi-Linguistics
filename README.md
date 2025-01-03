@@ -37,6 +37,7 @@ Software (Mohs hardness of 0):
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
 - Atomo [Autonomous Auditor 😉]:
+- Hive [Artificial Jurors 🙃]:
 
 Hardware (Mohs hardness of >0):
 
