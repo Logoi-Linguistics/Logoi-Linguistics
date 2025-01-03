@@ -37,7 +37,6 @@ Software (Mohs hardness of 0):
 - Meno [Event Scheduler 🤔]:
 - Zeno [Route Scheduler 😮‍💨]:
 - Atomo [Autonomous Auditor 😉]:
-- Dissos [Artificial Psyche 🧠]:
 
 Hardware (Mohs hardness of >0):
 
@@ -45,7 +44,6 @@ Hardware (Mohs hardness of >0):
 - Sightless Keyglove 🖐️
 - Sightless Clavier 🎹
 - Buskin [Feline Robot 🐈]
-- Libra [Conversational Tombstone ❤️]
 
 ### Acknowledgement of Overdue Gratitude
 
