@@ -38,7 +38,7 @@ for (let r = 0; r < editor_rows; r++) {
             column.appendChild(document.createTextNode(String(r)));
         } else {
             column.classList.add("invisible");
-            column.appendChild(document.createTextNode("λ"));
+            column.appendChild(document.createTextNode(" "));
         }
         column.setAttribute("id", String(r).concat("-", String(c)));
         row.appendChild(column);
