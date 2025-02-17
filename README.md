@@ -9,20 +9,9 @@ Logoi ≡ (<a target="_blank" href="https://en.wikipedia.org/wiki/Prolog">Prolog
 
 <br>
 
+(Logoi is primarily an experimental "esoteric" programming language.)
+
 # A List-oriented Preamble
-
-### An Asinine Attempt at a <a target="_blank" href="https://en.wikipedia.org/wiki/Modes_of_persuasion">Pathetic Ethos</a> of an Absurdly-Annoying Author
-(<em>a posteriori</em>, naturally)
-
-- 1994-20XX: English
-- 2006-2007: Français
-- 2007-2013: Español & Русский
-- 2013-2014: Deutsch & JavaScript
-- 2014-2015: Italiano & Python
-- 2016-2020: VBA & SQL
-- 2020-2022: Lisp & esperanto
-- 2022-2024: Lisp & Prolog
-- 2025-20XX: WASM & Logoi
 
 ### A Tentative, Possibly-Asynchronous Roadmap of Applications
 
